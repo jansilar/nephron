@@ -195,6 +195,42 @@ c_{DT}(x) & =c_{0}e^{\alpha}(1-\alpha)+ADH\cdot\frac{x}{L_{DT}}\left[c_{0}-c_{0}
 
 \end_layout
 
+\begin_layout Standard
+For flux, according to (4.2.4) and as 
+\begin_inset Formula $f_{Na}(x)=0$
+\end_inset
+
+ in DT (and CD)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0=\frac{d}{dx}(cQ)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and thus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+Q_{DT}(x) & =\frac{Q_{DT}(0)\cdot c_{DT}(0)}{c_{DT}(x)}\\
+ & =\frac{Q_{1}(0)\cdot e^{-\alpha}c_{0}e^{\alpha}(1-\alpha)}{c_{0}\left(e^{\alpha}(1-\alpha)+ADH\cdot\frac{x}{L_{DT}}\left[1-e^{\alpha}(1-\alpha)\right]\right)}\\
+ & =\frac{Q_{1}(0)\cdot(1-\alpha)}{e^{\alpha}(1-\alpha)+ADH\cdot\frac{x}{L_{DT}}\left[1-e^{\alpha}(1-\alpha)\right]}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Collecting duct
 \end_layout
@@ -256,6 +292,23 @@ and generally
 c_{CD}(x) & =c_{CD}(0)+\frac{x}{L}\Delta c_{CD}\\
  & =c_{0}\left[\left(1-ADH\right)\cdot e^{\alpha}(1-\alpha)+ADH\right]+\frac{x}{L}c_{0}ADH\left(e^{\alpha}-1\right)\\
  & =c_{0}\left[\left(1-ADH\right)\cdot e^{\alpha}(1-\alpha)+ADH+\frac{x}{L}ADH\left(e^{\alpha}-1\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and flux
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+Q_{CD}(x) & =\frac{Q_{DT}(0)\cdot c_{DT}(0)}{c_{CD}(x)}\\
+ & =\frac{Q_{1}(0)\cdot e^{-\alpha}c_{0}e^{\alpha}(1-\alpha)}{c_{0}\left[\left(1-ADH\right)\cdot e^{\alpha}(1-\alpha)+ADH+\frac{x}{L}ADH\left(e^{\alpha}-1\right)\right]}\\
+ & =\frac{Q_{1}(0)\cdot(1-\alpha)}{\left(1-ADH\right)\cdot e^{\alpha}(1-\alpha)+ADH+\frac{x}{L}ADH\left(e^{\alpha}-1\right)}
 \end{align*}
 
 \end_inset
