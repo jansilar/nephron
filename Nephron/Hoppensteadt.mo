@@ -13,15 +13,15 @@ model Hoppensteadt
   field Real Q_2(domain=radial);
   field Real c_2(domain=radial);
   Real f_Na;
-  parameter Real alpha = 0.8 "Sodium recovery quotient ?";
+  parameter Real alpha = 0.999;//0.8 "Sodium recovery quotient ?";
   
-  parameter Real ADH = 0 "anti-diuretic hormone 0-1";
+  parameter Real ADH = 0.5 "anti-diuretic hormone 0-1";
 //DT
-  //field Real Q_DT(domain=superficial);
+  field Real Q_DT(domain=superficial);
   field Real c_DT(domain=superficial);
-    
-  
-
+//CD
+  field Real Q_CD(domain=radial);
+  field Real c_CD(domain=radial);
 
 equation
   alpha = f_Na*radial.L/Q_1_0/c_0                       "(4.3.16)";
@@ -34,6 +34,10 @@ equation
   Q_2 = Q_1_0*exp(-alpha)               indomain radial "(4.3.18)";
   c_2 = c_0*exp(alpha) + (radial.x - radial.L)*f_Na*exp(alpha)/Q_1_0  indomain radial "(4.3.21)";
 //DT
-  c_DT = c_0*(exp(alpha)*(1-alpha) + ADH*superficial.x/superficial.L*(1-exp(alpha)*(1-alpha)))  indomain superficial "";
+  c_DT = c_0*(exp(alpha)*(1-alpha) + ADH*superficial.x/superficial.L*(1-exp(alpha)*(1-alpha)))  indomain superficial "notes eq:c_DT";
+  Q_DT = Q_1_0*(1-alpha)/(exp(alpha)*(1-alpha) + ADH*superficial.x/superficial.L*(1-exp(alpha)*(1-alpha))) indomain superficial "notes eq:Q_DT";
+//CD
+  c_CD = c_0*((1-ADH)*exp(alpha)*(1-alpha) + ADH + radial.x/radial.L*ADH*(exp(alpha)-1)) indomain radial "notes eq:c_CD";
+  Q_CD = Q_1_0*(1-alpha)/((1-ADH)*exp(alpha)*(1-alpha) + ADH + radial.x/radial.L*ADH*(exp(alpha)-1)) indomain radial "notes eq:Q_CD";
   
 end Hoppensteadt;
