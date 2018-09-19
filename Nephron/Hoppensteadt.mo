@@ -13,7 +13,7 @@ model Hoppensteadt
   field Real Q_2(domain=radial);
   field Real c_2(domain=radial);
   Real f_Na;
-  parameter Real alpha = 0.999;//0.8 "Sodium recovery quotient ?";
+  parameter Real alpha = 0.8;//0.8 "Sodium recovery quotient ?";
   
   parameter Real ADH = 0.5 "anti-diuretic hormone 0-1";
 //DT
