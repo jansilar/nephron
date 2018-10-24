@@ -1,7 +1,6 @@
 within Nephron;
 
 model Glomerulus
-  import PLT = Physiolibrary.Types;
   constant Real tor2pasc = 133.322387415;
 //hydrostatic pressures:
   parameter PLT.Pressure MAP = 84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
