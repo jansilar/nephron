@@ -1,19 +1,21 @@
 within Nephron.Partial;
 model Tubule
-  constant Integer N = 11;
+  constant Integer N = 3;
   parameter Real L;
-  parameter Real dx = L/(N-1);
   PLT.VolumeFlowRate[N] Q "water flow";
-  Real[N] f_H2O "water out-flow per unit length";
   PLT.Concentration[N] o "osmolarity";
+  Real[N] f_H2O "water out-flow per unit length";
   Real[N] f_Na "Na out-flow per unit length";
   Physiolibrary.Osmotic.Interfaces.OsmoticPort_a port_in annotation(
     Placement(visible = true, transformation(origin = {0, 94}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {0, 90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Osmotic.Interfaces.OsmoticPort_b port_out annotation(
-    Placement(visible = true, transformation(origin = {0, -94}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {0, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));  equation
+    Placement(visible = true, transformation(origin = {0, -94}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {0, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));  
+protected
+  parameter Real dx = L/N;
+equation
   for i in 1:N loop
-    assert(Q[i] >= 0, "negative flux in tubule " + getInstanceName(), level = AssertionLevel.error);
-    assert(o[i] >= 0, "negative concentration in tubule", level = AssertionLevel.error);
+    assert(Q[i] >= 0, "negative flux in tubule " + getInstanceName(), level = AssertionLevel.warning);
+    assert(o[i] >= 0, "negative concentration in tubule", level = AssertionLevel.warning);
   end for;
 
   
