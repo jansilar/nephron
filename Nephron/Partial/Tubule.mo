@@ -1,17 +1,17 @@
 within Nephron.Partial;
 model Tubule
-  constant Integer N = 3;
-  parameter Real L;
+  constant Integer N = 10;
+  parameter PLT.Position L;
   PLT.VolumeFlowRate[N+1] Q "water flow";
   PLT.Concentration[N+1] o "osmolarity";
   Types.VolumeFlowRateLinearDensity[N] f_H2O "water out-flow per unit length";
-  Types.VolumeFlowRateLinearDensity[N] f_Na "Na out-flow per unit length";
+  Types.MolarFlowRateLinearDensity[N] f_Na "Na out-flow per unit length";
   Physiolibrary.Osmotic.Interfaces.OsmoticPort_a port_in annotation(
     Placement(visible = true, transformation(origin = {0, 94}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {0, 90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Osmotic.Interfaces.OsmoticPort_b port_out annotation(
     Placement(visible = true, transformation(origin = {0, -94}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {0, -90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));  
 //protected
-  parameter Real dx = L/N;
+  parameter PLT.Position dx = L/N;
 equation
   for i in 1:N+1 loop
     assert(Q[i] >= 0, "negative flux in tubule " + getInstanceName(), level = AssertionLevel.warning);

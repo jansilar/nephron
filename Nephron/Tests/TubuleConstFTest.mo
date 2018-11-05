@@ -3,7 +3,7 @@ within Nephron.Tests;
 model TubuleConstFTest
   OsmoticSource osmoticSource1(Q(displayUnit = "ml/min") = 1.66667e-8, o(displayUnit = "mmol/l") = 300)  annotation(
     Placement(visible = true, transformation(origin = {-14, 66}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Nephron.Tests.TubuleConstF tubuleConstF1(f_H2O_const = 0, f_Na_const (displayUnit = "mmol/(min.m)") = 1.66667e-5)  annotation(
+  Nephron.Tests.TubuleConstF tubuleConstF1(L = 0.05,f_H2O_const = 0, f_Na_const(displayUnit = "mmol/(min.cm)") = 1.66667e-6)  annotation(
     Placement(visible = true, transformation(origin = {-14, 30}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   OsmoticDrain osmoticDrain1 annotation(
     Placement(visible = true, transformation(origin = {-14, -14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
