@@ -25,7 +25,7 @@ equation
     0 = (Q[i+1] - Q[i])/dx + f_H2O[i];
     0 = (Q[i+1]*o[i+1] - Q[i]*o[i])/dx + f_Na[i];
   end for;
-  Q[N+1] = port_out.q;
+  -Q[N+1] = port_out.q;
   o[N+1] = port_out.o;
 annotation(
     Icon(graphics = {Rectangle(origin = {-11, -1}, lineColor = {52, 101, 164}, fillColor = {52, 101, 164}, fillPattern = FillPattern.Solid, extent = {{-29, 80}, {51, -80}}), Ellipse(origin = {2, 80}, lineColor = {52, 101, 164}, fillColor = {32, 74, 135}, fillPattern = FillPattern.Solid, lineThickness = 0.5, extent = {{-42, 15}, {38, -15}}, endAngle = 360), Ellipse(origin = {2, -82}, lineColor = {52, 101, 164}, fillColor = {52, 101, 164}, fillPattern = FillPattern.Solid, lineThickness = 0.5, extent = {{-42, 15}, {38, -15}}, endAngle = 360)}));end Tubule;
