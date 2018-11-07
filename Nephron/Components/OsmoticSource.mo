@@ -1,4 +1,4 @@
-within Nephron;
+within Nephron.Components;
 
 model OsmoticSource
   Physiolibrary.Osmotic.Interfaces.OsmoticPort_b port_b annotation(
@@ -9,4 +9,5 @@ equation
   port_b.q = -Q;
   port_b.o = o;
 annotation(
-    Icon(graphics = {Rectangle(lineColor = {252, 233, 79}, fillColor = {252, 233, 79}, fillPattern = FillPattern.Solid, extent = {{-80, 80}, {80, -80}})}));end OsmoticSource;
+    Icon(graphics = {Rectangle(lineColor = {252, 233, 79}, fillColor = {252, 233, 79}, fillPattern = FillPattern.Solid, extent = {{-80, 80}, {80, -80}})}));
+end OsmoticSource;

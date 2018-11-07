@@ -1,7 +1,7 @@
 within Nephron.Tests;
 
 model ClosedTubule
-  extends Nephron.Partial.Tubule(L=1, N=5);
+  extends Components.Partial.Tubule(L=1, N=5);
 //  Real qq;
 equation
   f_H2O = zeros(N);//ones(N)*0.5;

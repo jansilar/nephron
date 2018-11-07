@@ -1,6 +1,7 @@
-within Nephron;
+within Nephron.Models.Hoppensteadt;
 
 model Hoppensteadt
+
   DomainLineSegment1D radial(N = 100, L = 0.04);
   DomainLineSegment1D superficial(N = 25, L = 0.01);
   field Real c(domain = radial);
@@ -41,4 +42,5 @@ equation
 //CD
   c_CD = c_0 * ((1 - ADH) * exp(alpha) * (1 - alpha) + ADH + radial.x / radial.L * ADH * (exp(alpha) - 1)) indomain radial "notes eq:c_CD";
   Q_CD = Q_1_0 * (1 - alpha) / ((1 - ADH) * exp(alpha) * (1 - alpha) + ADH + radial.x / radial.L * ADH * (exp(alpha) - 1)) indomain radial "notes eq:Q_CD";
+
 end Hoppensteadt;

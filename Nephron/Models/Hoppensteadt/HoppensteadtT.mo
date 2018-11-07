@@ -1,7 +1,7 @@
-within Nephron;
+within Nephron.Models.Hoppensteadt;
 
-model HoppensteadtT
-  extends Nephron.Hoppensteadt;
+model HoppensteadtT "hoppensteadt with arrays coppied into time variables for plotting"
+  extends Hoppensteadt;
   Real Q_1_T, Q_2_T, Q_CD_T, c_1_T, c_2_T, c_CD_T;
   Real Q_DT_T, c_DT_T;
   Integer radial_I, superficial_I;
@@ -16,4 +16,5 @@ equation
   c_CD_T = c_CD[radial_I];
   Q_DT_T = Q_DT[superficial_I];
   c_DT_T = c_DT[superficial_I];
+
 end HoppensteadtT;

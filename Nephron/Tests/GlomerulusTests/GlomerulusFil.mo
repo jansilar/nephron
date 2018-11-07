@@ -1,4 +1,4 @@
-within Nephron;
+within Nephron.Tests.GlomerulusTests;
 
 model GlomerulusFil
   import PLT = Physiolibrary.Types;
@@ -29,9 +29,9 @@ model GlomerulusFil
     Placement(visible = true, transformation(origin = {-4, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = P_bowm) annotation(
     Placement(visible = true, transformation(origin = {84, 8}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Nephron.PressureD osmoticBlood(dP = -pi_blood) annotation(
+  Components.PressureD osmoticBlood(dP = -pi_blood) annotation(
     Placement(visible = true, transformation(origin = {-30, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Nephron.PressureD pressureD1(dP = -pi_bowm) annotation(
+  Components.PressureD pressureD1(dP = -pi_bowm) annotation(
     Placement(visible = true, transformation(origin = {56, 16}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.FlowMeasure GFR annotation(
     Placement(visible = true, transformation(origin = {28, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));

@@ -1,4 +1,4 @@
-within Nephron;
+within Nephron.Components;
 
 model OsmoticDrain
   Physiolibrary.Osmotic.Interfaces.OsmoticPort_a port_a annotation(
@@ -6,4 +6,5 @@ model OsmoticDrain
 equation
 
 annotation(
-    Icon(graphics = {Rectangle(origin = {-2, -1}, fillPattern = FillPattern.Solid, extent = {{-78, 81}, {82, -79}})}));end OsmoticDrain;
+    Icon(graphics = {Rectangle(origin = {-2, -1}, fillPattern = FillPattern.Solid, extent = {{-78, 81}, {82, -79}})}));
+end OsmoticDrain;

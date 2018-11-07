@@ -1,6 +1,6 @@
-within Nephron;
+within Nephron.Tests.GlomerulusTests;
 
-model GlomerulusEff
+model GlomerulusAff
   import PLT = Physiolibrary.Types;
   constant Real tor2pasc = 133.322387415;
   //hydrostatic pressures:
@@ -25,19 +25,19 @@ model GlomerulusEff
   parameter PLT.Acceleration g = 9.8 "gravitational acceleration";
   parameter Integer N = 2000000 "Number of nephrones in both kidneys";
   //components:
-  Physiolibrary.Hydraulic.Components.Resistor efferentResistance(Resistance = R_eff) annotation(
-    Placement(visible = true, transformation(origin = {-54, -14}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = CVP) annotation(
-    Placement(visible = true, transformation(origin = {-32, -68}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume glomerulusPress(P = normal_P_Glom)  annotation(
-    Placement(visible = true, transformation(origin = {-72, 44}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P(displayUnit = "Pa") = MAP) annotation(
+    Placement(visible = true, transformation(origin = {-82, 56}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Physiolibrary.Hydraulic.Components.Resistor afferentResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_aff) annotation(
+    Placement(visible = true, transformation(origin = {-54, 26}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume glomPress(P = normal_P_Glom)  annotation(
+    Placement(visible = true, transformation(origin = {-78, -28}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 initial equation
 
 equation
-  connect(glomerulusPress.y, efferentResistance.q_in) annotation(
-    Line(points = {{-62, 44}, {-54, 44}, {-54, -4}, {-54, -4}}));
-  connect(efferentResistance.q_out, bloodDrain.y) annotation(
-    Line(points = {{-54, -24}, {-54, -68}, {-42, -68}}));
+  connect(afferentResistance.q_out, glomPress.y) annotation(
+    Line(points = {{-54, 16}, {-54, 16}, {-54, -28}, {-68, -28}, {-68, -28}}));
+  connect(bloodSource.y, afferentResistance.q_in) annotation(
+    Line(points = {{-72, 56}, {-63, 56}, {-63, 56}, {-54, 56}, {-54, 36}}));
   annotation(
     uses(Physiolibrary(version = "2.3.2-beta")));
-end GlomerulusEff;
+end GlomerulusAff;

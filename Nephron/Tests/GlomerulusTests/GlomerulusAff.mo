@@ -1,4 +1,4 @@
-within Nephron;
+within Nephron.Tests.GlomerulusTests;
 
 model GlomerulusAff
   import PLT = Physiolibrary.Types;

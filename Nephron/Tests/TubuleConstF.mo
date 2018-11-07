@@ -1,7 +1,7 @@
 within Nephron.Tests;
 
 model TubuleConstF
-  extends Nephron.Partial.Tubule(L=5, N=5);
+  extends Components.Partial.Tubule(L=5, N=5);
   parameter Types.VolumeFlowRateLinearDensity f_H2O_const "water flow out throu the tubule wall per unit length";
   parameter Types.MolarFlowRateLinearDensity f_Na_const "solute flow out throu the tubule wall per unit length";
 //  Real qq;
