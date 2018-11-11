@@ -2,8 +2,8 @@ within Nephron.Components;
 
 model DLOH
   extends Partial.Tubule(L=0.04);
-  parameter PLT.Concentration oPlasma = 300 "osmolarity of plasma";
-  parameter PLT.Concentration oMax = 1200 "maximal osmolarity at turn of LOH";
+  parameter PLT.Concentration oPlasma = nephronPar.o_plasma_norm "osmolarity of plasma";
+  parameter PLT.Concentration oMax = nephronPar.o_max "maximal osmolarity at turn of LOH";
   PLT.Concentration oMed[N+1] = linspace(oPlasma,oMax,N+1);
 equation
   f_Na = zeros(N) "impermeable for Na";

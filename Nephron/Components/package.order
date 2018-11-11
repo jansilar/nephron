@@ -5,3 +5,6 @@ OsmoticSource
 OsmoticDrain
 PressureD
 FlowOsmosisMeasure
+NephronParameters
+ALOH
+DT

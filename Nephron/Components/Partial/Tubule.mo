@@ -1,6 +1,7 @@
 within Nephron.Components.Partial;
 
 partial model Tubule
+  outer Components.NephronParameters nephronPar;
   constant Integer N = 10;
   parameter PLT.Position L;
   PLT.VolumeFlowRate[N+1] Q "water flow";

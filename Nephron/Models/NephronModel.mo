@@ -1,34 +1,49 @@
 within Nephron.Models;
 
 model NephronModel
-  inner parameter Integer NNeph = 2000000 "total nephron count";
-  parameter Real GFR = 180 "[l/day] total GFR";
-  parameter PLT.VolumeFlowRate GFR1 = GFR/1000/24/60/60/NNeph "GFR per nephron";
-  Nephron.Components.OsmoticSource glomerulus(Q(displayUnit = "m3/s") = GFR1, o = 300)  annotation(
-    Placement(visible = true, transformation(origin = {-84, 60}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
+  inner Components.NephronParameters nephronPar(ADH = 0)  annotation(
+    Placement(visible = true, transformation(origin = {72, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.OsmoticSource glomerulus  annotation(
+    Placement(visible = true, transformation(origin = {-96, 16}, extent = {{-4, -4}, {4, 4}}, rotation = 90)));
   Nephron.Components.DLOH dloh annotation(
-    Placement(visible = true, transformation(origin = {12, 40}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Nephron.Components.OsmoticDrain drain annotation(
-    Placement(visible = true, transformation(origin = {12, -14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-20, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.PT pt annotation(
-    Placement(visible = true, transformation(origin = {-26, 60}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
+    Placement(visible = true, transformation(origin = {-54, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
   Nephron.Components.FlowOsmosisMeasure measureGlom annotation(
-    Placement(visible = true, transformation(origin = {-54, 60}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-78, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowOsmosisMeasure measurePT annotation(
-    Placement(visible = true, transformation(origin = {-2, 60}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-30, 16}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowOsmosisMeasure measureDLH annotation(
-    Placement(visible = true, transformation(origin = {12, 14}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+    Placement(visible = true, transformation(origin = {-10, -24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.OsmoticDrain osmoticDrain annotation(
+    Placement(visible = true, transformation(origin = {66, -13}, extent = {{-3, -3}, {3, 3}}, rotation = 0)));
+  Nephron.Components.ALOH aloh annotation(
+    Placement(visible = true, transformation(origin = {0, -8}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
+  Nephron.Components.FlowOsmosisMeasure measureALOH annotation(
+    Placement(visible = true, transformation(origin = {10, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.DT dt annotation(
+    Placement(visible = true, transformation(origin = {34, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
+  Nephron.Components.FlowOsmosisMeasure measureDT annotation(
+    Placement(visible = true, transformation(origin = {56, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
-  connect(measureDLH.q_out, drain.port_a) annotation(
-    Line(points = {{12, 4}, {12, 4}, {12, -4}, {12, -4}}, color = {127, 127, 0}));
+  connect(measureDT.q_out, osmoticDrain.port_a) annotation(
+    Line(points = {{66, 18}, {66, -10}}, color = {127, 127, 0}));
+  connect(dt.port_out, measureDT.q_in) annotation(
+    Line(points = {{43, 18}, {46, 18}}, color = {127, 127, 0}));
+  connect(measureALOH.q_out, dt.port_in) annotation(
+    Line(points = {{20, 18}, {25, 18}}, color = {127, 127, 0}));
+  connect(measureALOH.q_in, aloh.port_out) annotation(
+    Line(points = {{0, 18}, {0, 18}, {0, 2}, {0, 2}}, color = {127, 127, 0}));
+  connect(measureDLH.q_out, aloh.port_in) annotation(
+    Line(points = {{0, -24}, {0, -17}}, color = {127, 127, 0}));
   connect(dloh.port_out, measureDLH.q_in) annotation(
-    Line(points = {{12, 32}, {12, 32}, {12, 24}, {12, 24}}, color = {127, 127, 0}));
+    Line(points = {{-20, -13}, {-20, -24}}, color = {127, 127, 0}));
   connect(measurePT.q_out, dloh.port_in) annotation(
-    Line(points = {{8, 60}, {12, 60}, {12, 49}}, color = {127, 127, 0}));
+    Line(points = {{-20, 16}, {-20, 5}}, color = {127, 127, 0}));
   connect(pt.port_out, measurePT.q_in) annotation(
-    Line(points = {{-16, 60}, {-12, 60}, {-12, 60}, {-12, 60}}, color = {127, 127, 0}));
+    Line(points = {{-45, 16}, {-40, 16}}, color = {127, 127, 0}));
   connect(measureGlom.q_out, pt.port_in) annotation(
-    Line(points = {{-44, 60}, {-35, 60}}, color = {127, 127, 0}));
+    Line(points = {{-68, 16}, {-63, 16}}, color = {127, 127, 0}));
   connect(glomerulus.port_b, measureGlom.q_in) annotation(
-    Line(points = {{-74, 60}, {-64, 60}}, color = {127, 127, 0}));
+    Line(points = {{-92.4, 16}, {-88.4, 16}}, color = {127, 127, 0}));
 end NephronModel;
