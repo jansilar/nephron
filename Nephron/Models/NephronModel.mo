@@ -1,7 +1,7 @@
 within Nephron.Models;
 
 model NephronModel
-  inner Components.NephronParameters nephronPar(ADH = 0)  annotation(
+  inner Components.NephronParameters nephronPar annotation(
     Placement(visible = true, transformation(origin = {72, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.OsmoticSource glomerulus  annotation(
     Placement(visible = true, transformation(origin = {-96, 16}, extent = {{-4, -4}, {4, 4}}, rotation = 90)));
