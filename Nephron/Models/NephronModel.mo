@@ -1,7 +1,7 @@
 within Nephron.Models;
 
 model NephronModel
-  inner Components.NephronParameters nephronPar annotation(
+  inner Components.NephronParameters nephronPar(ADH = 0.1)  annotation(
     Placement(visible = true, transformation(origin = {72, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.OsmoticSource glomerulus  annotation(
     Placement(visible = true, transformation(origin = {-96, 16}, extent = {{-4, -4}, {4, 4}}, rotation = 90)));
@@ -16,7 +16,7 @@ model NephronModel
   Nephron.Components.FlowOsmosisMeasure measureDLH annotation(
     Placement(visible = true, transformation(origin = {-10, -24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.OsmoticDrain osmoticDrain annotation(
-    Placement(visible = true, transformation(origin = {66, -13}, extent = {{-3, -3}, {3, 3}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {66, -27}, extent = {{-3, -3}, {3, 3}}, rotation = 0)));
   Nephron.Components.ALOH aloh annotation(
     Placement(visible = true, transformation(origin = {0, -8}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   Nephron.Components.FlowOsmosisMeasure measureALOH annotation(
@@ -25,9 +25,13 @@ model NephronModel
     Placement(visible = true, transformation(origin = {34, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
   Nephron.Components.FlowOsmosisMeasure measureDT annotation(
     Placement(visible = true, transformation(origin = {56, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.CD cd annotation(
+    Placement(visible = true, transformation(origin = {66, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
-  connect(measureDT.q_out, osmoticDrain.port_a) annotation(
-    Line(points = {{66, 18}, {66, -10}}, color = {127, 127, 0}));
+  connect(cd.port_out, osmoticDrain.port_a) annotation(
+    Line(points = {{66, -14}, {66, -14}, {66, -24}, {66, -24}}, color = {127, 127, 0}));
+  connect(measureDT.q_out, cd.port_in) annotation(
+    Line(points = {{66, 18}, {66, 5}}, color = {127, 127, 0}));
   connect(dt.port_out, measureDT.q_in) annotation(
     Line(points = {{43, 18}, {46, 18}}, color = {127, 127, 0}));
   connect(measureALOH.q_out, dt.port_in) annotation(
