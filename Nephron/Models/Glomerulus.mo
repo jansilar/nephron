@@ -4,7 +4,8 @@ model Glomerulus
   constant Real tor2pasc = 133.322387415;
 //hydrostatic pressures:
   parameter PLT.Pressure MAP_norm = 84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
-  parameter PLT.Pressure MAP = 84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
+  parameter Real MAP_mod = 1;
+  parameter PLT.Pressure MAP = MAP_mod*84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
   parameter PLT.Pressure CVP = 6 * tor2pasc "blood pressure after efferent arteriole, https://en.wikipedia.org/wiki/Central_venous_pressure";
   parameter PLT.Pressure P_bowm = 10 * tor2pasc "primary urine pressure in bowman capsule, papír od Honzy Živnýho";
   parameter PLT.Pressure normal_P_Filter = 6*tor2pasc "normal filtration pressure, papír od HŽ";
@@ -20,8 +21,10 @@ model Glomerulus
   parameter PLT.VolumeFlowRate GFR1 = 180 / 1000 / 24 / 60 / 60 / N "primary urine production per each nephron";
 
 //resistances:
-  parameter PLT.HydraulicResistance R_aff = (MAP_norm-normal_P_Glom)/RBF1 "afferent arteriol resistance";
-  parameter PLT.HydraulicResistance R_eff = (normal_P_Glom - CVP)/(RBF1 - GFR1) "efferent arteriol resistance";
+  parameter Real R_aff_mod = 1;
+  parameter Real R_eff_mod = 1;
+  parameter PLT.HydraulicResistance R_aff = R_aff_mod*(MAP_norm-normal_P_Glom)/RBF1 "afferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_eff = R_eff_mod*(normal_P_Glom - CVP)/(RBF1 - GFR1) "efferent arteriol resistance";
   parameter PLT.HydraulicResistance R_filter = normal_P_Filter/GFR1 "efferent arteriol resistance";
   
 //other:
@@ -48,16 +51,16 @@ model Glomerulus
     Placement(visible = true, transformation(origin = {66, 16}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure GBHP annotation(
     Placement(visible = true, transformation(origin = {-70, 14}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  inner Components.NephronParameters nephronPar annotation(
-    Placement(visible = true, transformation(origin = {72, 88}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  inner Nephron.Components.NephronParameters nephronPar annotation(
+    Placement(visible = true, transformation(origin = {70, 72}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowPressureMeasure measureAff annotation(
     Placement(visible = true, transformation(origin = {-58, 56}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Components.FlowPressureMeasure measureGFR annotation(
     Placement(visible = true, transformation(origin = {40, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowPressureMeasure measureEff annotation(
     Placement(visible = true, transformation(origin = {-40, -46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-initial equation
-  
+
+
 equation
   connect(measureEff.q_out, bloodDrain.y) annotation(
     Line(points = {{-40, -56}, {-40, -56}, {-40, -64}, {-28, -64}, {-28, -64}}));

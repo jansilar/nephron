@@ -2,7 +2,7 @@ within Nephron.Components;
 
 model DT
   extends Nephron.Components.Partial.TubuleADH(L=0.01);
-equation
+initial equation
   o_medulla = ones(N+1)*nephronPar.o_plasma_norm;
   
 annotation(

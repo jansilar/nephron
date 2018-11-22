@@ -2,7 +2,7 @@ within Nephron.Components.Partial;
 
 partial model TubuleADH
   extends Nephron.Components.Partial.Tubule;
-  PLT.Concentration[N+1] o_medulla(each start = 300, each fixed = false) "osmolarity";
+  parameter PLT.Concentration[N+1] o_medulla(each start = 300, each fixed = false) "osmolarity";
   parameter Real k_H2O = 7.0e-14 "tubule permeablilit for H2O";
   Real[N] testVal;
 equation

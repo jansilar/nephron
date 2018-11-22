@@ -2,7 +2,7 @@ within Nephron.Components;
 
 model CD
   extends Nephron.Components.Partial.TubuleADH(L=0.04,k_H2O = 6.0e-15);
-equation
+initial equation
   o_medulla = linspace(nephronPar.o_plasma_norm,nephronPar.o_max,N+1);
 
 annotation(

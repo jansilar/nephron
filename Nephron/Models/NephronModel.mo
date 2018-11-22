@@ -1,9 +1,10 @@
 within Nephron.Models;
 
 model NephronModel
-  inner Components.NephronParameters nephronPar(ADH = 0.1)  annotation(
-    Placement(visible = true, transformation(origin = {72, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Nephron.Components.OsmoticSource glomerulus  annotation(
+  parameter Real gfr_mod = 1;
+  inner Nephron.Components.NephronParameters nephronPar annotation(
+    Placement(visible = true, transformation(origin = {84, 42}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.OsmoticSource glomerulus(Q = gfr_mod * nephronPar.GFR1_norm)   annotation(
     Placement(visible = true, transformation(origin = {-96, 16}, extent = {{-4, -4}, {4, 4}}, rotation = 90)));
   Nephron.Components.DLOH dloh annotation(
     Placement(visible = true, transformation(origin = {-20, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
@@ -16,7 +17,7 @@ model NephronModel
   Nephron.Components.FlowOsmosisMeasure measureDLH annotation(
     Placement(visible = true, transformation(origin = {-10, -24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.OsmoticDrain osmoticDrain annotation(
-    Placement(visible = true, transformation(origin = {66, -27}, extent = {{-3, -3}, {3, 3}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {66, -47}, extent = {{-3, -3}, {3, 3}}, rotation = 0)));
   Nephron.Components.ALOH aloh annotation(
     Placement(visible = true, transformation(origin = {0, -8}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
   Nephron.Components.FlowOsmosisMeasure measureALOH annotation(
@@ -27,9 +28,13 @@ model NephronModel
     Placement(visible = true, transformation(origin = {56, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.CD cd annotation(
     Placement(visible = true, transformation(origin = {66, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.FlowOsmosisMeasure cdMeasure annotation(
+    Placement(visible = true, transformation(origin = {66, -28}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
 equation
-  connect(cd.port_out, osmoticDrain.port_a) annotation(
-    Line(points = {{66, -14}, {66, -14}, {66, -24}, {66, -24}}, color = {127, 127, 0}));
+  connect(cdMeasure.q_out, osmoticDrain.port_a) annotation(
+    Line(points = {{66, -38}, {66, -38}, {66, -44}, {66, -44}}, color = {127, 127, 0}));
+  connect(cd.port_out, cdMeasure.q_in) annotation(
+    Line(points = {{66, -12}, {66, -12}, {66, -18}, {66, -18}}, color = {127, 127, 0}));
   connect(measureDT.q_out, cd.port_in) annotation(
     Line(points = {{66, 18}, {66, 5}}, color = {127, 127, 0}));
   connect(dt.port_out, measureDT.q_in) annotation(
