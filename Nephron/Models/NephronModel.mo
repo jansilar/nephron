@@ -55,4 +55,5 @@ equation
     Line(points = {{-68, 16}, {-63, 16}}, color = {127, 127, 0}));
   connect(glomerulus.port_b, measureGlom.q_in) annotation(
     Line(points = {{-92.4, 16}, {-88.4, 16}}, color = {127, 127, 0}));
-end NephronModel;
+annotation(
+    experiment(StartTime = 0, StopTime = 0.0001, Tolerance = 1e-6, Interval = 2e-7));end NephronModel;
