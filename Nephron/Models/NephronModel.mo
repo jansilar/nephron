@@ -26,7 +26,7 @@ model NephronModel
     Placement(visible = true, transformation(origin = {34, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 90)));
   Nephron.Components.FlowOsmosisMeasure measureDT annotation(
     Placement(visible = true, transformation(origin = {56, 18}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Nephron.Components.CD cd annotation(
+  Nephron.Components.CD cd(N=20) annotation(
     Placement(visible = true, transformation(origin = {66, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowOsmosisMeasure cdMeasure annotation(
     Placement(visible = true, transformation(origin = {66, -28}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
@@ -56,4 +56,5 @@ equation
   connect(glomerulus.port_b, measureGlom.q_in) annotation(
     Line(points = {{-92.4, 16}, {-88.4, 16}}, color = {127, 127, 0}));
 annotation(
-    experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.05));end NephronModel;
+    experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.05));
+end NephronModel;

@@ -104,11 +104,9 @@ package Nephron
         extends Nephron.Components.Partial.Tubule;
         parameter .Physiolibrary.Types.Concentration[N + 1] o_medulla(each start = 300, each fixed = false) "osmolarity";
         parameter Real k_H2O = 7.0e-14 "tubule permeablilit for H2O";
-        Real[N] testVal;
       equation
         for i in 1:N loop
-          f_H2O[i] = nephronPar.ADH * k_H2O * (o_medulla[i + 1] + o_medulla[i] - o[i + 1] - o[i]) / 2.0;
-          testVal[i] = (o_medulla[i + 1] + o_medulla[i] - o[i + 1] - o[i]) / 2.0;
+          f_H2O[i] = nephronPar.ADH * k_H2O * (o_medulla[i + 1] - o[i + 1]);
         end for;
         f_Na = zeros(N);
       end TubuleADH;
@@ -219,7 +217,7 @@ package Nephron
       Nephron.Components.FlowOsmosisMeasure measureALOH;
       Nephron.Components.DT dt;
       Nephron.Components.FlowOsmosisMeasure measureDT;
-      Nephron.Components.CD cd;
+      Nephron.Components.CD cd(N = 20);
       Nephron.Components.FlowOsmosisMeasure cdMeasure;
     equation
       connect(cdMeasure.q_out, osmoticDrain.port_a);
@@ -234,7 +232,7 @@ package Nephron
       connect(pt.port_out, measurePT.q_in);
       connect(measureGlom.q_out, pt.port_in);
       connect(glomerulus.port_b, measureGlom.q_in);
-      annotation(experiment(StartTime = 0, StopTime = 0.0001, Tolerance = 1e-6, Interval = 2e-7)); 
+      annotation(experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.05)); 
     end NephronModel;
   end Models;
 end Nephron;
@@ -281,5 +279,5 @@ end Modelica;
 
 model NephronModel_total
   extends Nephron.Models.NephronModel;
- annotation(experiment(StartTime = 0, StopTime = 0.0001, Tolerance = 1e-6, Interval = 2e-7));
+ annotation(experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.05));
 end NephronModel_total;
