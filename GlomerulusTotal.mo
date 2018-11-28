@@ -203,7 +203,8 @@ package Nephron
       parameter Real R_eff_mod = 1;
       parameter .Physiolibrary.Types.HydraulicResistance R_aff = R_aff_mod * (MAP_norm - normal_P_Glom) / RBF1 "afferent arteriol resistance";
       parameter .Physiolibrary.Types.HydraulicResistance R_eff = R_eff_mod * (normal_P_Glom - CVP) / (RBF1 - GFR1) "efferent arteriol resistance";
-      parameter .Physiolibrary.Types.HydraulicResistance R_filter = normal_P_Filter / GFR1 "efferent arteriol resistance";
+      parameter Real R_filter_mod = 1 "qotient to modify R_filter";
+      parameter .Physiolibrary.Types.HydraulicResistance R_filter = R_filter_mod * normal_P_Filter / GFR1 "efferent arteriol resistance";
       parameter .Physiolibrary.Types.Density rho = 1060 "blood density";
       parameter .Physiolibrary.Types.Acceleration g = 9.8 "gravitational acceleration";
       parameter Integer N = 2000000 "Number of nephrones in both kidneys";
