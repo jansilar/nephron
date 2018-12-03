@@ -2,9 +2,10 @@ within Nephron.Models;
 
 model NephronModel
   parameter Real gfr_mod = 1;
+  parameter PLT.VolumeFlowRate glomerulusQ = gfr_mod * nephronPar.GFR1_norm;
   inner Nephron.Components.NephronParameters nephronPar annotation(
     Placement(visible = true, transformation(origin = {84, 42}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Nephron.Components.OsmoticSource glomerulus(Q = gfr_mod * nephronPar.GFR1_norm)   annotation(
+  Nephron.Components.OsmoticSource glomerulus(Q = glomerulusQ)   annotation(
     Placement(visible = true, transformation(origin = {-96, 16}, extent = {{-4, -4}, {4, 4}}, rotation = 90)));
   Nephron.Components.DLOH dloh annotation(
     Placement(visible = true, transformation(origin = {-20, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
