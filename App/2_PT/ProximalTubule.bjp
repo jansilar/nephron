@@ -18,10 +18,10 @@
   },
   "editorStorage": {
     "assets": "[]",
-    "css": "* { box-sizing: border-box; } body {margin: 0;}.row{display:flex;justify-content:flex-start;align-items:stretch;flex-wrap:nowrap;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}.cell{min-height:75px;flex-grow:1;flex-basis:100%;}.c2003{width:100%;}.c2644{height:815px;}.c3103{padding:10px;}.c3185{font-size:10.5pt;background-color:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;}.c3194{font-size:10.5pt;background-color:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;}.c3234{font-size:10.5pt;background-color:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;}.c3177{line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-right:1.44pt;text-indent:14.4pt;text-align:justify;}.c3226{line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-right:1.44pt;text-indent:14.4pt;text-align:justify;}.c8451{width:100%;}@media (max-width: 768px){.row{flex-wrap:wrap;}}",
-    "styles": "[{\"selectors\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"display\":\"flex\",\"justify-content\":\"flex-start\",\"align-items\":\"stretch\",\"flex-wrap\":\"nowrap\",\"padding-top\":\"10px\",\"padding-right\":\"10px\",\"padding-bottom\":\"10px\",\"padding-left\":\"10px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"flex-wrap\":\"wrap\"},\"mediaText\":\"(max-width: 768px)\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"media\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"min-height\":\"75px\",\"flex-grow\":\"1\",\"flex-basis\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2003\",\"label\":\"c2003\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2644\",\"label\":\"c2644\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"height\":\"815px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3103\",\"label\":\"c3103\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"padding\":\"10px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3185\",\"label\":\"c3185\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"font-size\":\"10.5pt\",\"background-color\":\"transparent\",\"font-variant-numeric\":\"normal\",\"font-variant-east-asian\":\"normal\",\"vertical-align\":\"baseline\",\"white-space\":\"pre-wrap\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3194\",\"label\":\"c3194\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"font-size\":\"10.5pt\",\"background-color\":\"transparent\",\"font-variant-numeric\":\"normal\",\"font-variant-east-asian\":\"normal\",\"vertical-align\":\"baseline\",\"white-space\":\"pre-wrap\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3234\",\"label\":\"c3234\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"font-size\":\"10.5pt\",\"background-color\":\"transparent\",\"font-variant-numeric\":\"normal\",\"font-variant-east-asian\":\"normal\",\"vertical-align\":\"baseline\",\"white-space\":\"pre-wrap\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3177\",\"label\":\"c3177\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"line-height\":\"1.2\",\"margin-top\":\"0pt\",\"margin-bottom\":\"0pt\",\"margin-right\":\"1.44pt\",\"text-indent\":\"14.4pt\",\"text-align\":\"justify\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3226\",\"label\":\"c3226\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"line-height\":\"1.2\",\"margin-top\":\"0pt\",\"margin-bottom\":\"0pt\",\"margin-right\":\"1.44pt\",\"text-indent\":\"14.4pt\",\"text-align\":\"justify\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6558\",\"label\":\"c6558\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"32%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c7945\",\"label\":\"c7945\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c7929\",\"label\":\"c7929\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"height\":\"524px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c8451\",\"label\":\"c8451\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c9308\",\"label\":\"c9308\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c10645\",\"label\":\"c10645\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c11966\",\"label\":\"c11966\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c13282\",\"label\":\"c13282\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c14609\",\"label\":\"c14609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c15921\",\"label\":\"c15921\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6558\",\"label\":\"c6558\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c7945\",\"label\":\"c7945\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c9308\",\"label\":\"c9308\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c10645\",\"label\":\"c10645\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c11966\",\"label\":\"c11966\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c13282\",\"label\":\"c13282\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c14609\",\"label\":\"c14609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c15921\",\"label\":\"c15921\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c808\",\"label\":\"c808\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2149\",\"label\":\"c2149\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3501\",\"label\":\"c3501\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c4864\",\"label\":\"c4864\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6238\",\"label\":\"c6238\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c7649\",\"label\":\"c7649\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c9045\",\"label\":\"c9045\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c10478\",\"label\":\"c10478\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6558\",\"label\":\"c6558\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c7945\",\"label\":\"c7945\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c9308\",\"label\":\"c9308\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c10645\",\"label\":\"c10645\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c11966\",\"label\":\"c11966\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c13282\",\"label\":\"c13282\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c14609\",\"label\":\"c14609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c15921\",\"label\":\"c15921\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c808\",\"label\":\"c808\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c2149\",\"label\":\"c2149\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c3501\",\"label\":\"c3501\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c4864\",\"label\":\"c4864\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c6238\",\"label\":\"c6238\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c7649\",\"label\":\"c7649\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c9045\",\"label\":\"c9045\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c10478\",\"label\":\"c10478\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0}]",
-    "html": "<div id=\"i7xj\" class=\"row c2644\"><div class=\"cell\"><canvas id=\"dr_1zrGpRVe2ALsIPMR1rg\" class=\"c2003\"></canvas></div><div class=\"cell\"><div class=\"c3103\"><span id=\"docs-internal-guid-915dfa6b-7fff-a3c8-e2d1-7401dcb42f5c\"><p dir=\"ltr\" class=\"c3177\"><span class=\"c3185\">The proximal tubule </span><span class=\"c3194\">is the major resorptive segment of the nephron and accounts for resorption of nearly two-thirds of all filtered water, sodium, and chloride. In addition, the proximal tubule is the segment where the majority of critical organic solutes such as glucose and amino acids are resorbed. Finally, this segment also plays an important role in acid-base balance as it is involved in bicarbonate resorption and secretion of organic acids.</span></p><p dir=\"ltr\" class=\"c3226\"><span class=\"c3234\">The number inside the tubule depicts the osmolarity of the filtrate. Decrease of flow may be observed on the flow measures whereas the osmolarity is maintained.</span></p></span></div><div></div><input type=\"range\" id=\"VHK6nf1SRR2KbZSYZrz0ng\" class=\"c8451\"/></div></div>",
-    "components": "[{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":true,\"droppable\":\".cell\",\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":0,\"bl\":0,\"br\":0,\"minDim\":1},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"hovered\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false},{\"name\":\"c2644\",\"label\":\"c2644\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"i7xj\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Row\",\"components\":[{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":\".row\",\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":[\"flex-basis\"],\"style-signature\":\"\",\"unstylable\":[\"width\"],\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"br\":0,\"minDim\":1,\"bc\":0,\"keyWidth\":\"flex-basis\",\"currentUnit\":1,\"step\":0.2},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Column\",\"components\":[{\"tagName\":\"canvas\",\"type\":\"animate-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"bc\":0,\"br\":0},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c2003\",\"label\":\"c2003\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"dr_1zrGpRVe2ALsIPMR1rg\"},\"traits\":[{\"type\":\"animate-widget-id-trait\",\"label\":\"Animate\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[]}],\"open\":0},{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":\".row\",\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":[\"flex-basis\"],\"style-signature\":\"\",\"unstylable\":[\"width\"],\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"br\":0,\"minDim\":1,\"bc\":0,\"keyWidth\":\"flex-basis\",\"currentUnit\":1,\"step\":0.2},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Column\",\"components\":[{\"tagName\":\"div\",\"type\":\"text\",\"name\":\"\",\"removable\":true,\"draggable\":true,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":false,\"editable\":true,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3103\",\"label\":\"c3103\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[{\"tagName\":\"span\",\"type\":\"\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[],\"script\":\"\",\"attributes\":{\"id\":\"docs-internal-guid-915dfa6b-7fff-a3c8-e2d1-7401dcb42f5c\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[{\"tagName\":\"p\",\"type\":\"\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3177\",\"label\":\"c3177\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"dir\":\"ltr\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[{\"tagName\":\"span\",\"type\":\"text\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":false,\"hoverable\":false,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"The proximal tubule \",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3185\",\"label\":\"c3185\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[]},{\"tagName\":\"span\",\"type\":\"text\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":false,\"hoverable\":false,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"is the major resorptive segment of the nephron and accounts for resorption of nearly two-thirds of all filtered water, sodium, and chloride. In addition, the proximal tubule is the segment where the majority of critical organic solutes such as glucose and amino acids are resorbed. Finally, this segment also plays an important role in acid-base balance as it is involved in bicarbonate resorption and secretion of organic acids.\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3194\",\"label\":\"c3194\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[]}]},{\"tagName\":\"p\",\"type\":\"\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3226\",\"label\":\"c3226\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"dir\":\"ltr\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[{\"tagName\":\"span\",\"type\":\"text\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":false,\"hoverable\":false,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"The number inside the tubule depicts the osmolarity of the filtrate. Decrease of flow may be observed on the flow measures whereas the osmolarity is maintained.\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3234\",\"label\":\"c3234\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[]}]}],\"open\":0}],\"open\":0},{\"tagName\":\"div\",\"type\":\"model-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":true,\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"model-widget-id-trait\",\"label\":\"Model widget\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":1,\"components\":[]},{\"tagName\":\"input\",\"type\":\"range-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":true,\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":true,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c8451\",\"label\":\"c8451\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"type\":\"range\",\"id\":\"VHK6nf1SRR2KbZSYZrz0ng\"},\"traits\":[{\"type\":\"range-widget-id-trait\",\"label\":\"Range\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[]}],\"open\":1}],\"open\":1}]"
+    "css": "* { box-sizing: border-box; } body {margin: 0;}#GVG9YFzIST-AXt6dsmcKrw{width:100%;height:100%;}.row{display:flex;justify-content:flex-start;align-items:stretch;flex-wrap:nowrap;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}.cell{min-height:75px;flex-grow:1;flex-basis:100%;}.c2003{width:100%;}.c2644{height:815px;}.c3103{padding:10px;}.c3185{font-size:10.5pt;background-color:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;}.c3194{font-size:10.5pt;background-color:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;}.c3234{font-size:10.5pt;background-color:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;}.c3177{line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-right:1.44pt;text-indent:14.4pt;text-align:justify;}.c3226{line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-right:1.44pt;text-indent:14.4pt;text-align:justify;}.c8451{width:100%;}.c2560{min-height:50px;}.c2609{width:100%;height:100%;}.c2601{min-height:300px;}.c2593{height:300px;}.c4128{width:100%;height:100%;}.c5595{width:100%;height:100%;}.c2609.c4128.c5595{width:100%;height:100%;}@media (max-width: 768px){.row{flex-wrap:wrap;}}",
+    "styles": "[{\"selectors\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"display\":\"flex\",\"justify-content\":\"flex-start\",\"align-items\":\"stretch\",\"flex-wrap\":\"nowrap\",\"padding-top\":\"10px\",\"padding-right\":\"10px\",\"padding-bottom\":\"10px\",\"padding-left\":\"10px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"flex-wrap\":\"wrap\"},\"mediaText\":\"(max-width: 768px)\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"media\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"min-height\":\"75px\",\"flex-grow\":\"1\",\"flex-basis\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2003\",\"label\":\"c2003\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2644\",\"label\":\"c2644\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"height\":\"815px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3103\",\"label\":\"c3103\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"padding\":\"10px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3185\",\"label\":\"c3185\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"font-size\":\"10.5pt\",\"background-color\":\"transparent\",\"font-variant-numeric\":\"normal\",\"font-variant-east-asian\":\"normal\",\"vertical-align\":\"baseline\",\"white-space\":\"pre-wrap\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3194\",\"label\":\"c3194\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"font-size\":\"10.5pt\",\"background-color\":\"transparent\",\"font-variant-numeric\":\"normal\",\"font-variant-east-asian\":\"normal\",\"vertical-align\":\"baseline\",\"white-space\":\"pre-wrap\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3234\",\"label\":\"c3234\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"font-size\":\"10.5pt\",\"background-color\":\"transparent\",\"font-variant-numeric\":\"normal\",\"font-variant-east-asian\":\"normal\",\"vertical-align\":\"baseline\",\"white-space\":\"pre-wrap\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3177\",\"label\":\"c3177\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"line-height\":\"1.2\",\"margin-top\":\"0pt\",\"margin-bottom\":\"0pt\",\"margin-right\":\"1.44pt\",\"text-indent\":\"14.4pt\",\"text-align\":\"justify\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3226\",\"label\":\"c3226\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"line-height\":\"1.2\",\"margin-top\":\"0pt\",\"margin-bottom\":\"0pt\",\"margin-right\":\"1.44pt\",\"text-indent\":\"14.4pt\",\"text-align\":\"justify\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6558\",\"label\":\"c6558\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"32%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c7945\",\"label\":\"c7945\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c7929\",\"label\":\"c7929\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"height\":\"524px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c8451\",\"label\":\"c8451\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c9308\",\"label\":\"c9308\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c10645\",\"label\":\"c10645\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c11966\",\"label\":\"c11966\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c13282\",\"label\":\"c13282\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c14609\",\"label\":\"c14609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c15921\",\"label\":\"c15921\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6558\",\"label\":\"c6558\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c7945\",\"label\":\"c7945\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c9308\",\"label\":\"c9308\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c10645\",\"label\":\"c10645\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c11966\",\"label\":\"c11966\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c13282\",\"label\":\"c13282\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c14609\",\"label\":\"c14609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c15921\",\"label\":\"c15921\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c808\",\"label\":\"c808\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2149\",\"label\":\"c2149\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c3501\",\"label\":\"c3501\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c4864\",\"label\":\"c4864\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6238\",\"label\":\"c6238\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c7649\",\"label\":\"c7649\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c9045\",\"label\":\"c9045\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c10478\",\"label\":\"c10478\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c6558\",\"label\":\"c6558\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c7945\",\"label\":\"c7945\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c9308\",\"label\":\"c9308\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c10645\",\"label\":\"c10645\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c11966\",\"label\":\"c11966\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c13282\",\"label\":\"c13282\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c14609\",\"label\":\"c14609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c15921\",\"label\":\"c15921\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c808\",\"label\":\"c808\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c2149\",\"label\":\"c2149\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c3501\",\"label\":\"c3501\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c4864\",\"label\":\"c4864\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c6238\",\"label\":\"c6238\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c7649\",\"label\":\"c7649\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c9045\",\"label\":\"c9045\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c10478\",\"label\":\"c10478\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c1417\",\"label\":\"c1417\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"padding\":\"10px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2560\",\"label\":\"c2560\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"min-height\":\"50px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2609\",\"label\":\"c2609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2601\",\"label\":\"c2601\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"min-height\":\"300px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2593\",\"label\":\"c2593\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"height\":\"300px\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c4128\",\"label\":\"c4128\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c5595\",\"label\":\"c5595\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0},{\"selectors\":[{\"name\":\"c2609\",\"label\":\"c2609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c4128\",\"label\":\"c4128\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c5595\",\"label\":\"c5595\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"selectorsAdd\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"mediaText\":\"\",\"state\":\"\",\"stylable\":true,\"atRuleType\":\"\",\"singleAtRule\":0,\"important\":0}]",
+    "html": "<div id=\"i7xj\" class=\"row c2644\"><div class=\"cell\"><canvas id=\"dr_1zrGpRVe2ALsIPMR1rg\" class=\"c2003\"></canvas></div><div class=\"cell\"><div class=\"c3103\"><span id=\"docs-internal-guid-915dfa6b-7fff-a3c8-e2d1-7401dcb42f5c\"><p dir=\"ltr\" class=\"c3177\"><span class=\"c3185\">The proximal tubule </span><span class=\"c3194\">is the major resorptive segment of the nephron and accounts for resorption of nearly two-thirds of all filtered water, sodium, and chloride. In addition, the proximal tubule is the segment where the majority of critical organic solutes such as glucose and amino acids are resorbed. Finally, this segment also plays an important role in acid-base balance as it is involved in bicarbonate resorption and secretion of organic acids.</span></p><p dir=\"ltr\" class=\"c3226\"><span class=\"c3234\">The number inside the tubule depicts the osmolarity of the filtrate. Decrease of flow may be observed on the flow measures whereas the osmolarity is maintained.</span></p></span></div><div></div><div class=\"row\"><div id=\"ixu16\" class=\"cell c2560\"><label id=\"QvS5L2c1Qey-Udei-p7_rA\"></label><input type=\"range\" id=\"VHK6nf1SRR2KbZSYZrz0ng\" class=\"c8451\"/></div></div><div id=\"iy71c\" class=\"row c2593\"><div id=\"ig9oi\" class=\"cell c2601\"><div id=\"GVG9YFzIST-AXt6dsmcKrw\" class=\"c2609 c4128 c5595\"></div></div></div></div></div>",
+    "components": "[{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":true,\"droppable\":\".cell\",\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":0,\"bl\":0,\"br\":0,\"minDim\":1},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false},{\"name\":\"c2644\",\"label\":\"c2644\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"i7xj\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Row\",\"components\":[{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":\".row\",\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":[\"flex-basis\"],\"style-signature\":\"\",\"unstylable\":[\"width\"],\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"br\":0,\"minDim\":1,\"bc\":0,\"keyWidth\":\"flex-basis\",\"currentUnit\":1,\"step\":0.2},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Column\",\"components\":[{\"tagName\":\"canvas\",\"type\":\"animate-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"bc\":0,\"br\":0},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c2003\",\"label\":\"c2003\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"dr_1zrGpRVe2ALsIPMR1rg\"},\"traits\":[{\"type\":\"animate-widget-id-trait\",\"label\":\"Animate\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[]}],\"open\":0},{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":\".row\",\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":[\"flex-basis\"],\"style-signature\":\"\",\"unstylable\":[\"width\"],\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"br\":0,\"minDim\":1,\"bc\":0,\"keyWidth\":\"flex-basis\",\"currentUnit\":1,\"step\":0.2},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Column\",\"components\":[{\"tagName\":\"div\",\"type\":\"text\",\"name\":\"\",\"removable\":true,\"draggable\":true,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":false,\"editable\":true,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3103\",\"label\":\"c3103\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[{\"tagName\":\"span\",\"type\":\"\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[],\"script\":\"\",\"attributes\":{\"id\":\"docs-internal-guid-915dfa6b-7fff-a3c8-e2d1-7401dcb42f5c\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[{\"tagName\":\"p\",\"type\":\"\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3177\",\"label\":\"c3177\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"dir\":\"ltr\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[{\"tagName\":\"span\",\"type\":\"text\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":false,\"hoverable\":false,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"The proximal tubule \",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3185\",\"label\":\"c3185\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[]},{\"tagName\":\"span\",\"type\":\"text\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":false,\"hoverable\":false,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"is the major resorptive segment of the nephron and accounts for resorption of nearly two-thirds of all filtered water, sodium, and chloride. In addition, the proximal tubule is the segment where the majority of critical organic solutes such as glucose and amino acids are resorbed. Finally, this segment also plays an important role in acid-base balance as it is involved in bicarbonate resorption and secretion of organic acids.\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3194\",\"label\":\"c3194\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[]}]},{\"tagName\":\"p\",\"type\":\"\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3226\",\"label\":\"c3226\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"dir\":\"ltr\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[{\"tagName\":\"span\",\"type\":\"text\",\"name\":\"\",\"removable\":0,\"draggable\":0,\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":0,\"copyable\":0,\"resizable\":false,\"editable\":0,\"layerable\":true,\"selectable\":false,\"hoverable\":false,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"The number inside the tubule depicts the osmolarity of the filtrate. Decrease of flow may be observed on the flow measures whereas the osmolarity is maintained.\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c3234\",\"label\":\"c3234\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"components\":[]}]}],\"open\":0}],\"open\":0},{\"tagName\":\"div\",\"type\":\"model-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":true,\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"model-widget-id-trait\",\"label\":\"Model widget\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":1,\"components\":[]},{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":true,\"droppable\":\".cell\",\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":0,\"bl\":0,\"br\":0,\"minDim\":1},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":\"\",\"classes\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false}],\"script\":\"\",\"attributes\":{},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Row\",\"components\":[{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":\".row\",\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":[\"flex-basis\"],\"style-signature\":\"\",\"unstylable\":[\"width\"],\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"br\":0,\"minDim\":1,\"bc\":0,\"keyWidth\":\"flex-basis\",\"currentUnit\":1,\"step\":0.2},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false},{\"name\":\"c2560\",\"label\":\"c2560\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"ixu16\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Column\",\"components\":[{\"tagName\":\"label\",\"type\":\"label-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":true,\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[],\"script\":\"\",\"attributes\":{\"id\":\"QvS5L2c1Qey-Udei-p7_rA\"},\"traits\":[{\"type\":\"label-widget-id-trait\",\"label\":\"Label widget\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[]},{\"tagName\":\"input\",\"type\":\"range-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":true,\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":true,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"c8451\",\"label\":\"c8451\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"type\":\"range\",\"id\":\"VHK6nf1SRR2KbZSYZrz0ng\"},\"traits\":[{\"type\":\"range-widget-id-trait\",\"label\":\"Range\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[]}],\"open\":0}],\"open\":0},{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":true,\"droppable\":\".cell\",\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":0,\"bl\":0,\"br\":0,\"minDim\":1},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"row\",\"label\":\"row\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false},{\"name\":\"c2593\",\"label\":\"c2593\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"iy71c\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Row\",\"components\":[{\"tagName\":\"div\",\"type\":\"\",\"name\":\"\",\"removable\":true,\"draggable\":\".row\",\"droppable\":true,\"badgable\":true,\"stylable\":true,\"stylable-require\":[\"flex-basis\"],\"style-signature\":\"\",\"unstylable\":[\"width\"],\"highlightable\":true,\"copyable\":true,\"resizable\":{\"tl\":0,\"tc\":0,\"tr\":0,\"cl\":0,\"cr\":1,\"bl\":0,\"br\":0,\"minDim\":1,\"bc\":0,\"keyWidth\":\"flex-basis\",\"currentUnit\":1,\"step\":0.2},\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{},\"classes\":[{\"name\":\"cell\",\"label\":\"cell\",\"type\":1,\"active\":true,\"private\":1,\"protected\":false},{\"name\":\"c2601\",\"label\":\"c2601\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"ig9oi\"},\"traits\":[{\"type\":\"text\",\"label\":\"\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]},{\"type\":\"text\",\"label\":\"\",\"name\":\"title\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"eg. Text here\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"custom-name\":\"Column\",\"components\":[{\"tagName\":\"div\",\"type\":\"chart-widget\",\"name\":\"\",\"removable\":true,\"draggable\":\"*\",\"droppable\":false,\"badgable\":true,\"stylable\":true,\"stylable-require\":\"\",\"style-signature\":\"\",\"unstylable\":\"\",\"highlightable\":true,\"copyable\":true,\"resizable\":true,\"editable\":false,\"layerable\":true,\"selectable\":true,\"hoverable\":true,\"void\":false,\"state\":\"\",\"status\":\"\",\"content\":\"\",\"icon\":\"\",\"style\":{\"width\":\"100%\",\"height\":\"100%\"},\"classes\":[{\"name\":\"c2609\",\"label\":\"c2609\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c4128\",\"label\":\"c4128\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false},{\"name\":\"c5595\",\"label\":\"c5595\",\"type\":1,\"active\":true,\"private\":false,\"protected\":false}],\"script\":\"\",\"attributes\":{\"id\":\"GVG9YFzIST-AXt6dsmcKrw\"},\"traits\":[{\"type\":\"chart-widget-id-trait\",\"label\":\"Chart widget\",\"name\":\"id\",\"min\":\"\",\"max\":\"\",\"unit\":\"\",\"step\":1,\"value\":\"\",\"default\":\"\",\"placeholder\":\"\",\"changeProp\":0,\"options\":[]}],\"propagate\":\"\",\"activeOnRender\":0,\"components\":[]}],\"open\":1}],\"open\":1}],\"open\":1}],\"open\":1}]"
   },
   "widgets": {
     "buttons": {},
@@ -278,7 +278,13 @@
       }
     },
     "toggles": {},
-    "charts": {},
+    "charts": {
+      "GVG9YFzIST-AXt6dsmcKrw": {
+        "id": "GVG9YFzIST-AXt6dsmcKrw",
+        "name": "unnamed",
+        "type": "CHART"
+      }
+    },
     "labels": {
       "DSG8gImTRRycmAtpoUmwpQ": {
         "id": "DSG8gImTRRycmAtpoUmwpQ",
@@ -289,10 +295,15 @@
         "id": "H5Kj1uekRB6dJyVVw2w1YA",
         "name": "GFR",
         "type": "LABEL"
+      },
+      "QvS5L2c1Qey-Udei-p7_rA": {
+        "id": "QvS5L2c1Qey-Udei-p7_rA",
+        "name": "GFR",
+        "type": "LABEL"
       }
     },
     "app": {
-      "selected": "VjTmFW6qTOCWTcyM72I29A"
+      "selected": "GVG9YFzIST-AXt6dsmcKrw"
     }
   },
   "config": {
@@ -7477,7 +7488,7 @@
           "visible"
         ],
         "value": {
-          "value": "",
+          "value": "300",
           "complex": false,
           "provider": null,
           "array": false,
@@ -7495,6 +7506,33 @@
           "typeof": "boolean"
         },
         "id": "VjTmFW6qTOCWTcyM72I29A"
+      },
+      "UXrECVoxQPqNANNWA9zEgQ": {
+        "name": "Konec300_text",
+        "parent": "dr_1zrGpRVe2ALsIPMR1rg",
+        "attributes": [
+          "value",
+          "visible"
+        ],
+        "value": {
+          "value": "300",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "string"
+        },
+        "visible": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "id": "UXrECVoxQPqNANNWA9zEgQ"
       }
     },
     "animateAnims": {
@@ -7513,7 +7551,7 @@
         "value": {
           "value": 0,
           "complex": true,
-          "provider": "{\"type\":\"MV\",\"id\":\"measureGlom.volumeFlowRateTot\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
+          "provider": "{\"type\":\"MV\",\"id\":\"measureGlom.volumeFlowRate\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
           "array": false,
           "indexes": null,
           "function": null,
@@ -7530,7 +7568,7 @@
         },
         "max": {
           "typeof": "number",
-          "value": "220",
+          "value": "1.25e-12",
           "complex": false,
           "provider": null,
           "array": false,
@@ -7590,7 +7628,7 @@
         "value": {
           "value": 0,
           "complex": true,
-          "provider": "{\"type\":\"MV\",\"id\":\"measurePT.volumeFlowRateTot\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
+          "provider": "{\"type\":\"MV\",\"id\":\"measurePT.volumeFlowRate\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
           "array": false,
           "indexes": null,
           "function": null,
@@ -7607,7 +7645,7 @@
         },
         "max": {
           "typeof": "number",
-          "value": "220",
+          "value": "1.25e-12",
           "complex": false,
           "provider": null,
           "array": false,
@@ -8899,7 +8937,7 @@
         "value": {
           "value": 0,
           "complex": true,
-          "provider": "{\"type\":\"MV\",\"id\":\"measureGlom.volumeFlowRateTot\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
+          "provider": "{\"type\":\"MV\",\"id\":\"measureGlom.volumeFlowRate\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
           "array": false,
           "indexes": null,
           "function": null,
@@ -8916,7 +8954,7 @@
         },
         "max": {
           "typeof": "number",
-          "value": "220",
+          "value": "1.25e-12",
           "complex": false,
           "provider": null,
           "array": false,
@@ -8943,7 +8981,7 @@
         },
         "minspeed": {
           "typeof": "number",
-          "value": 0,
+          "value": "0.5",
           "complex": false,
           "provider": null,
           "array": false,
@@ -8952,7 +8990,7 @@
         },
         "maxspeed": {
           "typeof": "number",
-          "value": "5",
+          "value": "10",
           "complex": false,
           "provider": null,
           "array": false,
@@ -8976,7 +9014,7 @@
         "value": {
           "value": 0,
           "complex": true,
-          "provider": "{\"type\":\"MV\",\"id\":\"measurePT.volumeFlowRateTot\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
+          "provider": "{\"type\":\"MV\",\"id\":\"measurePT.volumeFlowRate\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
           "array": false,
           "indexes": null,
           "function": null,
@@ -8993,7 +9031,7 @@
         },
         "max": {
           "typeof": "number",
-          "value": "220",
+          "value": "1.25e-12",
           "complex": false,
           "provider": null,
           "array": false,
@@ -9020,7 +9058,7 @@
         },
         "minspeed": {
           "typeof": "number",
-          "value": 0,
+          "value": "0.5",
           "complex": false,
           "provider": null,
           "array": false,
@@ -9029,7 +9067,7 @@
         },
         "maxspeed": {
           "typeof": "number",
-          "value": "5",
+          "value": "10",
           "complex": false,
           "provider": null,
           "array": false,
@@ -9040,7 +9078,182 @@
       }
     },
     "toggles": {},
-    "charts": {},
+    "charts": {
+      "GVG9YFzIST-AXt6dsmcKrw": {
+        "name": "unnamed",
+        "library": "plotly",
+        "events": [
+          "change"
+        ],
+        "actions": {},
+        "attributes": [
+          "enabled"
+        ],
+        "enabled": {
+          "typeof": "boolean",
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "GVG9YFzIST-AXt6dsmcKrw",
+        "datasets": {
+          "cEXKdwcHQcKikkQY_56-zQ": {
+            "id": "cEXKdwcHQcKikkQY_56-zQ",
+            "name": "pt.q",
+            "mode": "lines",
+            "other": "() => ({})",
+            "line": {
+              "color": "#FAA43A",
+              "width": 2,
+              "shape": "spline",
+              "smoothing": 1,
+              "dash": "solid",
+              "simplify": true
+            },
+            "x": {
+              "typeof": "number",
+              "value": 0,
+              "time": true,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": null
+            },
+            "y": {
+              "typeof": "number",
+              "value": 0,
+              "time": false,
+              "provider": "{\"type\":\"MV\",\"id\":\"pt.Q[5]\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
+              "array": true,
+              "indexes": [
+                "pt.Q[1]",
+                "pt.Q[2]",
+                "pt.Q[3]",
+                "pt.Q[4]",
+                "pt.Q[5]",
+                "pt.Q[6]",
+                "pt.Q[7]",
+                "pt.Q[8]",
+                "pt.Q[9]",
+                "pt.Q[10]",
+                "pt.Q[11]"
+              ],
+              "function": null
+            },
+            "maxSamples": {
+              "typeof": "number",
+              "value": -1,
+              "complex": false,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": "value => value"
+            }
+          }
+        },
+        "shapes": {},
+        "xaxis": {
+          "visible": true,
+          "color": "#444",
+          "title": "Proximal tubule Q",
+          "type": "linear",
+          "autorange": true,
+          "rangemode": "normal",
+          "range": null,
+          "fixedrange": false,
+          "tickmode": "auto",
+          "nticks": 0,
+          "tickvals": null,
+          "ticktext": null,
+          "ticks": "inside",
+          "mirror": null,
+          "ticklen": 5,
+          "tickwidth": 1,
+          "tickcolor": "#444",
+          "tickfont": null,
+          "tickangle": "auto",
+          "tickprefix": "",
+          "showtickprefix": "all",
+          "ticksuffix": "",
+          "showticksuffix": "all",
+          "showexponent": "all",
+          "exponentformat": "e",
+          "separatethousands": false,
+          "showticklabels": false,
+          "automargin": true,
+          "showspikes": false,
+          "spikethickness": 3,
+          "spikedash": "dash",
+          "spikemode": "toaxis",
+          "spikesnap": "data",
+          "showline": true,
+          "linecolor": "#444",
+          "linewidth": 1,
+          "showgrid": true,
+          "gridcolor": "#eee",
+          "gridwidth": 1,
+          "zeroline": false,
+          "zerolinecolor": "#444",
+          "zerolinewidth": 1,
+          "side": "left",
+          "rangeslider": null,
+          "rangeselector": null
+        },
+        "yaxis": {
+          "visible": true,
+          "color": "#444",
+          "title": "",
+          "type": "linear",
+          "autorange": false,
+          "rangemode": "normal",
+          "range": [
+            1.3e-12,
+            2.5e-14
+          ],
+          "fixedrange": false,
+          "tickmode": "auto",
+          "nticks": 10,
+          "tickvals": null,
+          "ticktext": null,
+          "ticks": "inside",
+          "mirror": null,
+          "ticklen": 5,
+          "tickwidth": 1,
+          "tickcolor": "#444",
+          "tickfont": null,
+          "tickangle": "auto",
+          "tickprefix": "",
+          "showtickprefix": "all",
+          "ticksuffix": "",
+          "showticksuffix": "all",
+          "showexponent": "all",
+          "exponentformat": "e",
+          "separatethousands": false,
+          "showticklabels": true,
+          "automargin": true,
+          "showspikes": false,
+          "spikethickness": 3,
+          "spikedash": "dash",
+          "spikemode": "toaxis",
+          "spikesnap": "data",
+          "showline": true,
+          "linecolor": "#444",
+          "linewidth": 1,
+          "showgrid": true,
+          "gridcolor": "#eee",
+          "gridwidth": 1,
+          "zeroline": false,
+          "zerolinecolor": "#444",
+          "zerolinewidth": 1,
+          "side": "left",
+          "rangeslider": null,
+          "rangeselector": null
+        }
+      }
+    },
     "labels": {
       "DSG8gImTRRycmAtpoUmwpQ": {
         "name": "GFR",
@@ -9119,6 +9332,45 @@
         },
         "for": "",
         "id": "H5Kj1uekRB6dJyVVw2w1YA"
+      },
+      "QvS5L2c1Qey-Udei-p7_rA": {
+        "name": "GFR",
+        "label": {
+          "typeof": "string",
+          "value": "GFR",
+          "complex": true,
+          "provider": "{\"type\":\"MP\",\"id\":\"gfr_mod\",\"parent\":\"AEamUsavRrSaM1K5oaTC7g\"}",
+          "array": false,
+          "indexes": null,
+          "function": "value => `GFR ${ Number(value).toFixed(2) }x`;"
+        },
+        "events": [],
+        "actions": {},
+        "attributes": [
+          "enabled",
+          "visible",
+          "label"
+        ],
+        "enabled": {
+          "typeof": "boolean",
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "visible": {
+          "typeof": "boolean",
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "for": "",
+        "id": "QvS5L2c1Qey-Udei-p7_rA"
       }
     },
     "actions": {
