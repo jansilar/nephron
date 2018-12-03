@@ -30,7 +30,19 @@ model NephronModel
     Placement(visible = true, transformation(origin = {66, -4}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowOsmosisMeasure cdMeasure annotation(
     Placement(visible = true, transformation(origin = {66, -28}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  Modelica.Blocks.Math.Product Na annotation(
+    Placement(visible = true, transformation(origin = {20, -52}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+  Modelica.Blocks.Math.Product Na_tot annotation(
+    Placement(visible = true, transformation(origin = {14, -86}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
 equation
+  connect(cdMeasure.volumeFlowRateTot, Na_tot.u2) annotation(
+    Line(points = {{58, -36}, {54, -36}, {54, -92}, {26, -92}, {26, -92}}, color = {0, 0, 127}));
+  connect(cdMeasure.osmolarity, Na_tot.u1) annotation(
+    Line(points = {{58, -20}, {42, -20}, {42, -80}, {26, -80}, {26, -80}}, color = {0, 0, 127}));
+  connect(cdMeasure.volumeFlowRate, Na.u2) annotation(
+    Line(points = {{58, -28}, {46, -28}, {46, -58}, {32, -58}}, color = {0, 0, 127}));
+  connect(cdMeasure.osmolarity, Na.u1) annotation(
+    Line(points = {{58, -20}, {32, -20}, {32, -46}}, color = {0, 0, 127}));
   connect(cdMeasure.q_out, osmoticDrain.port_a) annotation(
     Line(points = {{66, -38}, {66, -38}, {66, -44}, {66, -44}}, color = {127, 127, 0}));
   connect(cd.port_out, cdMeasure.q_in) annotation(
