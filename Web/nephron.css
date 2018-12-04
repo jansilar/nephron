@@ -6,7 +6,12 @@ h2 {
   margin: 5vh;
 }
 
-a:link    { color: #405771 }  /* unvisited links */
-a:visited { color: #405771 }  /* visited links   */
-a:hover   { color: #2383f1 }  /* user hovers     */
-a:active  { color: #2383f1 }  /* active links    */
+.hoverable {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+a:link    { color: #405771 } 
+a:visited { color: #405771 }
+a:hover   { color: #2383f1 }
+a:active  { color: #2383f1 }

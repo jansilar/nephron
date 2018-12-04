@@ -34,3 +34,27 @@ img.kofrlab-logo {
   height: 90vh;
   overflow:visible;
 }
+
+#left-arrow {
+  position: absolute;
+  top: 50vh;
+  left: 1.5vw;
+  font-size: 4em;
+  z-index: 1000;
+}
+
+#right-arrow {
+  position: absolute;
+  top: 50vh;
+  left: 97vw;
+  font-size: 4em;
+  z-index: 1000;
+}
+
+.arrow a:link    { color: #cfd5dc } 
+.arrow a:visited { color: #cfd5dc }
+.arrow a:hover   { 
+  color: #2383f1;
+  text-decoration: none;
+}
+.arrow a:active  { color: #2383f1 }
