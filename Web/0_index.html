@@ -58,6 +58,10 @@
       $('.hoverable').on('mouseout', ({currentTarget}) => {
         $('#nephron-img').attr('src', `img/5_nephron.png`)
       })
+      $('.hoverable').click(({currentTarget}) => {
+        parent.postMessage($(currentTarget).attr('href'), '*')
+      })
+      parent.postMessage('0_index.html', '*')
     });
   </script>
 </body>

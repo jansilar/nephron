@@ -41,8 +41,13 @@
       const leftArrow = $('#left-arrow a')
       const rightArrow = $('#right-arrow a')
       
-      const loadArrows = () => {
-        const current = $('#content-frame').attr('src')
+      let previous = null
+      const loadArrows = (current = null) => {
+        current = current || $('#content-frame').attr('src')
+        if (previous === current) {
+          return
+        }
+        previous = current
         const index = pages.indexOf(current)
         
         const left = index - 1
@@ -74,6 +79,8 @@
         loadArrows()
         return false;
       })
+      
+      window.addEventListener('message', ({data}) => {loadArrows(data)}, false)
     });
   </script>
 </body>
