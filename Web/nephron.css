@@ -1,0 +1,17 @@
+#nephron-img {
+  height: 100vh;
+}
+
+h2 {
+  margin: 5vh;
+}
+
+.hoverable {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+a:link    { color: #405771 } 
+a:visited { color: #405771 }
+a:hover   { color: #2383f1 }
+a:active  { color: #2383f1 }
