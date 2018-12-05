@@ -2,7 +2,8 @@ within Nephron.Models;
 
 model NephronModel
   parameter Real gfr_mod = 1;
-  inner Nephron.Components.NephronParameters nephronPar annotation(
+  parameter Real ADH_mod = 0.5;
+  inner Nephron.Components.NephronParameters nephronPar(ADH_mod = ADH_mod) annotation(
     Placement(visible = true, transformation(origin = {84, 42}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.OsmoticSource glomerulus(Q = gfr_mod * nephronPar.GFR1_norm)   annotation(
     Placement(visible = true, transformation(origin = {-96, 16}, extent = {{-4, -4}, {4, 4}}, rotation = 90)));
