@@ -6,6 +6,9 @@ model Glomerulus
   parameter PLT.Pressure MAP_norm = 84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
   parameter Real MAP_mod = 1;
   parameter PLT.Pressure MAP = MAP_mod*84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
+  //"Systolic a diastolic pressures calculated from MAP = 2/3DP + 1/3SP, SP/DP = 120/80)"
+  parameter PLT.Pressure DP = 6/7*MAP "diastolic pressure";
+  parameter PLT.Pressure SP = 9/7*MAP "systolic pressure";
   parameter Real Aff_MAP_ratio = 50/84;
   parameter PLT.Pressure P_aff = MAP*Aff_MAP_ratio "pressure in afferent arteriole";
   parameter PLT.Pressure P_aff_norm = MAP_norm*Aff_MAP_ratio "normal pressure in afferent arteriole";
@@ -63,7 +66,6 @@ model Glomerulus
     Placement(visible = true, transformation(origin = {40, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowPressureMeasure measureEff annotation(
     Placement(visible = true, transformation(origin = {-40, -46}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-
 
 equation
   connect(measureEff.q_out, bloodDrain.y) annotation(
