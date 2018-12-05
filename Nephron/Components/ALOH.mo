@@ -15,8 +15,8 @@ model LimitFactorTest
 end LimitFactorTest;
   
   extends Nephron.Components.Partial.Tubule(L=0.04, N=40);
-  parameter Real limit_treshold = 400;
-  parameter Real f_Na_mod = 1.2;
+  parameter Real limit_treshold = 500;
+  parameter Real f_Na_mod = 2.35;
   constant Integer NDLOH = 10;
   parameter PLT.VolumeFlowRate Q_in_norm = nephronPar.GFR1_norm/3*nephronPar.o_plasma_norm/nephronPar.o_max;
   parameter Types.MolarFlowRateLinearDensity f_Na_const = f_Na_mod*Q_in_norm*(nephronPar.o_max-nephronPar.o_dt_norm)/L;
