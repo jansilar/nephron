@@ -6,9 +6,10 @@ model Glomerulus
   parameter PLT.Pressure MAP_norm = 84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
   parameter Real MAP_mod = 1;
   parameter PLT.Pressure MAP = MAP_mod*84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
-  parameter PLT.Pressure P_diff_a = MAP - pi_blood "hydrostatic minus oncotic arterial pressure";
-  parameter PLT.Pressure CVP = 6 * tor2pasc "blood pressure after efferent arteriole, https://en.wikipedia.org/wiki/Central_venous_pressure";
-  parameter PLT.Pressure P_diff_e = CVP - pi_blood "hydrostatic minus oncotic venous pressure";
+  parameter Real Aff_MAP_ratio = 50/84;
+  parameter PLT.Pressure P_aff = MAP*Aff_MAP_ratio "pressure in afferent arteriole";
+  parameter PLT.Pressure P_aff_norm = MAP_norm*Aff_MAP_ratio "normal pressure in afferent arteriole";
+  parameter PLT.Pressure P_eff = 40*tor2pasc "pressure in efferent arteriole";
   parameter PLT.Pressure P_bowm = 10 * tor2pasc "primary urine pressure in bowman capsule, papír od Honzy Živnýho";
   parameter PLT.Pressure normal_P_Filter = 6*tor2pasc "normal filtration pressure, papír od HŽ";
   parameter PLT.Pressure normal_P_Glom = normal_P_Filter + P_bowm + pi_blood - pi_bowm "hydrostatic pressure in glomerular capilaries";
@@ -25,8 +26,8 @@ model Glomerulus
 //resistances:
   parameter Real R_aff_mod = 1;
   parameter Real R_eff_mod = 1;
-  parameter PLT.HydraulicResistance R_aff = R_aff_mod*(MAP_norm-normal_P_Glom)/RBF1 "afferent arteriol resistance";
-  parameter PLT.HydraulicResistance R_eff = R_eff_mod*(normal_P_Glom - CVP)/(RBF1 - GFR1) "efferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_aff = R_aff_mod*(P_aff_norm-normal_P_Glom)/RBF1 "afferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_eff = R_eff_mod*(normal_P_Glom - P_eff)/(RBF1 - GFR1) "efferent arteriol resistance";
   parameter Real R_filter_mod = 1 "qotient to modify R_filter";
   parameter PLT.HydraulicResistance R_filter = R_filter_mod*normal_P_Filter/GFR1 "efferent arteriol resistance";
   
@@ -36,13 +37,13 @@ model Glomerulus
   parameter Integer N = 2000000 "Number of nephrones in both kidneys";
 
 //components:
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P (displayUnit = "Pa") = MAP)  annotation(
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P (displayUnit = "Pa") = P_aff)  annotation(
     Placement(visible = true, transformation(origin = {-82, 56}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor afferentResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_aff) annotation(
     Placement(visible = true, transformation(origin = {-40, 26}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.Resistor efferentResistance(Resistance (displayUnit = "(Pa.s)/m3") = R_eff)  annotation(
     Placement(visible = true, transformation(origin = { -40, -14}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = CVP)  annotation(
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = P_eff)  annotation(
     Placement(visible = true, transformation(origin = {-18, -64}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor filterResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_filter)  annotation(
     Placement(visible = true, transformation(origin = {10, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
