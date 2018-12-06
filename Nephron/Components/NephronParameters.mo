@@ -11,11 +11,20 @@ model NephronParameters
   parameter Real ADH = a*ADH_mod^2 + b*ADH_mod^3 "antidiuretic hormone (vosopresin) should be in range [0,1], 
 //      transformation to match urine osmolarity = 650 at ADH_mod = 0.5";
   parameter Real ADH_mod = 0.5 "ADH controll [0,1]";
+  parameter Real ADH_real = c + d*ADH_mod + e*ADH_mod^2 "ADH in real units pg/l";
+
 protected 
   //solution of a*0.5^2+b*O.5^3 = ADH(o=650) - set osmolarity in middle
   //            1 = a + b                    - set ADH = 1 in the end
   parameter Real a = 320/125-1;
   parameter Real b = 1-a;
+  //parameters to set ADH_real to match ADH_low/normal/high values for ADH_mod=0/0.5/1
+  parameter Real ADH_low = 1 "minimal ADH";
+  parameter Real ADH_normal = 3 "normal ADH";
+  parameter Real ADH_high = 5 "maximal ADH";
+  parameter Real c = ADH_low "constant to calculate ADH_real";
+  parameter Real d = -ADH_high - 3*ADH_low + 4*ADH_normal "constant to calculate ADH_real";
+  parameter Real e = 2*ADH_high + 2*ADH_low - 4*ADH_normal "constant to calculate ADH_real";
 equation
   assert(NNeph > 0, "Number of nephrones must be > 0");
   assert(ADH>=0,"ADH must be >= 0");
