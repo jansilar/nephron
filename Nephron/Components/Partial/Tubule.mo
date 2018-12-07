@@ -5,6 +5,7 @@ partial model Tubule
   constant Integer N = 10;
   parameter PLT.Position L;
   PLT.VolumeFlowRate[N+1] Q(each start = 1.0e-12, each fixed = false) "water flow";
+  Real Q_tot[N+1] = Q*nephronPar.NNeph*1.0e3*60*60*24 "total flow [l/day]";
   PLT.Concentration[N+1] o(each start = 600, each fixed = false) "osmolarity";
   Types.VolumeFlowRateLinearDensity[N] f_H2O "water out-flow per unit length";
   Types.MolarFlowRateLinearDensity[N] f_Na "Na out-flow per unit length";
