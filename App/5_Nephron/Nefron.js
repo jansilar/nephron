@@ -185,7 +185,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Vrstva_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#5CC5FF").s().p("An8D+QAAjSCWiUQCViVDRAAQDTAACVCVQCUCUAADSg");
+	this.shape.graphics.f("#5CC5FF").s().p("An8D+QABjSCViUQCUiVDSAAQDTAACUCVQCVCUAADSg");
 	this.shape.setTransform(50.85,25.425);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -366,7 +366,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Vrstva_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#D8D8D8").s().p("AFOD+QAAiKhihiQhhhhiLAAQiKAAhiBhQhiBiAACKIiuAAQAAjSCWiUQCViVDRAAQDTAACVCVQCUCUAADSg");
+	this.shape.graphics.f("#D8D8D8").s().p("AFPD+QAAiKhihiQhihhiLAAQiJAAhjBhQhiBiAACKIiuAAQABjSCViUQCUiVDSAAQDTAACUCVQCVCUAADSg");
 	this.shape.setTransform(50.85,25.425);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(100));
@@ -2040,10 +2040,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Merak8_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Merak8 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Merak8_anim
+	// Merak8
 	this.Merak7_anim = new lib.Merak();
 	this.Merak7_anim.name = "Merak7_anim";
 	this.Merak7_anim.parent = this;
@@ -2054,10 +2054,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Merak6_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Merak6 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Merak6_anim
+	// Merak6
 	this.Merak6_anim = new lib.Merak();
 	this.Merak6_anim.name = "Merak6_anim";
 	this.Merak6_anim.parent = this;
@@ -2068,10 +2068,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Merak5_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Merak5 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Merak5_anim
+	// Merak5
 	this.Merak5_anim = new lib.Merak();
 	this.Merak5_anim.name = "Merak5_anim";
 	this.Merak5_anim.parent = this;
@@ -2082,10 +2082,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Merak4_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Merak4 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Merak4_anim
+	// Merak4
 	this.Merak4_anim = new lib.Merak();
 	this.Merak4_anim.name = "Merak4_anim";
 	this.Merak4_anim.parent = this;
@@ -2096,10 +2096,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Merak3_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Merak3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Merak3_anim
+	// Merak3
 	this.Merak3_anim = new lib.Merak();
 	this.Merak3_anim.name = "Merak3_anim";
 	this.Merak3_anim.parent = this;
@@ -2110,10 +2110,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Merak1_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Merak1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Merak1_anim
+	// Merak1
 	this.Merak1_anim = new lib.Merak();
 	this.Merak1_anim.name = "Merak1_anim";
 	this.Merak1_anim.parent = this;
@@ -2129,10 +2129,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek12_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek12_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek12_anim
+	// Kanalek12_an
 	this.Kanalek12_anim = new lib.kanal();
 	this.Kanalek12_anim.name = "Kanalek12_anim";
 	this.Kanalek12_anim.parent = this;
@@ -2143,10 +2143,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek11_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek11_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek11_anim
+	// Kanalek11_an
 	this.Kanalek11_anim = new lib.kanal();
 	this.Kanalek11_anim.name = "Kanalek11_anim";
 	this.Kanalek11_anim.parent = this;
@@ -2157,10 +2157,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek9_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek9_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek9_anim
+	// Kanalek9_an
 	this.Kanalek9_anim = new lib.kanal();
 	this.Kanalek9_anim.name = "Kanalek9_anim";
 	this.Kanalek9_anim.parent = this;
@@ -2171,10 +2171,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek8_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek8_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek8_anim
+	// Kanalek8_an
 	this.Kanalek8_anim = new lib.kanal();
 	this.Kanalek8_anim.name = "Kanalek8_anim";
 	this.Kanalek8_anim.parent = this;
@@ -2185,10 +2185,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek7_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek7_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek7_anim
+	// Kanalek7_an
 	this.Kanalek7_anim = new lib.kanal();
 	this.Kanalek7_anim.name = "Kanalek7_anim";
 	this.Kanalek7_anim.parent = this;
@@ -2199,10 +2199,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek6_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek6_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek6_anim
+	// Kanalek6_an
 	this.Kanalek6_anim = new lib.kanal();
 	this.Kanalek6_anim.name = "Kanalek6_anim";
 	this.Kanalek6_anim.parent = this;
@@ -2213,10 +2213,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek5_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek5_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek5_anim
+	// Kanalek5_an
 	this.Kanalek5_anim = new lib.kanal();
 	this.Kanalek5_anim.name = "Kanalek5_anim";
 	this.Kanalek5_anim.parent = this;
@@ -2227,10 +2227,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek4_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek4_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek4_anim
+	// Kanalek4_an
 	this.Kanalek4_anim = new lib.kanal();
 	this.Kanalek4_anim.name = "Kanalek4_anim";
 	this.Kanalek4_anim.parent = this;
@@ -2241,10 +2241,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek3_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek3_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek3_anim
+	// Kanalek3_an
 	this.Kanalek3_anim = new lib.kanal();
 	this.Kanalek3_anim.name = "Kanalek3_anim";
 	this.Kanalek3_anim.parent = this;
@@ -2255,10 +2255,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek2_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek2_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek2_anim
+	// Kanalek2_an
 	this.Kanalek2_anim = new lib.kanal();
 	this.Kanalek2_anim.name = "Kanalek2_anim";
 	this.Kanalek2_anim.parent = this;
@@ -2269,10 +2269,10 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 }).prototype = p = new cjs.MovieClip();
 
 
-(lib.Nephron_Kanalek1_anim = function(mode,startPosition,loop) {
+(lib.Nephron_Kanalek1_an = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Kanalek1_anim
+	// Kanalek1_an
 	this.Kanalek1_anim = new lib.kanal();
 	this.Kanalek1_anim.name = "Kanalek1_anim";
 	this.Kanalek1_anim.parent = this;
@@ -2389,28 +2389,17 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 
 	// timeline functions:
 	this.frame_0 = function() {
-		if(this.Kanalek7_anim.parent == undefined || this.Kanalek7_anim.parent == this)
-		this.Kanalek7_anim = this.Kanalek7_anim.Kanalek7_anim;
-		if(this.Kanalek9_anim.parent == undefined || this.Kanalek9_anim.parent == this)
-		this.Kanalek9_anim = this.Kanalek9_anim.Kanalek9_anim;
-		if(this.Kanalek12_anim.parent == undefined || this.Kanalek12_anim.parent == this)
-		this.Kanalek12_anim = this.Kanalek12_anim.Kanalek12_anim;
-		if(this.Kanalek11_anim.parent == undefined || this.Kanalek11_anim.parent == this)
-		this.Kanalek11_anim = this.Kanalek11_anim.Kanalek11_anim;
-		if(this.Kanalek8_anim.parent == undefined || this.Kanalek8_anim.parent == this)
-		this.Kanalek8_anim = this.Kanalek8_anim.Kanalek8_anim;
-		if(this.Kanalek6_anim.parent == undefined || this.Kanalek6_anim.parent == this)
-		this.Kanalek6_anim = this.Kanalek6_anim.Kanalek6_anim;
-		if(this.Kanalek1_anim.parent == undefined || this.Kanalek1_anim.parent == this)
-		this.Kanalek1_anim = this.Kanalek1_anim.Kanalek1_anim;
-		if(this.Kanalek2_anim.parent == undefined || this.Kanalek2_anim.parent == this)
-		this.Kanalek2_anim = this.Kanalek2_anim.Kanalek2_anim;
-		if(this.Kanalek3_anim.parent == undefined || this.Kanalek3_anim.parent == this)
-		this.Kanalek3_anim = this.Kanalek3_anim.Kanalek3_anim;
-		if(this.Kanalek4_anim.parent == undefined || this.Kanalek4_anim.parent == this)
-		this.Kanalek4_anim = this.Kanalek4_anim.Kanalek4_anim;
-		if(this.Kanalek5_anim.parent == undefined || this.Kanalek5_anim.parent == this)
-		this.Kanalek5_anim = this.Kanalek5_anim.Kanalek5_anim;
+		this.Kanalek7_anim = this.Kanalek7_an.Kanalek7_anim;
+		this.Kanalek9_anim = this.Kanalek9_an.Kanalek9_anim;
+		this.Kanalek12_anim = this.Kanalek12_an.Kanalek12_anim;
+		this.Kanalek11_anim = this.Kanalek11_an.Kanalek11_anim;
+		this.Kanalek8_anim = this.Kanalek8_an.Kanalek8_anim;
+		this.Kanalek6_anim = this.Kanalek6_an.Kanalek6_anim;
+		this.Kanalek1_anim = this.Kanalek1_an.Kanalek1_anim;
+		this.Kanalek2_anim = this.Kanalek2_an.Kanalek2_anim;
+		this.Kanalek3_anim = this.Kanalek3_an.Kanalek3_anim;
+		this.Kanalek4_anim = this.Kanalek4_an.Kanalek4_anim;
+		this.Kanalek5_anim = this.Kanalek5_an.Kanalek5_anim;
 		this.SipkaFialova11_anim = this.HnedeSipky.SipkaFialova11_anim;
 		this.SipkaFialova10_anim = this.HnedeSipky.SipkaFialova10_anim;
 		this.SipkaFialova9_anim = this.HnedeSipky.SipkaFialova9_anim;
@@ -2485,18 +2474,13 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 		this.Merak2Hodnota_text = this.Texty.Merak2Hodnota_text;
 		this.Merak1Hodnota_text = this.Texty.Merak1Hodnota_text;
 		this.Hodnota10_text = this.Texty.Hodnota10_text;
-		this.Merak7_anim = this.Merak8_anim.Merak7_anim;
-		if(this.Merak6_anim.parent == undefined || this.Merak6_anim.parent == this)
-		this.Merak6_anim = this.Merak6_anim.Merak6_anim;
-		if(this.Merak5_anim.parent == undefined || this.Merak5_anim.parent == this)
-		this.Merak5_anim = this.Merak5_anim.Merak5_anim;
-		this.Merak2_anim = this.Merak1_anim.Merak2_anim;
-		if(this.Merak1_anim.parent == undefined || this.Merak1_anim.parent == this)
-		this.Merak1_anim = this.Merak1_anim.Merak1_anim;
-		if(this.Merak3_anim.parent == undefined || this.Merak3_anim.parent == this)
-		this.Merak3_anim = this.Merak3_anim.Merak3_anim;
-		if(this.Merak4_anim.parent == undefined || this.Merak4_anim.parent == this)
-		this.Merak4_anim = this.Merak4_anim.Merak4_anim;
+		this.Merak7_anim = this.Merak8.Merak7_anim;
+		this.Merak6_anim = this.Merak6.Merak6_anim;
+		this.Merak5_anim = this.Merak5.Merak5_anim;
+		this.Merak2_anim = this.Merak1.Merak2_anim;
+		this.Merak1_anim = this.Merak1.Merak1_anim;
+		this.Merak3_anim = this.Merak3.Merak3_anim;
+		this.Merak4_anim = this.Merak4.Merak4_anim;
 		this.Prechod1_anim = this.Prechod1.Prechod1_anim;
 		this.Prechod4_anim = this.Prechod4.Prechod4_anim;
 		this.Prechod5_anim = this.Prechod5.Prechod5_anim;
@@ -2537,159 +2521,159 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.H2O).wait(100));
 
-	// Kanalek7_anim_obj_
-	this.Kanalek7_anim = new lib.Nephron_Kanalek7_anim();
-	this.Kanalek7_anim.name = "Kanalek7_anim";
-	this.Kanalek7_anim.parent = this;
-	this.Kanalek7_anim.setTransform(578.7,209.1,1,1,0,0,0,578.7,209.1);
-	this.Kanalek7_anim.depth = 0;
-	this.Kanalek7_anim.isAttachedToCamera = 0
-	this.Kanalek7_anim.isAttachedToMask = 0
-	this.Kanalek7_anim.layerDepth = 0
-	this.Kanalek7_anim.layerIndex = 2
-	this.Kanalek7_anim.maskLayerName = 0
+	// Kanalek7_an_obj_
+	this.Kanalek7_an = new lib.Nephron_Kanalek7_an();
+	this.Kanalek7_an.name = "Kanalek7_an";
+	this.Kanalek7_an.parent = this;
+	this.Kanalek7_an.setTransform(578.7,209.1,1,1,0,0,0,578.7,209.1);
+	this.Kanalek7_an.depth = 0;
+	this.Kanalek7_an.isAttachedToCamera = 0
+	this.Kanalek7_an.isAttachedToMask = 0
+	this.Kanalek7_an.layerDepth = 0
+	this.Kanalek7_an.layerIndex = 2
+	this.Kanalek7_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek7_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek7_an).wait(100));
 
-	// Kanalek9_anim_obj_
-	this.Kanalek9_anim = new lib.Nephron_Kanalek9_anim();
-	this.Kanalek9_anim.name = "Kanalek9_anim";
-	this.Kanalek9_anim.parent = this;
-	this.Kanalek9_anim.setTransform(579.6,115.9,1,1,0,0,0,579.6,115.9);
-	this.Kanalek9_anim.depth = 0;
-	this.Kanalek9_anim.isAttachedToCamera = 0
-	this.Kanalek9_anim.isAttachedToMask = 0
-	this.Kanalek9_anim.layerDepth = 0
-	this.Kanalek9_anim.layerIndex = 3
-	this.Kanalek9_anim.maskLayerName = 0
+	// Kanalek9_an_obj_
+	this.Kanalek9_an = new lib.Nephron_Kanalek9_an();
+	this.Kanalek9_an.name = "Kanalek9_an";
+	this.Kanalek9_an.parent = this;
+	this.Kanalek9_an.setTransform(579.6,115.9,1,1,0,0,0,579.6,115.9);
+	this.Kanalek9_an.depth = 0;
+	this.Kanalek9_an.isAttachedToCamera = 0
+	this.Kanalek9_an.isAttachedToMask = 0
+	this.Kanalek9_an.layerDepth = 0
+	this.Kanalek9_an.layerIndex = 3
+	this.Kanalek9_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek9_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek9_an).wait(100));
 
-	// Kanalek12_anim_obj_
-	this.Kanalek12_anim = new lib.Nephron_Kanalek12_anim();
-	this.Kanalek12_anim.name = "Kanalek12_anim";
-	this.Kanalek12_anim.parent = this;
-	this.Kanalek12_anim.setTransform(502.2,168.5,1,1,0,0,0,502.2,168.5);
-	this.Kanalek12_anim.depth = 0;
-	this.Kanalek12_anim.isAttachedToCamera = 0
-	this.Kanalek12_anim.isAttachedToMask = 0
-	this.Kanalek12_anim.layerDepth = 0
-	this.Kanalek12_anim.layerIndex = 4
-	this.Kanalek12_anim.maskLayerName = 0
+	// Kanalek12_an_obj_
+	this.Kanalek12_an = new lib.Nephron_Kanalek12_an();
+	this.Kanalek12_an.name = "Kanalek12_an";
+	this.Kanalek12_an.parent = this;
+	this.Kanalek12_an.setTransform(502.2,168.5,1,1,0,0,0,502.2,168.5);
+	this.Kanalek12_an.depth = 0;
+	this.Kanalek12_an.isAttachedToCamera = 0
+	this.Kanalek12_an.isAttachedToMask = 0
+	this.Kanalek12_an.layerDepth = 0
+	this.Kanalek12_an.layerIndex = 4
+	this.Kanalek12_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek12_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek12_an).wait(100));
 
-	// Kanalek11_anim_obj_
-	this.Kanalek11_anim = new lib.Nephron_Kanalek11_anim();
-	this.Kanalek11_anim.name = "Kanalek11_anim";
-	this.Kanalek11_anim.parent = this;
-	this.Kanalek11_anim.setTransform(489.9,94,1,1,0,0,0,489.9,94);
-	this.Kanalek11_anim.depth = 0;
-	this.Kanalek11_anim.isAttachedToCamera = 0
-	this.Kanalek11_anim.isAttachedToMask = 0
-	this.Kanalek11_anim.layerDepth = 0
-	this.Kanalek11_anim.layerIndex = 5
-	this.Kanalek11_anim.maskLayerName = 0
+	// Kanalek11_an_obj_
+	this.Kanalek11_an = new lib.Nephron_Kanalek11_an();
+	this.Kanalek11_an.name = "Kanalek11_an";
+	this.Kanalek11_an.parent = this;
+	this.Kanalek11_an.setTransform(489.9,94,1,1,0,0,0,489.9,94);
+	this.Kanalek11_an.depth = 0;
+	this.Kanalek11_an.isAttachedToCamera = 0
+	this.Kanalek11_an.isAttachedToMask = 0
+	this.Kanalek11_an.layerDepth = 0
+	this.Kanalek11_an.layerIndex = 5
+	this.Kanalek11_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek11_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek11_an).wait(100));
 
-	// Kanalek8_anim_obj_
-	this.Kanalek8_anim = new lib.Nephron_Kanalek8_anim();
-	this.Kanalek8_anim.name = "Kanalek8_anim";
-	this.Kanalek8_anim.parent = this;
-	this.Kanalek8_anim.setTransform(608.3,190.4,1,1,0,0,0,608.3,190.4);
-	this.Kanalek8_anim.depth = 0;
-	this.Kanalek8_anim.isAttachedToCamera = 0
-	this.Kanalek8_anim.isAttachedToMask = 0
-	this.Kanalek8_anim.layerDepth = 0
-	this.Kanalek8_anim.layerIndex = 6
-	this.Kanalek8_anim.maskLayerName = 0
+	// Kanalek8_an_obj_
+	this.Kanalek8_an = new lib.Nephron_Kanalek8_an();
+	this.Kanalek8_an.name = "Kanalek8_an";
+	this.Kanalek8_an.parent = this;
+	this.Kanalek8_an.setTransform(608.3,190.4,1,1,0,0,0,608.3,190.4);
+	this.Kanalek8_an.depth = 0;
+	this.Kanalek8_an.isAttachedToCamera = 0
+	this.Kanalek8_an.isAttachedToMask = 0
+	this.Kanalek8_an.layerDepth = 0
+	this.Kanalek8_an.layerIndex = 6
+	this.Kanalek8_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek8_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek8_an).wait(100));
 
-	// Kanalek6_anim_obj_
-	this.Kanalek6_anim = new lib.Nephron_Kanalek6_anim();
-	this.Kanalek6_anim.name = "Kanalek6_anim";
-	this.Kanalek6_anim.parent = this;
-	this.Kanalek6_anim.setTransform(612.3,280.3,1,1,0,0,0,612.3,280.3);
-	this.Kanalek6_anim.depth = 0;
-	this.Kanalek6_anim.isAttachedToCamera = 0
-	this.Kanalek6_anim.isAttachedToMask = 0
-	this.Kanalek6_anim.layerDepth = 0
-	this.Kanalek6_anim.layerIndex = 7
-	this.Kanalek6_anim.maskLayerName = 0
+	// Kanalek6_an_obj_
+	this.Kanalek6_an = new lib.Nephron_Kanalek6_an();
+	this.Kanalek6_an.name = "Kanalek6_an";
+	this.Kanalek6_an.parent = this;
+	this.Kanalek6_an.setTransform(612.3,280.3,1,1,0,0,0,612.3,280.3);
+	this.Kanalek6_an.depth = 0;
+	this.Kanalek6_an.isAttachedToCamera = 0
+	this.Kanalek6_an.isAttachedToMask = 0
+	this.Kanalek6_an.layerDepth = 0
+	this.Kanalek6_an.layerIndex = 7
+	this.Kanalek6_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek6_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek6_an).wait(100));
 
-	// Kanalek1_anim_obj_
-	this.Kanalek1_anim = new lib.Nephron_Kanalek1_anim();
-	this.Kanalek1_anim.name = "Kanalek1_anim";
-	this.Kanalek1_anim.parent = this;
-	this.Kanalek1_anim.setTransform(626.4,765.7,1,1,0,0,0,626.4,765.7);
-	this.Kanalek1_anim.depth = 0;
-	this.Kanalek1_anim.isAttachedToCamera = 0
-	this.Kanalek1_anim.isAttachedToMask = 0
-	this.Kanalek1_anim.layerDepth = 0
-	this.Kanalek1_anim.layerIndex = 8
-	this.Kanalek1_anim.maskLayerName = 0
+	// Kanalek1_an_obj_
+	this.Kanalek1_an = new lib.Nephron_Kanalek1_an();
+	this.Kanalek1_an.name = "Kanalek1_an";
+	this.Kanalek1_an.parent = this;
+	this.Kanalek1_an.setTransform(626.4,765.7,1,1,0,0,0,626.4,765.7);
+	this.Kanalek1_an.depth = 0;
+	this.Kanalek1_an.isAttachedToCamera = 0
+	this.Kanalek1_an.isAttachedToMask = 0
+	this.Kanalek1_an.layerDepth = 0
+	this.Kanalek1_an.layerIndex = 8
+	this.Kanalek1_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek1_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek1_an).wait(100));
 
-	// Kanalek2_anim_obj_
-	this.Kanalek2_anim = new lib.Nephron_Kanalek2_anim();
-	this.Kanalek2_anim.name = "Kanalek2_anim";
-	this.Kanalek2_anim.parent = this;
-	this.Kanalek2_anim.setTransform(576.9,689.6,1,1,0,0,0,576.9,689.6);
-	this.Kanalek2_anim.depth = 0;
-	this.Kanalek2_anim.isAttachedToCamera = 0
-	this.Kanalek2_anim.isAttachedToMask = 0
-	this.Kanalek2_anim.layerDepth = 0
-	this.Kanalek2_anim.layerIndex = 9
-	this.Kanalek2_anim.maskLayerName = 0
+	// Kanalek2_an_obj_
+	this.Kanalek2_an = new lib.Nephron_Kanalek2_an();
+	this.Kanalek2_an.name = "Kanalek2_an";
+	this.Kanalek2_an.parent = this;
+	this.Kanalek2_an.setTransform(576.9,689.6,1,1,0,0,0,576.9,689.6);
+	this.Kanalek2_an.depth = 0;
+	this.Kanalek2_an.isAttachedToCamera = 0
+	this.Kanalek2_an.isAttachedToMask = 0
+	this.Kanalek2_an.layerDepth = 0
+	this.Kanalek2_an.layerIndex = 9
+	this.Kanalek2_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek2_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek2_an).wait(100));
 
-	// Kanalek3_anim_obj_
-	this.Kanalek3_anim = new lib.Nephron_Kanalek3_anim();
-	this.Kanalek3_anim.name = "Kanalek3_anim";
-	this.Kanalek3_anim.parent = this;
-	this.Kanalek3_anim.setTransform(622.4,615.3,1,1,0,0,0,622.4,615.3);
-	this.Kanalek3_anim.depth = 0;
-	this.Kanalek3_anim.isAttachedToCamera = 0
-	this.Kanalek3_anim.isAttachedToMask = 0
-	this.Kanalek3_anim.layerDepth = 0
-	this.Kanalek3_anim.layerIndex = 10
-	this.Kanalek3_anim.maskLayerName = 0
+	// Kanalek3_an_obj_
+	this.Kanalek3_an = new lib.Nephron_Kanalek3_an();
+	this.Kanalek3_an.name = "Kanalek3_an";
+	this.Kanalek3_an.parent = this;
+	this.Kanalek3_an.setTransform(622.4,615.3,1,1,0,0,0,622.4,615.3);
+	this.Kanalek3_an.depth = 0;
+	this.Kanalek3_an.isAttachedToCamera = 0
+	this.Kanalek3_an.isAttachedToMask = 0
+	this.Kanalek3_an.layerDepth = 0
+	this.Kanalek3_an.layerIndex = 10
+	this.Kanalek3_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek3_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek3_an).wait(100));
 
-	// Kanalek4_anim_obj_
-	this.Kanalek4_anim = new lib.Nephron_Kanalek4_anim();
-	this.Kanalek4_anim.name = "Kanalek4_anim";
-	this.Kanalek4_anim.parent = this;
-	this.Kanalek4_anim.setTransform(576.9,545.2,1,1,0,0,0,576.9,545.2);
-	this.Kanalek4_anim.depth = 0;
-	this.Kanalek4_anim.isAttachedToCamera = 0
-	this.Kanalek4_anim.isAttachedToMask = 0
-	this.Kanalek4_anim.layerDepth = 0
-	this.Kanalek4_anim.layerIndex = 11
-	this.Kanalek4_anim.maskLayerName = 0
+	// Kanalek4_an_obj_
+	this.Kanalek4_an = new lib.Nephron_Kanalek4_an();
+	this.Kanalek4_an.name = "Kanalek4_an";
+	this.Kanalek4_an.parent = this;
+	this.Kanalek4_an.setTransform(576.9,545.2,1,1,0,0,0,576.9,545.2);
+	this.Kanalek4_an.depth = 0;
+	this.Kanalek4_an.isAttachedToCamera = 0
+	this.Kanalek4_an.isAttachedToMask = 0
+	this.Kanalek4_an.layerDepth = 0
+	this.Kanalek4_an.layerIndex = 11
+	this.Kanalek4_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek4_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek4_an).wait(100));
 
-	// Kanalek5_anim_obj_
-	this.Kanalek5_anim = new lib.Nephron_Kanalek5_anim();
-	this.Kanalek5_anim.name = "Kanalek5_anim";
-	this.Kanalek5_anim.parent = this;
-	this.Kanalek5_anim.setTransform(618.9,463,1,1,0,0,0,618.9,463);
-	this.Kanalek5_anim.depth = 0;
-	this.Kanalek5_anim.isAttachedToCamera = 0
-	this.Kanalek5_anim.isAttachedToMask = 0
-	this.Kanalek5_anim.layerDepth = 0
-	this.Kanalek5_anim.layerIndex = 12
-	this.Kanalek5_anim.maskLayerName = 0
+	// Kanalek5_an_obj_
+	this.Kanalek5_an = new lib.Nephron_Kanalek5_an();
+	this.Kanalek5_an.name = "Kanalek5_an";
+	this.Kanalek5_an.parent = this;
+	this.Kanalek5_an.setTransform(618.9,463,1,1,0,0,0,618.9,463);
+	this.Kanalek5_an.depth = 0;
+	this.Kanalek5_an.isAttachedToCamera = 0
+	this.Kanalek5_an.isAttachedToMask = 0
+	this.Kanalek5_an.layerDepth = 0
+	this.Kanalek5_an.layerIndex = 12
+	this.Kanalek5_an.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Kanalek5_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek5_an).wait(100));
 
 	// HnedeSipky_obj_
 	this.HnedeSipky = new lib.Nephron_HnedeSipky();
@@ -2789,89 +2773,89 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.Vrstva_3).wait(100));
 
-	// Merak8_anim_obj_
-	this.Merak8_anim = new lib.Nephron_Merak8_anim();
-	this.Merak8_anim.name = "Merak8_anim";
-	this.Merak8_anim.parent = this;
-	this.Merak8_anim.setTransform(676.1,891.6,1,1,0,0,0,676.1,891.6);
-	this.Merak8_anim.depth = 0;
-	this.Merak8_anim.isAttachedToCamera = 0
-	this.Merak8_anim.isAttachedToMask = 0
-	this.Merak8_anim.layerDepth = 0
-	this.Merak8_anim.layerIndex = 20
-	this.Merak8_anim.maskLayerName = 0
+	// Merak8_obj_
+	this.Merak8 = new lib.Nephron_Merak8();
+	this.Merak8.name = "Merak8";
+	this.Merak8.parent = this;
+	this.Merak8.setTransform(676.1,891.6,1,1,0,0,0,676.1,891.6);
+	this.Merak8.depth = 0;
+	this.Merak8.isAttachedToCamera = 0
+	this.Merak8.isAttachedToMask = 0
+	this.Merak8.layerDepth = 0
+	this.Merak8.layerIndex = 20
+	this.Merak8.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Merak8_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Merak8).wait(100));
 
-	// Merak6_anim_obj_
-	this.Merak6_anim = new lib.Nephron_Merak6_anim();
-	this.Merak6_anim.name = "Merak6_anim";
-	this.Merak6_anim.parent = this;
-	this.Merak6_anim.setTransform(676.1,824.4,1,1,0,0,0,676.1,824.4);
-	this.Merak6_anim.depth = 0;
-	this.Merak6_anim.isAttachedToCamera = 0
-	this.Merak6_anim.isAttachedToMask = 0
-	this.Merak6_anim.layerDepth = 0
-	this.Merak6_anim.layerIndex = 21
-	this.Merak6_anim.maskLayerName = 0
+	// Merak6_obj_
+	this.Merak6 = new lib.Nephron_Merak6();
+	this.Merak6.name = "Merak6";
+	this.Merak6.parent = this;
+	this.Merak6.setTransform(676.1,824.4,1,1,0,0,0,676.1,824.4);
+	this.Merak6.depth = 0;
+	this.Merak6.isAttachedToCamera = 0
+	this.Merak6.isAttachedToMask = 0
+	this.Merak6.layerDepth = 0
+	this.Merak6.layerIndex = 21
+	this.Merak6.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Merak6_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Merak6).wait(100));
 
-	// Merak5_anim_obj_
-	this.Merak5_anim = new lib.Nephron_Merak5_anim();
-	this.Merak5_anim.name = "Merak5_anim";
-	this.Merak5_anim.parent = this;
-	this.Merak5_anim.setTransform(381.2,890.6,1,1,0,0,0,381.2,890.6);
-	this.Merak5_anim.depth = 0;
-	this.Merak5_anim.isAttachedToCamera = 0
-	this.Merak5_anim.isAttachedToMask = 0
-	this.Merak5_anim.layerDepth = 0
-	this.Merak5_anim.layerIndex = 22
-	this.Merak5_anim.maskLayerName = 0
+	// Merak5_obj_
+	this.Merak5 = new lib.Nephron_Merak5();
+	this.Merak5.name = "Merak5";
+	this.Merak5.parent = this;
+	this.Merak5.setTransform(381.2,890.6,1,1,0,0,0,381.2,890.6);
+	this.Merak5.depth = 0;
+	this.Merak5.isAttachedToCamera = 0
+	this.Merak5.isAttachedToMask = 0
+	this.Merak5.layerDepth = 0
+	this.Merak5.layerIndex = 22
+	this.Merak5.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Merak5_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Merak5).wait(100));
 
-	// Merak1_anim_obj_
-	this.Merak1_anim = new lib.Nephron_Merak1_anim();
-	this.Merak1_anim.name = "Merak1_anim";
-	this.Merak1_anim.parent = this;
-	this.Merak1_anim.setTransform(524.3,118.1,1,1,0,0,0,524.3,118.1);
-	this.Merak1_anim.depth = 0;
-	this.Merak1_anim.isAttachedToCamera = 0
-	this.Merak1_anim.isAttachedToMask = 0
-	this.Merak1_anim.layerDepth = 0
-	this.Merak1_anim.layerIndex = 23
-	this.Merak1_anim.maskLayerName = 0
+	// Merak1_obj_
+	this.Merak1 = new lib.Nephron_Merak1();
+	this.Merak1.name = "Merak1";
+	this.Merak1.parent = this;
+	this.Merak1.setTransform(524.3,118.1,1,1,0,0,0,524.3,118.1);
+	this.Merak1.depth = 0;
+	this.Merak1.isAttachedToCamera = 0
+	this.Merak1.isAttachedToMask = 0
+	this.Merak1.layerDepth = 0
+	this.Merak1.layerIndex = 23
+	this.Merak1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Merak1_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Merak1).wait(100));
 
-	// Merak3_anim_obj_
-	this.Merak3_anim = new lib.Nephron_Merak3_anim();
-	this.Merak3_anim.name = "Merak3_anim";
-	this.Merak3_anim.parent = this;
-	this.Merak3_anim.setTransform(452.9,422.3,1,1,0,0,0,452.9,422.3);
-	this.Merak3_anim.depth = 0;
-	this.Merak3_anim.isAttachedToCamera = 0
-	this.Merak3_anim.isAttachedToMask = 0
-	this.Merak3_anim.layerDepth = 0
-	this.Merak3_anim.layerIndex = 24
-	this.Merak3_anim.maskLayerName = 0
+	// Merak3_obj_
+	this.Merak3 = new lib.Nephron_Merak3();
+	this.Merak3.name = "Merak3";
+	this.Merak3.parent = this;
+	this.Merak3.setTransform(452.9,422.3,1,1,0,0,0,452.9,422.3);
+	this.Merak3.depth = 0;
+	this.Merak3.isAttachedToCamera = 0
+	this.Merak3.isAttachedToMask = 0
+	this.Merak3.layerDepth = 0
+	this.Merak3.layerIndex = 24
+	this.Merak3.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Merak3_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Merak3).wait(100));
 
-	// Merak4_anim_obj_
-	this.Merak4_anim = new lib.Nephron_Merak4_anim();
-	this.Merak4_anim.name = "Merak4_anim";
-	this.Merak4_anim.parent = this;
-	this.Merak4_anim.setTransform(380.5,548.3,1,1,0,0,0,380.5,548.3);
-	this.Merak4_anim.depth = 0;
-	this.Merak4_anim.isAttachedToCamera = 0
-	this.Merak4_anim.isAttachedToMask = 0
-	this.Merak4_anim.layerDepth = 0
-	this.Merak4_anim.layerIndex = 25
-	this.Merak4_anim.maskLayerName = 0
+	// Merak4_obj_
+	this.Merak4 = new lib.Nephron_Merak4();
+	this.Merak4.name = "Merak4";
+	this.Merak4.parent = this;
+	this.Merak4.setTransform(380.5,548.3,1,1,0,0,0,380.5,548.3);
+	this.Merak4.depth = 0;
+	this.Merak4.isAttachedToCamera = 0
+	this.Merak4.isAttachedToMask = 0
+	this.Merak4.layerDepth = 0
+	this.Merak4.layerIndex = 25
+	this.Merak4.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Merak4_anim).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.Merak4).wait(100));
 
 	// Prechod2_obj_
 	this.Prechod2 = new lib.Nephron_Prechod2();
