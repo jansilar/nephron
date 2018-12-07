@@ -34,14 +34,20 @@ model NephronModel
   Modelica.Blocks.Math.Product Na annotation(
     Placement(visible = true, transformation(origin = {20, -52}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Modelica.Blocks.Math.Product Na_tot annotation(
-    Placement(visible = true, transformation(origin = {-46, -58}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Modelica.Blocks.Sources.Constant NNeph(k = nephronPar.NNeph)  annotation(
-    Placement(visible = true, transformation(origin = {20, -82}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {20, -78}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+  Modelica.Blocks.Math.Product Na_g_day annotation(
+    Placement(visible = true, transformation(origin = {-26, -84}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+  Modelica.Blocks.Sources.Constant Na_molar_mass(k = 22.989769280e-3)  annotation(
+    Placement(visible = true, transformation(origin = {66, -90}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
 equation
-  connect(Na_tot.u2, NNeph.y) annotation(
-    Line(points = {{-34, -64}, {-12, -64}, {-12, -82}, {8, -82}, {8, -82}, {8, -82}}, color = {0, 0, 127}));
-  connect(Na_tot.u1, Na.y) annotation(
-    Line(points = {{-34, -52}, {8, -52}}, color = {0, 0, 127}));
+  connect(Na_g_day.u2, Na_molar_mass.y) annotation(
+    Line(points = {{-14, -90}, {55, -90}}, color = {0, 0, 127}));
+  connect(Na_g_day.u1, Na_tot.y) annotation(
+    Line(points = {{-14, -78}, {10, -78}, {10, -78}, {10, -78}}, color = {0, 0, 127}));
+  connect(cdMeasure.volumeFlowRateTot, Na_tot.u2) annotation(
+    Line(points = {{58, -36}, {50, -36}, {50, -84}, {32, -84}}, color = {0, 0, 127}));
+  connect(cdMeasure.osmolarity, Na_tot.u1) annotation(
+    Line(points = {{58, -20}, {42, -20}, {42, -72}, {32, -72}}, color = {0, 0, 127}));
   connect(cdMeasure.volumeFlowRate, Na.u2) annotation(
     Line(points = {{58, -28}, {46, -28}, {46, -58}, {32, -58}}, color = {0, 0, 127}));
   connect(cdMeasure.osmolarity, Na.u1) annotation(
