@@ -2993,7 +2993,7 @@ p.nominalBounds = new cjs.Rectangle(190.5,53.4,522.5,871.9);
 	// Nefron
 	this.instance = new lib.Nephron();
 	this.instance.parent = this;
-	this.instance.setTransform(341.55,497.85,1.144,1.144,0,0,0,435.6,487.1);
+	this.instance.setTransform(280.4,496.2,1.144,1.144,0,0,0,435.6,487.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -3037,7 +3037,7 @@ p.nominalBounds = new cjs.Rectangle(190.5,53.4,522.5,871.9);
 	this.Nefron = new lib.Scéna_1_Nefron();
 	this.Nefron.name = "Nefron";
 	this.Nefron.parent = this;
-	this.Nefron.setTransform(360,500.4,1,1,0,0,0,360,500.4);
+	this.Nefron.setTransform(298.9,498.8,1,1,0,0,0,298.9,498.8);
 	this.Nefron.depth = 0;
 	this.Nefron.isAttachedToCamera = 0
 	this.Nefron.isAttachedToMask = 0
@@ -3048,12 +3048,12 @@ p.nominalBounds = new cjs.Rectangle(190.5,53.4,522.5,871.9);
 	this.timeline.addTween(cjs.Tween.get(this.Nefron).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(461.2,501.7,197.7,497.40000000000003);
+p.nominalBounds = new cjs.Rectangle(298.5,498.5,299.20000000000005,499);
 // library properties:
 lib.properties = {
 	id: '0D95300FA49E2C43822BDF4862FD48FC',
-	width: 800,
-	height: 1000,
+	width: 597,
+	height: 997,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
