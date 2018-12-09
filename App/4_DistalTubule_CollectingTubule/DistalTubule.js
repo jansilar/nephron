@@ -850,12 +850,21 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra_anim.parent = this;
 	this.SipkaModra_anim.setTransform(83.9,107.4,0.1222,0.1222,-145.8794,0,0,-428.8,-10);
 
-	this.SipkaModra_anim_1 = new lib.SipkaModra();
-	this.SipkaModra_anim_1.name = "SipkaModra_anim_1";
-	this.SipkaModra_anim_1.parent = this;
-	this.SipkaModra_anim_1.setTransform(91.55,202.25,0.1222,0.1222,-145.8794,0,0,-428.8,-10);
+	this.timeline.addTween(cjs.Tween.get(this.SipkaModra_anim).wait(100));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.SipkaModra_anim_1},{t:this.SipkaModra_anim}]}).wait(100));
+}).prototype = p = new cjs.MovieClip();
+
+
+(lib.DistalTubule_SipkaModra5 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// SipkaModra5
+	this.SipkaModra_anim = new lib.SipkaModra();
+	this.SipkaModra_anim.name = "SipkaModra_anim";
+	this.SipkaModra_anim.parent = this;
+	this.SipkaModra_anim.setTransform(91.55,202.3,0.1222,0.1222,-145.8794,0,0,-428.8,-10);
+
+	this.timeline.addTween(cjs.Tween.get(this.SipkaModra_anim).wait(100));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -986,12 +995,21 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek_anim.parent = this;
 	this.Kanalek_anim.setTransform(105.15,120.75,0.378,0.378,-56.7263,0,0,30.6,36);
 
-	this.Kanalek_anim_1 = new lib.kanal();
-	this.Kanalek_anim_1.name = "Kanalek_anim_1";
-	this.Kanalek_anim_1.parent = this;
-	this.Kanalek_anim_1.setTransform(112.8,215.6,0.378,0.378,-56.7263,0,0,30.6,36);
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek_anim).wait(100));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Kanalek_anim_1},{t:this.Kanalek_anim}]}).wait(100));
+}).prototype = p = new cjs.MovieClip();
+
+
+(lib.DistalTubule_Kanalek6 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Kanalek6
+	this.Kanalek_anim = new lib.kanal();
+	this.Kanalek_anim.name = "Kanalek_anim";
+	this.Kanalek_anim.parent = this;
+	this.Kanalek_anim.setTransform(113.1,217.35,0.378,0.378,-56.7263,0,0,30.6,36);
+
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek_anim).wait(100));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -1127,7 +1145,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 		this.Hodnota7_text = this.Cisla.Hodnota7_text;
 		this.Kanalek_anim = this.Kanalek8.Kanalek_anim;
 		this.Kanalek_anim = this.Kanalek7.Kanalek_anim;
-		this.Kanalek_anim = this.Kanalek7.Kanalek_anim;
+		this.Kanalek_anim = this.Kanalek6.Kanalek_anim;
 		this.Kanalek_anim = this.Kanalek5.Kanalek_anim;
 		this.Kanalek_anim = this.Kanalek4.Kanalek_anim;
 		this.Kanalek_anim = this.Kanalek3.Kanalek_anim;
@@ -1137,7 +1155,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 		this.SipkaModra_anim = this.SipkaModra8.SipkaModra_anim;
 		this.SipkaModra_anim = this.SipkaModra7.SipkaModra_anim;
 		this.SipkaModra_anim = this.SipkaModra6.SipkaModra_anim;
-		this.SipkaModra_anim = this.SipkaModra6.SipkaModra_anim;
+		this.SipkaModra_anim = this.SipkaModra5.SipkaModra_anim;
 		this.SipkaModra_anim = this.SipkaModra4.SipkaModra_anim;
 		this.SipkaModra_anim = this.SipkaModra3.SipkaModra_anim;
 		this.SipkaModra_anim = this.SipkaModra2.SipkaModra_anim;
@@ -1227,7 +1245,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek7 = new lib.DistalTubule_Kanalek7();
 	this.Kanalek7.name = "Kanalek7";
 	this.Kanalek7.parent = this;
-	this.Kanalek7.setTransform(108.9,168.2,1,1,0,0,0,108.9,168.2);
+	this.Kanalek7.setTransform(105,120.7,1,1,0,0,0,105,120.7);
 	this.Kanalek7.depth = 0;
 	this.Kanalek7.isAttachedToCamera = 0
 	this.Kanalek7.isAttachedToMask = 0
@@ -1236,6 +1254,20 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek7.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Kanalek7).wait(100));
+
+	// Kanalek6_obj_
+	this.Kanalek6 = new lib.DistalTubule_Kanalek6();
+	this.Kanalek6.name = "Kanalek6";
+	this.Kanalek6.parent = this;
+	this.Kanalek6.setTransform(113,217.3,1,1,0,0,0,113,217.3);
+	this.Kanalek6.depth = 0;
+	this.Kanalek6.isAttachedToCamera = 0
+	this.Kanalek6.isAttachedToMask = 0
+	this.Kanalek6.layerDepth = 0
+	this.Kanalek6.layerIndex = 6
+	this.Kanalek6.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.Kanalek6).wait(100));
 
 	// Kanalek5_obj_
 	this.Kanalek5 = new lib.DistalTubule_Kanalek5();
@@ -1246,7 +1278,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek5.isAttachedToCamera = 0
 	this.Kanalek5.isAttachedToMask = 0
 	this.Kanalek5.layerDepth = 0
-	this.Kanalek5.layerIndex = 6
+	this.Kanalek5.layerIndex = 7
 	this.Kanalek5.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Kanalek5).wait(100));
@@ -1260,7 +1292,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek4.isAttachedToCamera = 0
 	this.Kanalek4.isAttachedToMask = 0
 	this.Kanalek4.layerDepth = 0
-	this.Kanalek4.layerIndex = 7
+	this.Kanalek4.layerIndex = 8
 	this.Kanalek4.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Kanalek4).wait(100));
@@ -1274,7 +1306,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek3.isAttachedToCamera = 0
 	this.Kanalek3.isAttachedToMask = 0
 	this.Kanalek3.layerDepth = 0
-	this.Kanalek3.layerIndex = 8
+	this.Kanalek3.layerIndex = 9
 	this.Kanalek3.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Kanalek3).wait(100));
@@ -1288,7 +1320,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek2.isAttachedToCamera = 0
 	this.Kanalek2.isAttachedToMask = 0
 	this.Kanalek2.layerDepth = 0
-	this.Kanalek2.layerIndex = 9
+	this.Kanalek2.layerIndex = 10
 	this.Kanalek2.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Kanalek2).wait(100));
@@ -1302,7 +1334,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Kanalek1.isAttachedToCamera = 0
 	this.Kanalek1.isAttachedToMask = 0
 	this.Kanalek1.layerDepth = 0
-	this.Kanalek1.layerIndex = 10
+	this.Kanalek1.layerIndex = 11
 	this.Kanalek1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Kanalek1).wait(100));
@@ -1316,7 +1348,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Prechod2.isAttachedToCamera = 0
 	this.Prechod2.isAttachedToMask = 0
 	this.Prechod2.layerDepth = 0
-	this.Prechod2.layerIndex = 11
+	this.Prechod2.layerIndex = 12
 	this.Prechod2.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Prechod2).wait(100));
@@ -1330,7 +1362,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.H2O.isAttachedToCamera = 0
 	this.H2O.isAttachedToMask = 0
 	this.H2O.layerDepth = 0
-	this.H2O.layerIndex = 12
+	this.H2O.layerIndex = 13
 	this.H2O.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.H2O).wait(100));
@@ -1344,7 +1376,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra8.isAttachedToCamera = 0
 	this.SipkaModra8.isAttachedToMask = 0
 	this.SipkaModra8.layerDepth = 0
-	this.SipkaModra8.layerIndex = 13
+	this.SipkaModra8.layerIndex = 14
 	this.SipkaModra8.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra8).wait(100));
@@ -1358,7 +1390,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra7.isAttachedToCamera = 0
 	this.SipkaModra7.isAttachedToMask = 0
 	this.SipkaModra7.layerDepth = 0
-	this.SipkaModra7.layerIndex = 14
+	this.SipkaModra7.layerIndex = 15
 	this.SipkaModra7.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra7).wait(100));
@@ -1367,15 +1399,29 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra6 = new lib.DistalTubule_SipkaModra6();
 	this.SipkaModra6.name = "SipkaModra6";
 	this.SipkaModra6.parent = this;
-	this.SipkaModra6.setTransform(87.7,154.8,1,1,0,0,0,87.7,154.8);
+	this.SipkaModra6.setTransform(83.9,107.5,1,1,0,0,0,83.9,107.5);
 	this.SipkaModra6.depth = 0;
 	this.SipkaModra6.isAttachedToCamera = 0
 	this.SipkaModra6.isAttachedToMask = 0
 	this.SipkaModra6.layerDepth = 0
-	this.SipkaModra6.layerIndex = 15
+	this.SipkaModra6.layerIndex = 16
 	this.SipkaModra6.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra6).wait(100));
+
+	// SipkaModra5_obj_
+	this.SipkaModra5 = new lib.DistalTubule_SipkaModra5();
+	this.SipkaModra5.name = "SipkaModra5";
+	this.SipkaModra5.parent = this;
+	this.SipkaModra5.setTransform(91.5,202.3,1,1,0,0,0,91.5,202.3);
+	this.SipkaModra5.depth = 0;
+	this.SipkaModra5.isAttachedToCamera = 0
+	this.SipkaModra5.isAttachedToMask = 0
+	this.SipkaModra5.layerDepth = 0
+	this.SipkaModra5.layerIndex = 17
+	this.SipkaModra5.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.SipkaModra5).wait(100));
 
 	// SipkaModra4_obj_
 	this.SipkaModra4 = new lib.DistalTubule_SipkaModra4();
@@ -1386,7 +1432,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra4.isAttachedToCamera = 0
 	this.SipkaModra4.isAttachedToMask = 0
 	this.SipkaModra4.layerDepth = 0
-	this.SipkaModra4.layerIndex = 16
+	this.SipkaModra4.layerIndex = 18
 	this.SipkaModra4.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra4).wait(100));
@@ -1400,7 +1446,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra3.isAttachedToCamera = 0
 	this.SipkaModra3.isAttachedToMask = 0
 	this.SipkaModra3.layerDepth = 0
-	this.SipkaModra3.layerIndex = 17
+	this.SipkaModra3.layerIndex = 19
 	this.SipkaModra3.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra3).wait(100));
@@ -1414,7 +1460,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra2.isAttachedToCamera = 0
 	this.SipkaModra2.isAttachedToMask = 0
 	this.SipkaModra2.layerDepth = 0
-	this.SipkaModra2.layerIndex = 18
+	this.SipkaModra2.layerIndex = 20
 	this.SipkaModra2.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra2).wait(100));
@@ -1428,7 +1474,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaModra1.isAttachedToCamera = 0
 	this.SipkaModra1.isAttachedToMask = 0
 	this.SipkaModra1.layerDepth = 0
-	this.SipkaModra1.layerIndex = 19
+	this.SipkaModra1.layerIndex = 21
 	this.SipkaModra1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaModra1).wait(100));
@@ -1442,7 +1488,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Prechod1.isAttachedToCamera = 0
 	this.Prechod1.isAttachedToMask = 0
 	this.Prechod1.layerDepth = 0
-	this.Prechod1.layerIndex = 20
+	this.Prechod1.layerIndex = 22
 	this.Prechod1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Prechod1).wait(100));
@@ -1456,7 +1502,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.ZlutyPodklad.isAttachedToCamera = 0
 	this.ZlutyPodklad.isAttachedToMask = 0
 	this.ZlutyPodklad.layerDepth = 0
-	this.ZlutyPodklad.layerIndex = 21
+	this.ZlutyPodklad.layerIndex = 23
 	this.ZlutyPodklad.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.ZlutyPodklad).wait(100));
@@ -1470,7 +1516,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.ZlutyPodkladHorni.isAttachedToCamera = 0
 	this.ZlutyPodkladHorni.isAttachedToMask = 0
 	this.ZlutyPodkladHorni.layerDepth = 0
-	this.ZlutyPodkladHorni.layerIndex = 22
+	this.ZlutyPodkladHorni.layerIndex = 24
 	this.ZlutyPodkladHorni.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.ZlutyPodkladHorni).wait(100));
@@ -1484,7 +1530,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.SipkaCervena.isAttachedToCamera = 0
 	this.SipkaCervena.isAttachedToMask = 0
 	this.SipkaCervena.layerDepth = 0
-	this.SipkaCervena.layerIndex = 23
+	this.SipkaCervena.layerIndex = 25
 	this.SipkaCervena.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.SipkaCervena).wait(100));
@@ -1498,7 +1544,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Pozadi.isAttachedToCamera = 0
 	this.Pozadi.isAttachedToMask = 0
 	this.Pozadi.layerDepth = 0
-	this.Pozadi.layerIndex = 24
+	this.Pozadi.layerIndex = 26
 	this.Pozadi.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Pozadi).wait(100));
@@ -1512,7 +1558,7 @@ p.nominalBounds = new cjs.Rectangle(102,89.4,164.89999999999998,125.1);
 	this.Merak2.isAttachedToCamera = 0
 	this.Merak2.isAttachedToMask = 0
 	this.Merak2.layerDepth = 0
-	this.Merak2.layerIndex = 25
+	this.Merak2.layerIndex = 27
 	this.Merak2.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Merak2).wait(100));
@@ -1528,7 +1574,7 @@ p.nominalBounds = new cjs.Rectangle(-31.1,0,410.70000000000005,767);
 	this.DistalTubule_anim = new lib.DistalTubule_1();
 	this.DistalTubule_anim.name = "DistalTubule_anim";
 	this.DistalTubule_anim.parent = this;
-	this.DistalTubule_anim.setTransform(254.25,461.4,1.213,1.213,0,0,0,172.5,383.5);
+	this.DistalTubule_anim.setTransform(247.05,465.2,1.213,1.213,0,0,0,172.5,383.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.DistalTubule_anim).wait(1));
 
@@ -1580,7 +1626,7 @@ p.nominalBounds = new cjs.Rectangle(-31.1,0,410.70000000000005,767);
 	this.Vrstva_1 = new lib.Scéna_1_Vrstva_1();
 	this.Vrstva_1.name = "Vrstva_1";
 	this.Vrstva_1.parent = this;
-	this.Vrstva_1.setTransform(256.3,465.8,1,1,0,0,0,256.3,465.8);
+	this.Vrstva_1.setTransform(249.1,469.6,1,1,0,0,0,249.1,469.6);
 	this.Vrstva_1.depth = 0;
 	this.Vrstva_1.isAttachedToCamera = 0
 	this.Vrstva_1.isAttachedToMask = 0
@@ -1591,12 +1637,12 @@ p.nominalBounds = new cjs.Rectangle(-31.1,0,410.70000000000005,767);
 	this.timeline.addTween(cjs.Tween.get(this.Vrstva_1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(266.2,463.2,239.2,463.3);
+p.nominalBounds = new cjs.Rectangle(249,465,249.2,465.29999999999995);
 // library properties:
 lib.properties = {
 	id: '6C87BEDC0ACBE74CA8644847C0CEF367',
-	width: 518,
-	height: 934,
+	width: 498,
+	height: 930,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
