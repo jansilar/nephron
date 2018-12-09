@@ -1922,11 +1922,11 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 	this.shape_13.graphics.f("#E74130").s().p("Ahdg+IC7gDIhcCDg");
 	this.shape_13.setTransform(600.6,913.125);
 
-	this.Hodnota10_text_1 = new cjs.Text("900", "9px 'Arial'");
-	this.Hodnota10_text_1.name = "Hodnota10_text_1";
-	this.Hodnota10_text_1.lineHeight = 12;
-	this.Hodnota10_text_1.parent = this;
-	this.Hodnota10_text_1.setTransform(507,796.8);
+	this.Hodnota100_text = new cjs.Text("900", "9px 'Arial'");
+	this.Hodnota100_text.name = "Hodnota100_text";
+	this.Hodnota100_text.lineHeight = 12;
+	this.Hodnota100_text.parent = this;
+	this.Hodnota100_text.setTransform(507,796.8);
 
 	this.Hodnota9_text = new cjs.Text("600", "11px 'Arial'");
 	this.Hodnota9_text.name = "Hodnota9_text";
@@ -1964,7 +1964,7 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 	this.Hodnota8_text.parent = this;
 	this.Hodnota8_text.setTransform(503.3,538.75);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Hodnota8_text},{t:this.Hodnota15_text},{t:this.Hodnota13_text},{t:this.Hodnota14_text},{t:this.Hodnota12_text},{t:this.Hodnota9_text},{t:this.Hodnota10_text_1},{t:this.shape_13},{t:this.shape_12},{t:this.Hodnota1_text},{t:this.Hodnota11_text},{t:this.Hodnota2_text},{t:this.Hodnota4_text},{t:this.Hodnota3_text},{t:this.Hodnota5_text},{t:this.Hodnota6_text},{t:this.Hodnota7_text},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.Merak4Nazev_text},{t:this.Merak3Nazev_text},{t:this.Merak2Nazev_text},{t:this.Merak5Nazev_text},{t:this.Merak6Nazev_text},{t:this.Merak7Nazev_text},{t:this.Vrtulka1_anim},{t:this.Vrtulka3_anim},{t:this.Vrtulka5_anim},{t:this.Vrtulka4_anim},{t:this.Vrtulka10_anim},{t:this.Merak1Nazev_text},{t:this.Merak5Hodnota_text},{t:this.Vrtulka2_anim},{t:this.Merak7Hodnota_text},{t:this.Merak6Hodnota_text},{t:this.Merak4Hodnota_text},{t:this.Merak3Hodnota_text},{t:this.Merak2Hodnota_text},{t:this.Merak1Hodnota_text},{t:this.Hodnota10_text}]}).wait(100));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Hodnota8_text},{t:this.Hodnota15_text},{t:this.Hodnota13_text},{t:this.Hodnota14_text},{t:this.Hodnota12_text},{t:this.Hodnota9_text},{t:this.Hodnota100_text},{t:this.shape_13},{t:this.shape_12},{t:this.Hodnota1_text},{t:this.Hodnota11_text},{t:this.Hodnota2_text},{t:this.Hodnota4_text},{t:this.Hodnota3_text},{t:this.Hodnota5_text},{t:this.Hodnota6_text},{t:this.Hodnota7_text},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.Merak4Nazev_text},{t:this.Merak3Nazev_text},{t:this.Merak2Nazev_text},{t:this.Merak5Nazev_text},{t:this.Merak6Nazev_text},{t:this.Merak7Nazev_text},{t:this.Vrtulka1_anim},{t:this.Vrtulka3_anim},{t:this.Vrtulka5_anim},{t:this.Vrtulka4_anim},{t:this.Vrtulka10_anim},{t:this.Merak1Nazev_text},{t:this.Merak5Hodnota_text},{t:this.Vrtulka2_anim},{t:this.Merak7Hodnota_text},{t:this.Merak6Hodnota_text},{t:this.Merak4Hodnota_text},{t:this.Merak3Hodnota_text},{t:this.Merak2Hodnota_text},{t:this.Merak1Hodnota_text},{t:this.Hodnota10_text}]}).wait(100));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -2444,7 +2444,7 @@ p.nominalBounds = new cjs.Rectangle(-572.7,-125.4,288.30000000000007,200.3);
 		this.Hodnota14_text = this.Texty.Hodnota14_text;
 		this.Hodnota12_text = this.Texty.Hodnota12_text;
 		this.Hodnota9_text = this.Texty.Hodnota9_text;
-		this.Hodnota10_text = this.Texty.Hodnota10_text;
+		this.Hodnota100_text = this.Texty.Hodnota100_text;
 		this.Hodnota1_text = this.Texty.Hodnota1_text;
 		this.Hodnota11_text = this.Texty.Hodnota11_text;
 		this.Hodnota2_text = this.Texty.Hodnota2_text;
