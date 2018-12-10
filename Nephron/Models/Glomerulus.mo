@@ -43,58 +43,58 @@ model Glomerulus
 
 //components:
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P (displayUnit = "Pa") = P_aff)  annotation(
-    Placement(visible = true, transformation(origin = {-86, 82}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-18, 70}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor afferentResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_aff) annotation(
-    Placement(visible = true, transformation(origin = {-42, 52}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+    Placement(visible = true, transformation(origin = {-44, 22}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.Resistor efferentResistance(Resistance (displayUnit = "(Pa.s)/m3") = R_eff)  annotation(
-    Placement(visible = true, transformation(origin = { -42, 12}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+    Placement(visible = true, transformation(origin = {-44, -18}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = P_eff)  annotation(
-    Placement(visible = true, transformation(origin = {-20, -38}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-22, -68}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor filterResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_filter)  annotation(
-    Placement(visible = true, transformation(origin = {4, 52}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {2, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = P_bowm)  annotation(
-    Placement(visible = true, transformation(origin = {86, 36}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {84, 6}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Nephron.Components.PressureD osmoticBlood(dP = -pi_blood)  annotation(
-    Placement(visible = true, transformation(origin = {-22, 44}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-24, 14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.PressureD pressureD1(dP = -pi_bowm)  annotation(
-    Placement(visible = true, transformation(origin = {66, 44}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {64, 14}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure GBHP annotation(
-    Placement(visible = true, transformation(origin = {-72, 40}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-74, 10}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   inner Nephron.Components.NephronParameters nephronPar annotation(
-    Placement(visible = true, transformation(origin = {72, 82}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {74, 80}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.FlowPressureMeasure measureAff annotation(
-    Placement(visible = true, transformation(origin = {-60, 82}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {-44, 52}, extent = {{10, -10}, {-10, 10}}, rotation = 90)));
   Nephron.Components.FlowPressureMeasure measureGFR annotation(
-    Placement(visible = true, transformation(origin = {48, 52}, extent = {{-6, -6}, {6, 6}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {46, 22}, extent = {{-6, -6}, {6, 6}}, rotation = 0)));
   Nephron.Components.FlowPressureMeasure measureEff annotation(
-    Placement(visible = true, transformation(origin = {-42, -20}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+    Placement(visible = true, transformation(origin = { -44, -50}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.IdealValve idealValve1(_Goff (displayUnit = "m3/(Pa.s)") = 1.2501e-21)  annotation(
-    Placement(visible = true, transformation(origin = {27, 52}, extent = {{-5, -4}, {5, 4}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {25, 22}, extent = {{-5, -4}, {5, 4}}, rotation = 0)));
 equation
-  connect(filterResistance.q_out, idealValve1.q_in) annotation(
-    Line(points = {{14, 52}, {22, 52}, {22, 52}, {22, 52}}));
+  connect(measureAff.q_in, bloodSource.pressure) annotation(
+    Line(points = {{-44, 62}, {-44, 70}, {-28, 70}}));
   connect(idealValve1.q_out, measureGFR.q_in) annotation(
-    Line(points = {{32, 52}, {42, 52}}));
-  connect(efferentResistance.q_out, measureEff.q_in) annotation(
-    Line(points = {{-42, 2}, {-42, 2}, {-42, -10}, {-42, -10}}));
+    Line(points = {{30, 22}, {40, 22}}));
+  connect(filterResistance.q_out, idealValve1.q_in) annotation(
+    Line(points = {{12, 22}, {14, 22}, {14, 22}, {16, 22}, {16, 20}, {20, 20}, {20, 20}, {20, 20}, {20, 22}, {20, 22}}));
   connect(measureEff.q_out, bloodDrain.y) annotation(
-    Line(points = {{-42, -30}, {-42, -30}, {-42, -38}, {-30, -38}, {-30, -38}, {-30, -38}, {-30, -38}}));
+    Line(points = {{-44, -60}, {-44, -60}, {-44, -60}, {-44, -60}, {-44, -62}, {-44, -62}, {-44, -68}, {-32, -68}, {-32, -68}, {-32, -68}, {-32, -68}}));
+  connect(efferentResistance.q_out, measureEff.q_in) annotation(
+    Line(points = {{-44, -28}, {-44, -28}, {-44, -28}, {-44, -28}, {-44, -40}, {-44, -40}, {-44, -40}, {-44, -40}}));
   connect(measureGFR.q_out, pressureD1.port_b) annotation(
-    Line(points = {{54, 52}, {59, 52}}));
-  connect(bloodSource.y, measureAff.q_in) annotation(
-    Line(points = {{-76, 82}, {-70, 82}}));
+    Line(points = {{52, 22}, {57, 22}}));
   connect(measureAff.q_out, afferentResistance.q_in) annotation(
-    Line(points = {{-50, 82}, {-42, 82}, {-42, 62}, {-42, 62}, {-42, 62}, {-42, 62}}));
+    Line(points = {{-44, 42}, {-44, 32}}));
   connect(afferentResistance.q_out, GBHP.q_in) annotation(
-    Line(points = {{-42, 42}, {-42, 42}, {-42, 34}, {-68, 34}, {-68, 34}, {-68, 34}, {-68, 34}}));
+    Line(points = {{-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 4}, {-70, 4}, {-70, 4}, {-70, 4}, {-70, 4}, {-70, 4}, {-70, 4}}));
   connect(pressureD1.port_a, urineDrain.y) annotation(
-    Line(points = {{73, 36.4}, {76, 36.4}}));
-  connect(afferentResistance.q_out, osmoticBlood.port_a) annotation(
-    Line(points = {{-42, 42}, {-42, 36}, {-29, 36}}));
+    Line(points = {{71, 6.4}, {74, 6.4}}));
   connect(osmoticBlood.port_b, filterResistance.q_in) annotation(
-    Line(points = {{-15, 51.6}, {-6, 51.6}}));
+    Line(points = {{-17, 21.6}, {-8, 21.6}}));
+  connect(afferentResistance.q_out, osmoticBlood.port_a) annotation(
+    Line(points = {{-44, 12}, {-44, 9}, {-44, 9}, {-44, 6}, {-37.5, 6}, {-37.5, 6}, {-34.25, 6}, {-34.25, 6}, {-31, 6}}));
   connect(afferentResistance.q_out, efferentResistance.q_in) annotation(
-    Line(points = {{-42, 42}, {-42, 42}, {-42, 42}, {-42, 42}, {-42, 42}, {-42, 42}, {-42, 22}, {-42, 22}}));
+    Line(points = {{-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, -8}, {-44, -8}, {-44, -8}, {-44, -8}}));
   annotation(
     uses(Physiolibrary(version = "2.3.2-beta")));
 end Glomerulus;
