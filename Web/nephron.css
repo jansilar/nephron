@@ -3,12 +3,25 @@
 }
 
 h2 {
-  margin: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
 .hoverable {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.carousel-indicators li {
+  background-color: #abc2dc;
+}
+
+.carousel-indicators li.active {
+  background-color: #4d81bd;
+}
+
+.carousel-indicators { 
+  bottom: -20px;
 }
 
 a:link    { color: #405771 } 
