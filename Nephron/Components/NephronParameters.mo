@@ -16,7 +16,7 @@ model NephronParameters
 protected 
   //solution of a*0.5^2+b*O.5^3 = ADH(o=650) - set osmolarity in middle
   //            1 = a + b                    - set ADH = 1 in the end
-  parameter Real a = 320/125-1;
+  parameter Real a = 9867/6250;
   parameter Real b = 1-a;
   //parameters to set ADH_real to match ADH_low/normal/high values for ADH_mod=0/0.5/1
   parameter Real ADH_low = 1 "minimal ADH";
