@@ -9,15 +9,12 @@ model Glomerulus
   //"Systolic a diastolic pressures calculated from MAP = 2/3DP + 1/3SP, SP/DP = 120/80)"
   parameter PLT.Pressure DP = 6/7*MAP "diastolic pressure";
   parameter PLT.Pressure SP = 9/7*MAP "systolic pressure";
-  parameter Real Aff_MAP_ratio = 50/84;
-  parameter PLT.Pressure P_aff = MAP*Aff_MAP_ratio "pressure in afferent arteriole";
-  parameter PLT.Pressure P_aff_norm = MAP_norm*Aff_MAP_ratio "normal pressure in afferent arteriole";
-  parameter Real Eff_MAP_ratio = 40/84;
-  parameter PLT.Pressure P_eff = MAP*Eff_MAP_ratio "pressure in efferent arteriole";
-  parameter PLT.Pressure P_eff_norm = MAP_norm*Eff_MAP_ratio "normal pressure in efferent arteriole";
+  parameter PLT.Pressure P_aff_norm = 50*tor2pasc "normal pressure in afferent arteriole";
+  parameter PLT.Pressure P_eff_norm = 40*tor2pasc "normal pressure in efferent arteriole";
   parameter PLT.Pressure P_bowm = 10 * tor2pasc "primary urine pressure in bowman capsule, papír od Honzy Živnýho";
-  parameter PLT.Pressure normal_P_Filter = 6*tor2pasc "normal filtration pressure, papír od HŽ";
-  parameter PLT.Pressure normal_P_Glom = normal_P_Filter + P_bowm + pi_blood - pi_bowm "hydrostatic pressure in glomerular capilaries";
+  parameter PLT.Pressure CVP = 5*tor2pasc "central venous pressure";
+  parameter PLT.Pressure P_Filter_norm = 6*tor2pasc "normal filtration pressure, papír od HŽ";
+  parameter PLT.Pressure P_Glom_norm = P_Filter_norm + P_bowm + pi_blood - pi_bowm "hydrostatic pressure in glomerular capilaries";
   
 //oncotic pressures:
   parameter PLT.Pressure pi_bowm = 0 "Oncotic pressure of primary urine, říkal Honza Živný";
@@ -31,10 +28,12 @@ model Glomerulus
 //resistances:
   parameter Real R_aff_mod = 1;
   parameter Real R_eff_mod = 1;
-  parameter PLT.HydraulicResistance R_aff = R_aff_mod*(P_aff_norm-normal_P_Glom)/RBF1 "afferent arteriol resistance";
-  parameter PLT.HydraulicResistance R_eff = R_eff_mod*(normal_P_Glom - P_eff_norm)/(RBF1 - GFR1) "efferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_ra = (MAP_norm - P_aff_norm)/RBF1 "renal artery resistance";
+  parameter PLT.HydraulicResistance R_aff = R_aff_mod*(P_aff_norm-P_Glom_norm)/RBF1 "afferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_eff = R_eff_mod*(P_Glom_norm - P_eff_norm)/(RBF1 - GFR1) "efferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_vr = (P_eff_norm - CVP)/(RBF1 - GFR1) "vasa recta resistance";
   parameter Real R_filter_mod = 1 "qotient to modify R_filter";
-  parameter PLT.HydraulicResistance R_filter = R_filter_mod*normal_P_Filter/GFR1 "efferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_filter = R_filter_mod*P_Filter_norm/GFR1 "efferent arteriol resistance";
   
 //other:
   parameter PLT.Density rho = 1060 "blood density";
@@ -42,14 +41,14 @@ model Glomerulus
   parameter Integer N = 2000000 "Number of nephrones in both kidneys";
 
 //components:
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P (displayUnit = "Pa") = P_aff)  annotation(
-    Placement(visible = true, transformation(origin = {-18, 70}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P (displayUnit = "Pa") = MAP)  annotation(
+    Placement(visible = true, transformation(origin = {-90, 90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor afferentResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_aff) annotation(
     Placement(visible = true, transformation(origin = {-44, 22}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.Resistor efferentResistance(Resistance (displayUnit = "(Pa.s)/m3") = R_eff)  annotation(
     Placement(visible = true, transformation(origin = {-44, -18}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = P_eff)  annotation(
-    Placement(visible = true, transformation(origin = {-22, -68}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = CVP)  annotation(
+    Placement(visible = true, transformation(origin = {10, -86}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor filterResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_filter)  annotation(
     Placement(visible = true, transformation(origin = {2, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = P_bowm)  annotation(
@@ -70,15 +69,23 @@ model Glomerulus
     Placement(visible = true, transformation(origin = { -44, -50}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.IdealValve idealValve1(_Goff (displayUnit = "m3/(Pa.s)") = 1.2501e-21)  annotation(
     Placement(visible = true, transformation(origin = {25, 22}, extent = {{-5, -4}, {5, 4}}, rotation = 0)));
+  Physiolibrary.Hydraulic.Components.Resistor renalArteryResistance(Resistance = R_ra)  annotation(
+    Placement(visible = true, transformation(origin = {-44, 80}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  Physiolibrary.Hydraulic.Components.Resistor vasaRectaResistance(Resistance = R_vr)  annotation(
+    Placement(visible = true, transformation(origin = {-44, -76}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
 equation
-  connect(measureAff.q_in, bloodSource.pressure) annotation(
-    Line(points = {{-44, 62}, {-44, 70}, {-28, 70}}));
+  connect(vasaRectaResistance.q_out, bloodDrain.y) annotation(
+    Line(points = {{-44, -86}, {-44, -86}, {-44, -96}, {-16, -96}, {-16, -86}, {0, -86}, {0, -86}}));
+  connect(measureEff.q_out, vasaRectaResistance.q_in) annotation(
+    Line(points = {{-44, -60}, {-44, -60}, {-44, -66}, {-44, -66}}));
+  connect(bloodSource.y, renalArteryResistance.q_in) annotation(
+    Line(points = {{-80, 90}, {-64, 90}, {-64, 98}, {-44, 98}, {-44, 90}}));
+  connect(renalArteryResistance.q_out, measureAff.q_in) annotation(
+    Line(points = {{-44, 70}, {-44, 70}, {-44, 62}, {-44, 62}}));
   connect(idealValve1.q_out, measureGFR.q_in) annotation(
     Line(points = {{30, 22}, {40, 22}}));
   connect(filterResistance.q_out, idealValve1.q_in) annotation(
     Line(points = {{12, 22}, {14, 22}, {14, 22}, {16, 22}, {16, 20}, {20, 20}, {20, 20}, {20, 20}, {20, 22}, {20, 22}}));
-  connect(measureEff.q_out, bloodDrain.y) annotation(
-    Line(points = {{-44, -60}, {-44, -60}, {-44, -60}, {-44, -60}, {-44, -62}, {-44, -62}, {-44, -68}, {-32, -68}, {-32, -68}, {-32, -68}, {-32, -68}}));
   connect(efferentResistance.q_out, measureEff.q_in) annotation(
     Line(points = {{-44, -28}, {-44, -28}, {-44, -28}, {-44, -28}, {-44, -40}, {-44, -40}, {-44, -40}, {-44, -40}}));
   connect(measureGFR.q_out, pressureD1.port_b) annotation(
