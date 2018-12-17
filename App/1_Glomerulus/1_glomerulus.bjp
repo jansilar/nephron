@@ -1,5 +1,5 @@
 {
-  "name": "Glomerulus",
+  "name": "1_glomerulus",
   "functionEditorConfig": {
     "mode": "javascript",
     "theme": "tomorrow",
@@ -542,12 +542,12 @@
       },
       "KciBp33KTwO8zwNsyQxrSQ": {
         "id": "KciBp33KTwO8zwNsyQxrSQ",
-        "name": "Filter coefficient",
+        "name": "Filtration coefficient",
         "type": "LABEL"
       }
     },
     "app": {
-      "selected": "YwTFw99FSBe5KfEIwt59dg"
+      "selected": "KciBp33KTwO8zwNsyQxrSQ"
     }
   },
   "config": {
@@ -8315,10 +8315,10 @@
         "id": "QqbkcsUATxybKX9Uhar_8g"
       },
       "KciBp33KTwO8zwNsyQxrSQ": {
-        "name": "Filter coefficient",
+        "name": "Filtration coefficient",
         "label": {
           "typeof": "string",
-          "value": "Filter coefficient",
+          "value": "Filtration coefficient",
           "complex": false,
           "provider": null,
           "array": false,
