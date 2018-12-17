@@ -5,7 +5,7 @@
     "theme": "tomorrow",
     "fontSize": "1em",
     "height": "12em",
-    "keyboardHandler": "default"
+    "keyboardHandler": "vim"
   },
   "application": {
     "animate": {
@@ -547,7 +547,7 @@
       }
     },
     "app": {
-      "selected": "KciBp33KTwO8zwNsyQxrSQ"
+      "selected": "cDrpcir3QBGbX3UwvgLe3A"
     }
   },
   "config": {
@@ -2690,10 +2690,10 @@
         "value": {
           "value": "",
           "complex": true,
-          "provider": "{\"type\":\"MV\",\"id\":\"measureGFR.volumeFlowRateTot\",\"parent\":\"AQA6KahFRE2nXXuU0bIN3w\"}",
+          "provider": "{\"type\":\"MV\",\"id\":\"filterResistance.dp\",\"parent\":\"AQA6KahFRE2nXXuU0bIN3w\"}",
           "array": false,
           "indexes": null,
-          "function": "value => {\n    const model = getModelByName('NephronModelsGlomerulus');\n    const gfr = Number(value).toFixed(0);\n    const pg = Number(model.getValueByName('afferentResistance.q_out.pressure') / 133.32).toFixed(0);\n    const pi_blood = Number(model.getValueByName('pi_blood') / 133.32).toFixed(0);\n    const pb = Number(model.getValueByName('urineDrain.y.pressure') / 133.32).toFixed(0);\n    const pi_bowm = Number(model.getValueByName('pi_bowm') / 133.32).toFixed(0);\n    return `GFR = Kf * [(${ pg } - ${ pi_blood }) - (${ pb } - ${ pi_bowm })] = ${ gfr } mmHg`;\n};",
+          "function": "value => {\n    const model = getModelByName('NephronModelsGlomerulus');\n    const gfr = Number(value / 133.32);\n    const pg = Number(model.getValueByName('afferentResistance.q_out.pressure') / 133.32).toFixed(0);\n    const pi_blood = Number(model.getValueByName('pi_blood') / 133.32).toFixed(0);\n    const pb = Number(model.getValueByName('urineDrain.y.pressure') / 133.32).toFixed(0);\n    const pi_bowm = Number(model.getValueByName('pi_bowm') / 133.32).toFixed(0);\n    const end = gfr > 0 ? ` = ${ gfr.toFixed(0) } mmHg` : ' = negative';\n    return `Pf = (${ pg } - ${ pi_blood }) - (${ pb } - ${ pi_bowm }) ${ end }`;\n};",
           "typeof": "string"
         },
         "visible": {
