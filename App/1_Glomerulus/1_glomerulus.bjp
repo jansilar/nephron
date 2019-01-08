@@ -2693,7 +2693,7 @@
           "provider": "{\"type\":\"MV\",\"id\":\"filterResistance.dp\",\"parent\":\"AQA6KahFRE2nXXuU0bIN3w\"}",
           "array": false,
           "indexes": null,
-          "function": "value => {\n    const model = getModelByName('NephronModelsGlomerulus');\n    const gfr = Number(value / 133.32);\n    const pg = Number(model.getValueByName('afferentResistance.q_out.pressure') / 133.32).toFixed(0);\n    const pi_blood = Number(model.getValueByName('pi_blood') / 133.32).toFixed(0);\n    const pb = Number(model.getValueByName('urineDrain.y.pressure') / 133.32).toFixed(0);\n    const pi_bowm = Number(model.getValueByName('pi_bowm') / 133.32).toFixed(0);\n    const end = gfr > 0 ? ` = ${ gfr.toFixed(0) } mmHg` : ' = negative';\n    return `Pf = (${ pg } - ${ pi_blood }) - (${ pb } - ${ pi_bowm }) ${ end }`;\n};",
+          "function": "value => {\n    const model = getModelByName('NephronModelsGlomerulus');\n    const gfr = Number(value / 133.32);\n    const end = gfr > 0 ? ` = ${ gfr.toFixed(0) } mmHg` : ' = negative';\n    return `Pf = (Pg - πg) - (Pb - πb)${ end }`;\n};",
           "typeof": "string"
         },
         "visible": {
