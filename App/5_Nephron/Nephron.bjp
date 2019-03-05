@@ -697,7 +697,7 @@
       }
     },
     "app": {
-      "selected": "Hb2KHTsbRbagANO5xOZMBQ"
+      "selected": "TpzQdt9-QC-ZFAtCA9gd0A"
     }
   },
   "config": {
@@ -10664,14 +10664,6 @@
         "mode": "controlled",
         "name": "Merak7_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -10681,6 +10673,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "20",
@@ -10735,12 +10737,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "KnYI57llRlydXvI2PfX8VQ"
-      },
-      "C2IY-L5wQzmCExsJY2YJ-Q": {
-        "mode": "controlled",
-        "name": "Merak6_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -10749,6 +10745,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "KnYI57llRlydXvI2PfX8VQ"
+      },
+      "C2IY-L5wQzmCExsJY2YJ-Q": {
+        "mode": "controlled",
+        "name": "Merak6_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -10758,6 +10760,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -10812,12 +10824,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "C2IY-L5wQzmCExsJY2YJ-Q"
-      },
-      "Cam3q_CVQY6JouXOjLpSJQ": {
-        "mode": "controlled",
-        "name": "Merak3_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -10826,6 +10832,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "C2IY-L5wQzmCExsJY2YJ-Q"
+      },
+      "Cam3q_CVQY6JouXOjLpSJQ": {
+        "mode": "controlled",
+        "name": "Merak3_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -10835,6 +10847,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -10889,12 +10911,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "Cam3q_CVQY6JouXOjLpSJQ"
-      },
-      "B_g4Q0XWRy-m5blePzu9IA": {
-        "mode": "controlled",
-        "name": "Merak4_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -10903,6 +10919,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "Cam3q_CVQY6JouXOjLpSJQ"
+      },
+      "B_g4Q0XWRy-m5blePzu9IA": {
+        "mode": "controlled",
+        "name": "Merak4_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -10912,6 +10934,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -10966,12 +10998,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "B_g4Q0XWRy-m5blePzu9IA"
-      },
-      "VHu2CXwdTb-iFEsxSFDrww": {
-        "mode": "controlled",
-        "name": "Merak2_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -10980,6 +11006,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "B_g4Q0XWRy-m5blePzu9IA"
+      },
+      "VHu2CXwdTb-iFEsxSFDrww": {
+        "mode": "controlled",
+        "name": "Merak2_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -10989,6 +11021,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11043,12 +11085,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "VHu2CXwdTb-iFEsxSFDrww"
-      },
-      "Ym8IDt8WSdavlK3nysyWYw": {
-        "mode": "controlled",
-        "name": "Merak1_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11057,6 +11093,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "VHu2CXwdTb-iFEsxSFDrww"
+      },
+      "Ym8IDt8WSdavlK3nysyWYw": {
+        "mode": "controlled",
+        "name": "Merak1_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11066,6 +11108,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11120,12 +11172,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "Ym8IDt8WSdavlK3nysyWYw"
-      },
-      "LEAeUNCJR1uWMOlH-n1Z_g": {
-        "mode": "controlled",
-        "name": "Merak5_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11134,6 +11180,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "Ym8IDt8WSdavlK3nysyWYw"
+      },
+      "LEAeUNCJR1uWMOlH-n1Z_g": {
+        "mode": "controlled",
+        "name": "Merak5_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11143,6 +11195,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11197,12 +11259,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "LEAeUNCJR1uWMOlH-n1Z_g"
-      },
-      "NWaMvzsVSbi1sRSl3YFZ1w": {
-        "mode": "controlled",
-        "name": "Kanalek1_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11211,6 +11267,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "LEAeUNCJR1uWMOlH-n1Z_g"
+      },
+      "NWaMvzsVSbi1sRSl3YFZ1w": {
+        "mode": "controlled",
+        "name": "Kanalek1_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11220,6 +11282,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "0",
@@ -11274,12 +11346,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "NWaMvzsVSbi1sRSl3YFZ1w"
-      },
-      "I7BClIAtSC6s3mSMrT6F-g": {
-        "mode": "continuous",
-        "name": "Vrtulka1_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11288,6 +11354,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "NWaMvzsVSbi1sRSl3YFZ1w"
+      },
+      "I7BClIAtSC6s3mSMrT6F-g": {
+        "mode": "continuous",
+        "name": "Vrtulka1_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11297,6 +11369,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11351,12 +11433,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "I7BClIAtSC6s3mSMrT6F-g"
-      },
-      "fF4tTWwTRvm2V5dlA5Dm6A": {
-        "mode": "continuous",
-        "name": "Vrtulka2_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11365,6 +11441,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "I7BClIAtSC6s3mSMrT6F-g"
+      },
+      "fF4tTWwTRvm2V5dlA5Dm6A": {
+        "mode": "continuous",
+        "name": "Vrtulka2_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11374,6 +11456,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11428,12 +11520,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "fF4tTWwTRvm2V5dlA5Dm6A"
-      },
-      "RuQUOS6nSwi_ZihKi348Bw": {
-        "mode": "continuous",
-        "name": "Vrtulka10_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11442,6 +11528,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "fF4tTWwTRvm2V5dlA5Dm6A"
+      },
+      "RuQUOS6nSwi_ZihKi348Bw": {
+        "mode": "continuous",
+        "name": "Vrtulka10_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11451,6 +11543,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11505,12 +11607,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "RuQUOS6nSwi_ZihKi348Bw"
-      },
-      "U0IjVHidQzGX6-lL8TylQA": {
-        "mode": "continuous",
-        "name": "Vrtulka3_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11519,6 +11615,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "RuQUOS6nSwi_ZihKi348Bw"
+      },
+      "U0IjVHidQzGX6-lL8TylQA": {
+        "mode": "continuous",
+        "name": "Vrtulka3_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11528,6 +11630,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11582,12 +11694,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "U0IjVHidQzGX6-lL8TylQA"
-      },
-      "Yfjfrs3oSfaFWYv2OVpaJA": {
-        "mode": "continuous",
-        "name": "Vrtulka5_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11596,6 +11702,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "U0IjVHidQzGX6-lL8TylQA"
+      },
+      "Yfjfrs3oSfaFWYv2OVpaJA": {
+        "mode": "continuous",
+        "name": "Vrtulka5_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11605,6 +11717,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11659,12 +11781,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "Yfjfrs3oSfaFWYv2OVpaJA"
-      },
-      "SyEcwdm7Tc2h4GsFyeEaVg": {
-        "mode": "continuous",
-        "name": "Vrtulka4_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -11673,6 +11789,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "Yfjfrs3oSfaFWYv2OVpaJA"
+      },
+      "SyEcwdm7Tc2h4GsFyeEaVg": {
+        "mode": "continuous",
+        "name": "Vrtulka4_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -11682,6 +11804,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11736,20 +11868,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "SyEcwdm7Tc2h4GsFyeEaVg"
       },
       "AiMVZXMOS0iNykDRj5F3Pw": {
         "mode": "controlled",
         "name": "SipkaModra1_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -11759,6 +11891,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11813,20 +11955,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "AiMVZXMOS0iNykDRj5F3Pw"
       },
       "aj5PxAEIRwS5IBabE_UrLw": {
         "mode": "controlled",
         "name": "Kanalek3_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -11836,6 +11978,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11890,20 +12042,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "aj5PxAEIRwS5IBabE_UrLw"
       },
       "KVVj5yPhSaKKf-ZwbMQ1tQ": {
         "mode": "controlled",
         "name": "Kanalek5_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -11913,6 +12065,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -11967,20 +12129,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "KVVj5yPhSaKKf-ZwbMQ1tQ"
       },
       "VYcWjqdXTRSF8CUFPLQWbg": {
         "mode": "controlled",
         "name": "Kanalek6_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -11990,6 +12152,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12044,20 +12216,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "VYcWjqdXTRSF8CUFPLQWbg"
       },
       "LElZncAyTO6e0gBAoNOF2g": {
         "mode": "controlled",
         "name": "Kanalek8_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12067,6 +12239,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12121,20 +12303,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "LElZncAyTO6e0gBAoNOF2g"
       },
       "fEQhcUKtQ3uDUqlBIYynCA": {
         "mode": "controlled",
         "name": "Kanalek11_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12144,6 +12326,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12198,20 +12390,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "fEQhcUKtQ3uDUqlBIYynCA"
       },
       "dDxSIYZqRISYNnAOCLWteg": {
         "mode": "controlled",
         "name": "Kanalek12_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12221,6 +12413,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12275,20 +12477,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "dDxSIYZqRISYNnAOCLWteg"
       },
       "DEu3jA77SlOGDJRV8YGCIw": {
         "mode": "controlled",
         "name": "Kanalek7_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12298,6 +12500,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12352,20 +12564,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "DEu3jA77SlOGDJRV8YGCIw"
       },
       "NYuggcC9TY2NlVtHOj4m2w": {
         "mode": "controlled",
         "name": "Kanalek4_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12375,6 +12587,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12429,20 +12651,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "NYuggcC9TY2NlVtHOj4m2w"
       },
       "NUEmufXXRkqNg37vK4xQZQ": {
         "mode": "controlled",
         "name": "Kanalek2_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12452,6 +12674,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12506,20 +12738,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "NUEmufXXRkqNg37vK4xQZQ"
       },
       "TZa5kRDNR3a21K57b30Lbw": {
         "mode": "controlled",
         "name": "Kanalek9_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12529,6 +12761,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12583,20 +12825,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "TZa5kRDNR3a21K57b30Lbw"
       },
       "L4rHQIumSHehV-s3mWTSqg": {
         "mode": "controlled",
         "name": "SipkaModra2_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12606,6 +12848,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12660,20 +12912,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "L4rHQIumSHehV-s3mWTSqg"
       },
       "N2IMBslnQc-pzgJeWUcIZA": {
         "mode": "controlled",
         "name": "SipkaModra3_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12683,6 +12935,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12737,20 +12999,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "N2IMBslnQc-pzgJeWUcIZA"
       },
       "BdDJuuXRQOiHXTg1ZFBxfw": {
         "mode": "controlled",
         "name": "SipkaModra4_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12760,6 +13022,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12814,20 +13086,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "BdDJuuXRQOiHXTg1ZFBxfw"
       },
       "OMUQ9CuEQjq6W3_fGAoxTQ": {
         "mode": "controlled",
         "name": "SipkaModra5_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12837,6 +13109,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12891,20 +13173,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "OMUQ9CuEQjq6W3_fGAoxTQ"
       },
       "P8S0QnbDRHK8zyYHJE-e0g": {
         "mode": "controlled",
         "name": "SipkaModra7_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12914,6 +13196,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -12968,20 +13260,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "P8S0QnbDRHK8zyYHJE-e0g"
       },
       "beg7ST2gQFKLcUmyCR3fIA": {
         "mode": "controlled",
         "name": "SipkaModra8_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -12991,6 +13283,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -13045,20 +13347,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "beg7ST2gQFKLcUmyCR3fIA"
       },
       "R6zBWXcGRp2dz_I4R3Q4vQ": {
         "mode": "controlled",
         "name": "SipkaModra10_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -13068,6 +13370,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -13122,20 +13434,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "R6zBWXcGRp2dz_I4R3Q4vQ"
       },
       "azYu1ZShQTiOOlNijWLmnA": {
         "mode": "controlled",
         "name": "SipkaModra9_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -13145,6 +13457,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -13199,20 +13521,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "azYu1ZShQTiOOlNijWLmnA"
       },
       "KVP1cyJESJqk6S92ZtpUlA": {
         "mode": "controlled",
         "name": "SipkaModra11_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -13222,6 +13544,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -13276,20 +13608,20 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "KVP1cyJESJqk6S92ZtpUlA"
       },
       "R4tlc4zVQKCP4UYVN0KjEA": {
         "mode": "controlled",
         "name": "SipkaModra12_anim",
         "parent": "bWgS-ajYSfqO7x-4rdEdng",
-        "attributes": [
-          "value",
-          "min",
-          "max",
-          "reversed",
-          "minspeed",
-          "maxspeed"
-        ],
         "value": {
           "value": 0,
           "complex": true,
@@ -13299,6 +13631,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": 0,
@@ -13353,12 +13695,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "R4tlc4zVQKCP4UYVN0KjEA"
-      },
-      "YS-xnw2tS_-0AKu-PJnmFA": {
-        "mode": "controlled",
-        "name": "SipkaFialova3_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13367,6 +13703,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "R4tlc4zVQKCP4UYVN0KjEA"
+      },
+      "YS-xnw2tS_-0AKu-PJnmFA": {
+        "mode": "controlled",
+        "name": "SipkaFialova3_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13376,6 +13718,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "0.95e-9",
@@ -13430,12 +13782,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "YS-xnw2tS_-0AKu-PJnmFA"
-      },
-      "cu75s3ZiRKKPTAwlrWLUeA": {
-        "mode": "controlled",
-        "name": "SipkaFialova_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13444,6 +13790,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "YS-xnw2tS_-0AKu-PJnmFA"
+      },
+      "cu75s3ZiRKKPTAwlrWLUeA": {
+        "mode": "controlled",
+        "name": "SipkaFialova_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13453,6 +13805,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "0.95e-9",
@@ -13507,12 +13869,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "cu75s3ZiRKKPTAwlrWLUeA"
-      },
-      "Hb2KHTsbRbagANO5xOZMBQ": {
-        "mode": "controlled",
-        "name": "SipkaFialova2_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13521,6 +13877,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "cu75s3ZiRKKPTAwlrWLUeA"
+      },
+      "Hb2KHTsbRbagANO5xOZMBQ": {
+        "mode": "controlled",
+        "name": "SipkaFialova2_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13530,6 +13892,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "0.95e-9",
@@ -13584,12 +13956,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "Hb2KHTsbRbagANO5xOZMBQ"
-      },
-      "E74LA-x8RlCcjDUMrzcF8Q": {
-        "mode": "controlled",
-        "name": "SipkaModra16_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13598,6 +13964,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "Hb2KHTsbRbagANO5xOZMBQ"
+      },
+      "E74LA-x8RlCcjDUMrzcF8Q": {
+        "mode": "controlled",
+        "name": "SipkaModra16_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13607,6 +13979,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "1e-12",
@@ -13661,12 +14043,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "E74LA-x8RlCcjDUMrzcF8Q"
-      },
-      "fOOUndRuRWesL3pBL1Nu9Q": {
-        "mode": "controlled",
-        "name": "SipkaModra15_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13675,6 +14051,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "E74LA-x8RlCcjDUMrzcF8Q"
+      },
+      "fOOUndRuRWesL3pBL1Nu9Q": {
+        "mode": "controlled",
+        "name": "SipkaModra15_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13684,6 +14066,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "1e-12",
@@ -13738,12 +14130,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "fOOUndRuRWesL3pBL1Nu9Q"
-      },
-      "IxIIruFFT_-H2G7F_yTywQ": {
-        "mode": "controlled",
-        "name": "SipkaModra14_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13752,6 +14138,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "fOOUndRuRWesL3pBL1Nu9Q"
+      },
+      "IxIIruFFT_-H2G7F_yTywQ": {
+        "mode": "controlled",
+        "name": "SipkaModra14_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13761,6 +14153,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "1e-12",
@@ -13815,12 +14217,6 @@
           "indexes": null,
           "function": null
         },
-        "id": "IxIIruFFT_-H2G7F_yTywQ"
-      },
-      "a34NpHdVT1yNjyYMOragjg": {
-        "mode": "controlled",
-        "name": "SipkaModra13_anim",
-        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "attributes": [
           "value",
           "min",
@@ -13829,6 +14225,12 @@
           "minspeed",
           "maxspeed"
         ],
+        "id": "IxIIruFFT_-H2G7F_yTywQ"
+      },
+      "a34NpHdVT1yNjyYMOragjg": {
+        "mode": "controlled",
+        "name": "SipkaModra13_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
         "value": {
           "value": 0,
           "complex": true,
@@ -13838,6 +14240,16 @@
           "function": null,
           "typeof": "number"
         },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
         "min": {
           "typeof": "number",
           "value": "1e-12",
@@ -13892,7 +14304,252 @@
           "indexes": null,
           "function": null
         },
+        "attributes": [
+          "value",
+          "min",
+          "max",
+          "reversed",
+          "minspeed",
+          "maxspeed"
+        ],
         "id": "a34NpHdVT1yNjyYMOragjg"
+      },
+      "AIfJp16BRJevqOS6_Rk6bA": {
+        "mode": "controlled",
+        "name": "Prechod1_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"cdMeasure.osmolarity\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "1200",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "AIfJp16BRJevqOS6_Rk6bA"
+      },
+      "Ibojj1PGSoySeWnJoTU8OA": {
+        "mode": "controlled",
+        "name": "Prechod4_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
+        "value": {
+          "value": "100",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": 100,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "Ibojj1PGSoySeWnJoTU8OA"
+      },
+      "dkUkaTTbRtOXyS_SQ1d39Q": {
+        "mode": "controlled",
+        "name": "Prechod5_anim",
+        "parent": "bWgS-ajYSfqO7x-4rdEdng",
+        "value": {
+          "value": "100",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": 100,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "dkUkaTTbRtOXyS_SQ1d39Q"
       }
     },
     "toggles": {},
@@ -13900,332 +14557,6 @@
       "PZQ8qstEQl6Mw-ha3neVsA": {
         "name": "TotalQ",
         "library": "plotly",
-        "events": [
-          "change"
-        ],
-        "actions": {},
-        "attributes": [
-          "enabled"
-        ],
-        "enabled": {
-          "typeof": "boolean",
-          "value": true,
-          "complex": false,
-          "provider": null,
-          "array": false,
-          "indexes": null,
-          "function": null
-        },
-        "id": "PZQ8qstEQl6Mw-ha3neVsA",
-        "datasets": {
-          "Xn9eIgKwRJSyZvtybYCz-g": {
-            "id": "Xn9eIgKwRJSyZvtybYCz-g",
-            "name": "pt.q",
-            "mode": "lines",
-            "fill": "tozeroy",
-            "other": "() => ({})",
-            "offset": {
-              "typeof": "number",
-              "value": 0,
-              "complex": false,
-              "provider": null,
-              "function": "value => value"
-            },
-            "line": {
-              "color": "#FAA43A",
-              "width": 2,
-              "shape": "linear",
-              "smoothing": 1,
-              "dash": "solid",
-              "simplify": true
-            },
-            "x": {
-              "typeof": "number",
-              "value": 0,
-              "time": true,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": null
-            },
-            "y": {
-              "typeof": "number",
-              "value": 0,
-              "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"pt.Q_tot[8]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
-              "array": true,
-              "indexes": [
-                "pt.Q_tot[1]",
-                "pt.Q_tot[2]",
-                "pt.Q_tot[3]",
-                "pt.Q_tot[4]",
-                "pt.Q_tot[5]",
-                "pt.Q_tot[6]",
-                "pt.Q_tot[7]",
-                "pt.Q_tot[8]",
-                "pt.Q_tot[9]",
-                "pt.Q_tot[10]",
-                "pt.Q_tot[11]"
-              ],
-              "function": null
-            },
-            "maxSamples": {
-              "typeof": "number",
-              "value": -1,
-              "complex": false,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": "value => value"
-            }
-          },
-          "JciQh4jDTT6383GF5xNRMA": {
-            "id": "JciQh4jDTT6383GF5xNRMA",
-            "name": "dloh.q",
-            "mode": "lines",
-            "fill": "tozeroy",
-            "other": "() => ({})",
-            "offset": {
-              "typeof": "number",
-              "value": "10",
-              "complex": false,
-              "provider": null,
-              "function": "value => value"
-            },
-            "line": {
-              "color": "#60BD68",
-              "width": 2,
-              "shape": "linear",
-              "smoothing": 1,
-              "dash": "solid",
-              "simplify": true
-            },
-            "x": {
-              "typeof": "number",
-              "value": 0,
-              "time": true,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": null
-            },
-            "y": {
-              "typeof": "number",
-              "value": 0,
-              "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"dloh.Q_tot[4]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
-              "array": true,
-              "indexes": [
-                "dloh.Q_tot[1]",
-                "dloh.Q_tot[2]",
-                "dloh.Q_tot[3]",
-                "dloh.Q_tot[4]",
-                "dloh.Q_tot[5]",
-                "dloh.Q_tot[6]",
-                "dloh.Q_tot[7]",
-                "dloh.Q_tot[8]",
-                "dloh.Q_tot[9]",
-                "dloh.Q_tot[10]",
-                "dloh.Q_tot[11]"
-              ],
-              "function": null
-            },
-            "maxSamples": {
-              "typeof": "number",
-              "value": -1,
-              "complex": false,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": "value => value"
-            }
-          },
-          "Jz_9WV7qQKa5W5iWKSBP6A": {
-            "id": "Jz_9WV7qQKa5W5iWKSBP6A",
-            "name": "aloh.q",
-            "mode": "lines",
-            "fill": "tozeroy",
-            "other": "() => ({})",
-            "offset": {
-              "typeof": "number",
-              "value": "20",
-              "complex": false,
-              "provider": null,
-              "function": "value => value"
-            },
-            "line": {
-              "color": "#F17CB0",
-              "width": 2,
-              "shape": "linear",
-              "smoothing": 1,
-              "dash": "solid",
-              "simplify": true
-            },
-            "x": {
-              "typeof": "number",
-              "value": 0,
-              "time": true,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": null
-            },
-            "y": {
-              "typeof": "number",
-              "value": 0,
-              "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"aloh.Q_tot[7]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
-              "array": true,
-              "indexes": [
-                "aloh.Q_tot[1]",
-                "aloh.Q_tot[5]",
-                "aloh.Q_tot[9]",
-                "aloh.Q_tot[13]",
-                "aloh.Q_tot[17]",
-                "aloh.Q_tot[21]",
-                "aloh.Q_tot[25]",
-                "aloh.Q_tot[29]",
-                "aloh.Q_tot[33]",
-                "aloh.Q_tot[37]",
-                "aloh.Q_tot[41]"
-              ],
-              "function": null
-            },
-            "maxSamples": {
-              "typeof": "number",
-              "value": -1,
-              "complex": false,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": "value => value"
-            }
-          },
-          "AdPenQNgStyOuSFMgAKMQA": {
-            "id": "AdPenQNgStyOuSFMgAKMQA",
-            "name": "dt.q",
-            "mode": "lines",
-            "fill": "tozeroy",
-            "other": "() => ({})",
-            "offset": {
-              "typeof": "number",
-              "value": "30",
-              "complex": false,
-              "provider": null,
-              "function": "value => value"
-            },
-            "line": {
-              "color": "#B276B2",
-              "width": 2,
-              "shape": "linear",
-              "smoothing": 1,
-              "dash": "solid",
-              "simplify": true
-            },
-            "x": {
-              "typeof": "number",
-              "value": 0,
-              "time": true,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": null
-            },
-            "y": {
-              "typeof": "number",
-              "value": 0,
-              "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"dt.Q_tot[7]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
-              "array": true,
-              "indexes": [
-                "dt.Q_tot[1]",
-                "dt.Q_tot[2]",
-                "dt.Q_tot[3]",
-                "dt.Q_tot[4]",
-                "dt.Q_tot[5]",
-                "dt.Q_tot[6]",
-                "dt.Q_tot[7]",
-                "dt.Q_tot[8]",
-                "dt.Q_tot[9]",
-                "dt.Q_tot[10]",
-                "dt.Q_tot[11]"
-              ],
-              "function": null
-            },
-            "maxSamples": {
-              "typeof": "number",
-              "value": -1,
-              "complex": false,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": "value => value"
-            }
-          },
-          "PSOoAxgLTW2UWtOfwMu0pQ": {
-            "id": "PSOoAxgLTW2UWtOfwMu0pQ",
-            "name": "cd.q",
-            "mode": "lines",
-            "fill": "tozeroy",
-            "other": "() => ({})",
-            "offset": {
-              "typeof": "number",
-              "value": "40",
-              "complex": false,
-              "provider": null,
-              "function": "value => value"
-            },
-            "line": {
-              "color": "#DECF3F",
-              "width": 2,
-              "shape": "linear",
-              "smoothing": 1,
-              "dash": "solid",
-              "simplify": true
-            },
-            "x": {
-              "typeof": "number",
-              "value": 0,
-              "time": true,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": null
-            },
-            "y": {
-              "typeof": "number",
-              "value": 0,
-              "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"cd.Q_tot[14]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
-              "array": true,
-              "indexes": [
-                "cd.Q_tot[1]",
-                "cd.Q_tot[3]",
-                "cd.Q_tot[5]",
-                "cd.Q_tot[7]",
-                "cd.Q_tot[9]",
-                "cd.Q_tot[11]",
-                "cd.Q_tot[13]",
-                "cd.Q_tot[15]",
-                "cd.Q_tot[17]",
-                "cd.Q_tot[19]",
-                "cd.Q_tot[21]"
-              ],
-              "function": null
-            },
-            "maxSamples": {
-              "typeof": "number",
-              "value": -1,
-              "complex": false,
-              "provider": null,
-              "array": false,
-              "indexes": null,
-              "function": "value => value"
-            }
-          }
-        },
-        "shapes": {},
-        "annotations": {},
         "xaxis": {
           "visible": true,
           "color": "#444",
@@ -14322,35 +14653,47 @@
           "side": "left",
           "rangeslider": null,
           "rangeselector": null
-        }
-      },
-      "IGAi9p2dQXe9BNVMkNhrmw": {
-        "name": "unnamed",
-        "library": "plotly",
+        },
+        "margin": {
+          "l": 50,
+          "r": 20,
+          "b": 20,
+          "t": 20,
+          "pad": 4
+        },
+        "legend": {
+          "bgcolor": "",
+          "bordercolor": "#444",
+          "borderwidth": 0,
+          "font": {
+            "family": "",
+            "size": "",
+            "color": ""
+          },
+          "orientation": "v",
+          "traceorder": "normal",
+          "tracegroupgap": 10,
+          "x": 1.02,
+          "y": 1,
+          "xanchor": "left",
+          "yanchor": "auto"
+        },
+        "fps": 20,
+        "plot_bgcolor": "#FFFFFF00",
+        "paper_bgcolor": "#FFFFFF00",
         "events": [
           "change"
         ],
         "actions": {},
-        "attributes": [
-          "enabled"
-        ],
-        "enabled": {
-          "typeof": "boolean",
-          "value": true,
-          "complex": false,
-          "provider": null,
-          "array": false,
-          "indexes": null,
-          "function": null
-        },
-        "id": "IGAi9p2dQXe9BNVMkNhrmw",
+        "annotations": {},
         "datasets": {
-          "BckONWFBSZ-E8-O-bwhILw": {
-            "id": "BckONWFBSZ-E8-O-bwhILw",
-            "name": "pt.o",
+          "Xn9eIgKwRJSyZvtybYCz-g": {
+            "id": "Xn9eIgKwRJSyZvtybYCz-g",
+            "name": "pt.q",
             "mode": "lines",
             "fill": "tozeroy",
             "other": "() => ({})",
+            "showlegend": true,
             "offset": {
               "typeof": "number",
               "value": 0,
@@ -14379,20 +14722,20 @@
               "typeof": "number",
               "value": 0,
               "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"pt.o[6]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "provider": "{\"type\":\"MV\",\"id\":\"pt.Q_tot[8]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
               "array": true,
               "indexes": [
-                "pt.o[1]",
-                "pt.o[2]",
-                "pt.o[3]",
-                "pt.o[4]",
-                "pt.o[5]",
-                "pt.o[6]",
-                "pt.o[7]",
-                "pt.o[8]",
-                "pt.o[9]",
-                "pt.o[10]",
-                "pt.o[11]"
+                "pt.Q_tot[1]",
+                "pt.Q_tot[2]",
+                "pt.Q_tot[3]",
+                "pt.Q_tot[4]",
+                "pt.Q_tot[5]",
+                "pt.Q_tot[6]",
+                "pt.Q_tot[7]",
+                "pt.Q_tot[8]",
+                "pt.Q_tot[9]",
+                "pt.Q_tot[10]",
+                "pt.Q_tot[11]"
               ],
               "function": null
             },
@@ -14406,12 +14749,13 @@
               "function": "value => value"
             }
           },
-          "WCLb-oI3S7mlYoop_qA0VA": {
-            "id": "WCLb-oI3S7mlYoop_qA0VA",
-            "name": "dloh.o",
+          "JciQh4jDTT6383GF5xNRMA": {
+            "id": "JciQh4jDTT6383GF5xNRMA",
+            "name": "dloh.q",
             "mode": "lines",
             "fill": "tozeroy",
             "other": "() => ({})",
+            "showlegend": true,
             "offset": {
               "typeof": "number",
               "value": "10",
@@ -14440,20 +14784,20 @@
               "typeof": "number",
               "value": 0,
               "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"dloh.o[5]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "provider": "{\"type\":\"MV\",\"id\":\"dloh.Q_tot[4]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
               "array": true,
               "indexes": [
-                "dloh.o[1]",
-                "dloh.o[2]",
-                "dloh.o[3]",
-                "dloh.o[4]",
-                "dloh.o[5]",
-                "dloh.o[6]",
-                "dloh.o[7]",
-                "dloh.o[8]",
-                "dloh.o[9]",
-                "dloh.o[10]",
-                "dloh.o[11]"
+                "dloh.Q_tot[1]",
+                "dloh.Q_tot[2]",
+                "dloh.Q_tot[3]",
+                "dloh.Q_tot[4]",
+                "dloh.Q_tot[5]",
+                "dloh.Q_tot[6]",
+                "dloh.Q_tot[7]",
+                "dloh.Q_tot[8]",
+                "dloh.Q_tot[9]",
+                "dloh.Q_tot[10]",
+                "dloh.Q_tot[11]"
               ],
               "function": null
             },
@@ -14467,12 +14811,13 @@
               "function": "value => value"
             }
           },
-          "bMqvNT2_TBqXuEp5_AP-Tw": {
-            "id": "bMqvNT2_TBqXuEp5_AP-Tw",
-            "name": "aloh.o",
+          "Jz_9WV7qQKa5W5iWKSBP6A": {
+            "id": "Jz_9WV7qQKa5W5iWKSBP6A",
+            "name": "aloh.q",
             "mode": "lines",
             "fill": "tozeroy",
             "other": "() => ({})",
+            "showlegend": true,
             "offset": {
               "typeof": "number",
               "value": "20",
@@ -14501,20 +14846,20 @@
               "typeof": "number",
               "value": 0,
               "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"aloh.oheplp[5]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "provider": "{\"type\":\"MV\",\"id\":\"aloh.Q_tot[7]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
               "array": true,
               "indexes": [
-                "aloh.oheplp[1]",
-                "aloh.oheplp[2]",
-                "aloh.oheplp[3]",
-                "aloh.oheplp[4]",
-                "aloh.oheplp[5]",
-                "aloh.oheplp[6]",
-                "aloh.oheplp[7]",
-                "aloh.oheplp[8]",
-                "aloh.oheplp[9]",
-                "aloh.oheplp[10]",
-                "aloh.oheplp[11]"
+                "aloh.Q_tot[1]",
+                "aloh.Q_tot[5]",
+                "aloh.Q_tot[9]",
+                "aloh.Q_tot[13]",
+                "aloh.Q_tot[17]",
+                "aloh.Q_tot[21]",
+                "aloh.Q_tot[25]",
+                "aloh.Q_tot[29]",
+                "aloh.Q_tot[33]",
+                "aloh.Q_tot[37]",
+                "aloh.Q_tot[41]"
               ],
               "function": null
             },
@@ -14528,12 +14873,13 @@
               "function": "value => value"
             }
           },
-          "cmuPIBtnRbucBHjcLNH-2Q": {
-            "id": "cmuPIBtnRbucBHjcLNH-2Q",
-            "name": "dt.o",
+          "AdPenQNgStyOuSFMgAKMQA": {
+            "id": "AdPenQNgStyOuSFMgAKMQA",
+            "name": "dt.q",
             "mode": "lines",
             "fill": "tozeroy",
             "other": "() => ({})",
+            "showlegend": true,
             "offset": {
               "typeof": "number",
               "value": "30",
@@ -14562,20 +14908,20 @@
               "typeof": "number",
               "value": 0,
               "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"dt.o[5]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "provider": "{\"type\":\"MV\",\"id\":\"dt.Q_tot[7]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
               "array": true,
               "indexes": [
-                "dt.o[1]",
-                "dt.o[2]",
-                "dt.o[3]",
-                "dt.o[4]",
-                "dt.o[5]",
-                "dt.o[6]",
-                "dt.o[7]",
-                "dt.o[8]",
-                "dt.o[9]",
-                "dt.o[10]",
-                "dt.o[11]"
+                "dt.Q_tot[1]",
+                "dt.Q_tot[2]",
+                "dt.Q_tot[3]",
+                "dt.Q_tot[4]",
+                "dt.Q_tot[5]",
+                "dt.Q_tot[6]",
+                "dt.Q_tot[7]",
+                "dt.Q_tot[8]",
+                "dt.Q_tot[9]",
+                "dt.Q_tot[10]",
+                "dt.Q_tot[11]"
               ],
               "function": null
             },
@@ -14589,12 +14935,13 @@
               "function": "value => value"
             }
           },
-          "UHL1-MRHT8m2e-57gDZJrQ": {
-            "id": "UHL1-MRHT8m2e-57gDZJrQ",
-            "name": "cd.o",
+          "PSOoAxgLTW2UWtOfwMu0pQ": {
+            "id": "PSOoAxgLTW2UWtOfwMu0pQ",
+            "name": "cd.q",
             "mode": "lines",
             "fill": "tozeroy",
             "other": "() => ({})",
+            "showlegend": true,
             "offset": {
               "typeof": "number",
               "value": "40",
@@ -14623,20 +14970,20 @@
               "typeof": "number",
               "value": 0,
               "time": false,
-              "provider": "{\"type\":\"MV\",\"id\":\"cd.o[10]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "provider": "{\"type\":\"MV\",\"id\":\"cd.Q_tot[14]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
               "array": true,
               "indexes": [
-                "cd.o[1]",
-                "cd.o[3]",
-                "cd.o[5]",
-                "cd.o[7]",
-                "cd.o[9]",
-                "cd.o[11]",
-                "cd.o[13]",
-                "cd.o[15]",
-                "cd.o[17]",
-                "cd.o[19]",
-                "cd.o[21]"
+                "cd.Q_tot[1]",
+                "cd.Q_tot[3]",
+                "cd.Q_tot[5]",
+                "cd.Q_tot[7]",
+                "cd.Q_tot[9]",
+                "cd.Q_tot[11]",
+                "cd.Q_tot[13]",
+                "cd.Q_tot[15]",
+                "cd.Q_tot[17]",
+                "cd.Q_tot[19]",
+                "cd.Q_tot[21]"
               ],
               "function": null
             },
@@ -14652,7 +14999,24 @@
           }
         },
         "shapes": {},
-        "annotations": {},
+        "images": {},
+        "enabled": {
+          "typeof": "boolean",
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "attributes": [
+          "enabled"
+        ],
+        "id": "PZQ8qstEQl6Mw-ha3neVsA"
+      },
+      "IGAi9p2dQXe9BNVMkNhrmw": {
+        "name": "unnamed",
+        "library": "plotly",
         "xaxis": {
           "visible": true,
           "color": "#444",
@@ -14746,7 +15110,366 @@
           "side": "left",
           "rangeslider": null,
           "rangeselector": null
-        }
+        },
+        "margin": {
+          "l": 50,
+          "r": 20,
+          "b": 20,
+          "t": 20,
+          "pad": 4
+        },
+        "legend": {
+          "bgcolor": "",
+          "bordercolor": "#444",
+          "borderwidth": 0,
+          "font": {
+            "family": "",
+            "size": "",
+            "color": ""
+          },
+          "orientation": "v",
+          "traceorder": "normal",
+          "tracegroupgap": 10,
+          "x": 1.02,
+          "y": 1,
+          "xanchor": "left",
+          "yanchor": "auto"
+        },
+        "fps": 20,
+        "plot_bgcolor": "#FFFFFF00",
+        "paper_bgcolor": "#FFFFFF00",
+        "events": [
+          "change"
+        ],
+        "actions": {},
+        "annotations": {},
+        "datasets": {
+          "BckONWFBSZ-E8-O-bwhILw": {
+            "id": "BckONWFBSZ-E8-O-bwhILw",
+            "name": "pt.o",
+            "mode": "lines",
+            "fill": "tozeroy",
+            "other": "() => ({})",
+            "showlegend": true,
+            "offset": {
+              "typeof": "number",
+              "value": 0,
+              "complex": false,
+              "provider": null,
+              "function": "value => value"
+            },
+            "line": {
+              "color": "#FAA43A",
+              "width": 2,
+              "shape": "linear",
+              "smoothing": 1,
+              "dash": "solid",
+              "simplify": true
+            },
+            "x": {
+              "typeof": "number",
+              "value": 0,
+              "time": true,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": null
+            },
+            "y": {
+              "typeof": "number",
+              "value": 0,
+              "time": false,
+              "provider": "{\"type\":\"MV\",\"id\":\"pt.o[6]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "array": true,
+              "indexes": [
+                "pt.o[1]",
+                "pt.o[2]",
+                "pt.o[3]",
+                "pt.o[4]",
+                "pt.o[5]",
+                "pt.o[6]",
+                "pt.o[7]",
+                "pt.o[8]",
+                "pt.o[9]",
+                "pt.o[10]",
+                "pt.o[11]"
+              ],
+              "function": null
+            },
+            "maxSamples": {
+              "typeof": "number",
+              "value": -1,
+              "complex": false,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": "value => value"
+            }
+          },
+          "WCLb-oI3S7mlYoop_qA0VA": {
+            "id": "WCLb-oI3S7mlYoop_qA0VA",
+            "name": "dloh.o",
+            "mode": "lines",
+            "fill": "tozeroy",
+            "other": "() => ({})",
+            "showlegend": true,
+            "offset": {
+              "typeof": "number",
+              "value": "10",
+              "complex": false,
+              "provider": null,
+              "function": "value => value"
+            },
+            "line": {
+              "color": "#60BD68",
+              "width": 2,
+              "shape": "linear",
+              "smoothing": 1,
+              "dash": "solid",
+              "simplify": true
+            },
+            "x": {
+              "typeof": "number",
+              "value": 0,
+              "time": true,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": null
+            },
+            "y": {
+              "typeof": "number",
+              "value": 0,
+              "time": false,
+              "provider": "{\"type\":\"MV\",\"id\":\"dloh.o[5]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "array": true,
+              "indexes": [
+                "dloh.o[1]",
+                "dloh.o[2]",
+                "dloh.o[3]",
+                "dloh.o[4]",
+                "dloh.o[5]",
+                "dloh.o[6]",
+                "dloh.o[7]",
+                "dloh.o[8]",
+                "dloh.o[9]",
+                "dloh.o[10]",
+                "dloh.o[11]"
+              ],
+              "function": null
+            },
+            "maxSamples": {
+              "typeof": "number",
+              "value": -1,
+              "complex": false,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": "value => value"
+            }
+          },
+          "bMqvNT2_TBqXuEp5_AP-Tw": {
+            "id": "bMqvNT2_TBqXuEp5_AP-Tw",
+            "name": "aloh.o",
+            "mode": "lines",
+            "fill": "tozeroy",
+            "other": "() => ({})",
+            "showlegend": true,
+            "offset": {
+              "typeof": "number",
+              "value": "20",
+              "complex": false,
+              "provider": null,
+              "function": "value => value"
+            },
+            "line": {
+              "color": "#F17CB0",
+              "width": 2,
+              "shape": "linear",
+              "smoothing": 1,
+              "dash": "solid",
+              "simplify": true
+            },
+            "x": {
+              "typeof": "number",
+              "value": 0,
+              "time": true,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": null
+            },
+            "y": {
+              "typeof": "number",
+              "value": 0,
+              "time": false,
+              "provider": "{\"type\":\"MV\",\"id\":\"aloh.oheplp[5]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "array": true,
+              "indexes": [
+                "aloh.oheplp[1]",
+                "aloh.oheplp[2]",
+                "aloh.oheplp[3]",
+                "aloh.oheplp[4]",
+                "aloh.oheplp[5]",
+                "aloh.oheplp[6]",
+                "aloh.oheplp[7]",
+                "aloh.oheplp[8]",
+                "aloh.oheplp[9]",
+                "aloh.oheplp[10]",
+                "aloh.oheplp[11]"
+              ],
+              "function": null
+            },
+            "maxSamples": {
+              "typeof": "number",
+              "value": -1,
+              "complex": false,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": "value => value"
+            }
+          },
+          "cmuPIBtnRbucBHjcLNH-2Q": {
+            "id": "cmuPIBtnRbucBHjcLNH-2Q",
+            "name": "dt.o",
+            "mode": "lines",
+            "fill": "tozeroy",
+            "other": "() => ({})",
+            "showlegend": true,
+            "offset": {
+              "typeof": "number",
+              "value": "30",
+              "complex": false,
+              "provider": null,
+              "function": "value => value"
+            },
+            "line": {
+              "color": "#B276B2",
+              "width": 2,
+              "shape": "linear",
+              "smoothing": 1,
+              "dash": "solid",
+              "simplify": true
+            },
+            "x": {
+              "typeof": "number",
+              "value": 0,
+              "time": true,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": null
+            },
+            "y": {
+              "typeof": "number",
+              "value": 0,
+              "time": false,
+              "provider": "{\"type\":\"MV\",\"id\":\"dt.o[5]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "array": true,
+              "indexes": [
+                "dt.o[1]",
+                "dt.o[2]",
+                "dt.o[3]",
+                "dt.o[4]",
+                "dt.o[5]",
+                "dt.o[6]",
+                "dt.o[7]",
+                "dt.o[8]",
+                "dt.o[9]",
+                "dt.o[10]",
+                "dt.o[11]"
+              ],
+              "function": null
+            },
+            "maxSamples": {
+              "typeof": "number",
+              "value": -1,
+              "complex": false,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": "value => value"
+            }
+          },
+          "UHL1-MRHT8m2e-57gDZJrQ": {
+            "id": "UHL1-MRHT8m2e-57gDZJrQ",
+            "name": "cd.o",
+            "mode": "lines",
+            "fill": "tozeroy",
+            "other": "() => ({})",
+            "showlegend": true,
+            "offset": {
+              "typeof": "number",
+              "value": "40",
+              "complex": false,
+              "provider": null,
+              "function": "value => value"
+            },
+            "line": {
+              "color": "#DECF3F",
+              "width": 2,
+              "shape": "linear",
+              "smoothing": 1,
+              "dash": "solid",
+              "simplify": true
+            },
+            "x": {
+              "typeof": "number",
+              "value": 0,
+              "time": true,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": null
+            },
+            "y": {
+              "typeof": "number",
+              "value": 0,
+              "time": false,
+              "provider": "{\"type\":\"MV\",\"id\":\"cd.o[10]\",\"parent\":\"bqIovhRmRDqI6cKGwS7y4g\"}",
+              "array": true,
+              "indexes": [
+                "cd.o[1]",
+                "cd.o[3]",
+                "cd.o[5]",
+                "cd.o[7]",
+                "cd.o[9]",
+                "cd.o[11]",
+                "cd.o[13]",
+                "cd.o[15]",
+                "cd.o[17]",
+                "cd.o[19]",
+                "cd.o[21]"
+              ],
+              "function": null
+            },
+            "maxSamples": {
+              "typeof": "number",
+              "value": -1,
+              "complex": false,
+              "provider": null,
+              "array": false,
+              "indexes": null,
+              "function": "value => value"
+            }
+          }
+        },
+        "shapes": {},
+        "images": {},
+        "enabled": {
+          "typeof": "boolean",
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "attributes": [
+          "enabled"
+        ],
+        "id": "IGAi9p2dQXe9BNVMkNhrmw"
       }
     },
     "labels": {
