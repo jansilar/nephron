@@ -1,0 +1,30 @@
+#nephron-img {
+  height: 100vh;
+}
+
+h2 {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.hoverable {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.carousel-indicators li {
+  background-color: #abc2dc;
+}
+
+.carousel-indicators li.active {
+  background-color: #4d81bd;
+}
+
+.carousel-indicators { 
+  bottom: -20px;
+}
+
+a:link    { color: #405771 } 
+a:visited { color: #405771 }
+a:hover   { color: #2383f1 }
+a:active  { color: #2383f1 }

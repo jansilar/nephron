@@ -1,0 +1,60 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+  background-color: #191f21;
+  height: 6vh;
+  color: #f8f8f8;
+  margin-bottom: 0.5vh;
+}
+
+header .row {
+  height: 6vh;
+}
+
+header h1.header-text {
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+
+body {
+  margin-bottom: 2em;
+}
+
+img.kofrlab-logo {
+  height: 5vh;
+}
+
+#content-frame {
+  border: 0;
+  width: 80%;
+  height: 90vh;
+  overflow:visible;
+}
+
+#left-arrow {
+  position: absolute;
+  top: 50vh;
+  left: 1.5vw;
+  font-size: 4em;
+  z-index: 1000;
+}
+
+#right-arrow {
+  position: absolute;
+  top: 50vh;
+  left: 97vw;
+  font-size: 4em;
+  z-index: 1000;
+}
+
+.arrow a:link    { color: #cfd5dc } 
+.arrow a:visited { color: #cfd5dc }
+.arrow a:hover   { 
+  color: #2383f1;
+  text-decoration: none;
+}
+.arrow a:active  { color: #2383f1 }

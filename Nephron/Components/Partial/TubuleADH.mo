@@ -6,7 +6,7 @@ partial model TubuleADH
   parameter Real k_H2O = 7.0e-14 "tubule permeablilit for H2O";
 equation
   for i in 1:N loop
-    f_H2O[i] = nephronPar.ADH*k_H2O * (/*o_medulla[i] - o[i] +*/ o_medulla[i+1] - o[i+1])/*/2.0*/;
+    f_H2O[i] = nephronPar.ADH*k_H2O * (o_medulla[i+1] - o[i+1]);
   end for;
   f_Na = zeros(N);
   annotation(

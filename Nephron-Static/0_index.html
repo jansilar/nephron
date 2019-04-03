@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="nephron.css?2">
+    <title>Nephron</title>
+  </head>
+  <body>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <img src="img/5_nephron.png?1" id='nephron-img' alt="Nephron"> 
+
+          <div class="col">
+            <div class="row">
+              <div class="col-sm d-flex align-items-center justify-content-center">
+                <h2><a class='hoverable' href='1_glomerulus.html'>1. Glomerulus</a></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm d-flex align-items-center justify-content-center">
+                <h2><a class='hoverable' href='2_proximal_tubule.html'>2. Proximal Tubule</a></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm d-flex align-items-center justify-content-center">
+                <h2><a class='hoverable' href='3_henle.html'>3. Loop of Henle</a></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm d-flex align-items-center justify-content-center">
+                <h2><a class='hoverable' href='4_dt_ct.html'>4. Distal tubule and collecting tubulus</a></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm d-flex align-items-center justify-content-center">
+                <h2><a class='hoverable' href='5_nephron.html'>5. Nephron</a></h2>
+              </div>
+            </div>
+            <div class="col">
+
+              <br>
+              <br>
+              <br>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3>Ohm’s law in hydraulics</h3>
+                    <p>The water flow analogy for electricity is useful for explaining voltage, current, and power. In general terms, charge is water, voltage is the pressure of water, current is the flow of the water. Power is the total amount of water flowing in given time. It is possible to have a small pipe with high pressure, or a large pipe with low pressure each passing the same amount of water. Increasing the height of the water reservoir increases the potential energy of the water (voltage). Resistance can be explained as the roughness of the width of the pipe.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Diffusion</h3>
+                    <p>Diffusion refers to the process by which molecules intermingle as a result of their kinetic energy of random motion. Consider two containers of gas A and B separated by a partition. The molecules of both gases are in constant motion and make numerous collisions with the partition. If the partition is removed, the gases will mix because of the random velocities of their molecules. In time a uniform mixture of A and B molecules will be produced in the container. The tendency toward diffusion is very strong even at room temperature because of the high molecular velocities associated with the thermal energy of the particles.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Osmosis</h3>
+                    <p>If two solutions of different concentration are separated by a semipermeable membrane which is permeable to the smaller solvent molecules but not to the larger solute molecules, then the solvent will tend to diffuse across the membrane from the less concentrated to the more concentrated solution. This process is called osmosis. Osmosis is of great importance in biological processes where the solvent is water. The transport of water and other molecules across biological membranes is essential to many processes in living organisms. The energy which drives the process is usually discussed in terms of osmotic pressure.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Active transport</h3>
+
+                    <p>To move substances against a concentration or electrochemical gradient, the cell must use energy. This energy is harvested from ATP generated through the cell’s metabolism. Active transport mechanisms, collectively called pumps, work against electrochemical gradients. Small substances constantly pass through plasma membranes. Active transport maintains concentrations of ions and other substances needed by living cells in the face of these passive movements. Much of a cell’s supply of metabolic energy may be spent maintaining these processes. Because active transport mechanisms depend on a cell’s metabolism for energy, they are sensitive to many metabolic poisons that interfere with the supply of ATP.</p>
+                    <p>Two mechanisms exist for the transport of small-molecular-weight material and small molecules. Primary active transport moves ions across a membrane and creates a difference in charge across that membrane, which is directly dependent on ATP. Secondary active transport describes the movement of material that is due to the electrochemical gradient established by primary active transport, which does not directly require ATP.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h4>Uniport</h4><p>When a particular type of molecule moves across a membrane, through carrier protein, independent of other molecule, the diffusion is called uniport.</p>
+                    <h4>Symport</h4><p>When two kinds of molecules move in the same direction while diffusing through carrier proteins, it is called symport.</p>
+                    <h4>Antiport</h4><p>When two kinds of molecules move in the opposite directions while diffusing through carrier proteins, it is called antiport.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+    </section>
+
+    <script src="jquery-3.3.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(() => {
+        $('.hoverable').on('mouseover', ({currentTarget}) => {
+          let img = $(currentTarget).attr('href').replace('html', 'png')
+          $('#nephron-img').attr('src', `img/${img}?1`)
+        })
+        $('.hoverable').on('mouseout', ({currentTarget}) => {
+          $('#nephron-img').attr('src', `img/5_nephron.png?1`)
+        })
+        $('.hoverable').click(({currentTarget}) => {
+          parent.postMessage($(currentTarget).attr('href'), '*')
+        })
+        parent.postMessage('0_index.html', '*')
+      });
+    </script>
+  </body>
+</html>
+
