@@ -33,8 +33,9 @@ model Glomerulus
   parameter PLT.HydraulicResistance R_eff = R_eff_mod*(P_Glom_norm - P_eff_norm)/(RBF1 - GFR1) "efferent arteriol resistance";
   parameter PLT.HydraulicResistance R_vr = (P_eff_norm - CVP)/(RBF1 - GFR1) "vasa recta resistance";
   parameter Real R_filter_mod = 1 "qotient to modify R_filter";
-  parameter Real K_filter = K_filter_mod*GFR1/P_Filter_norm "glomerular filtration coefficient (conductance)";
-  parameter PLT.HydraulicResistance R_filter = 1/K_filter "efferent arteriol resistance";
+  parameter PLT.HydraulicResistance R_filter = R_filter_mod*P_Filter_norm/GFR1 "efferent arteriol resistance";
+//  parameter Real K_filter = K_filter_mod*GFR1/P_Filter_norm "glomerular filtration coefficient (conductance)";
+//  parameter PLT.HydraulicResistance R_filter = 1/K_filter "efferent arteriol resistance";
   
 //other:
   parameter PLT.Density rho = 1060 "blood density";
