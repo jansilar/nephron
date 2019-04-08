@@ -1,7 +1,7 @@
 within Nephron.Models;
 
 model Glomerulus
-  constant Real tor2pasc = 133.322387415;
+  
 //hydrostatic pressures:
   parameter PLT.Pressure MAP_norm = 84 * tor2pasc "blood pressure befor afferent arteriole, https://en.wikipedia.org/wiki/Blood_pressure, https://www.omnicalculator.com/health/mean-arterial-pressure";
   parameter Real MAP_mod = 1;
@@ -52,11 +52,11 @@ model Glomerulus
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = CVP)  annotation(
     Placement(visible = true, transformation(origin = {10, -86}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor filterResistance(Resistance(displayUnit = "(Pa.s)/m3") = R_filter)  annotation(
-    Placement(visible = true, transformation(origin = {2, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {8, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = P_bowm)  annotation(
     Placement(visible = true, transformation(origin = {84, 6}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Nephron.Components.PressureD osmoticBlood(dP = -pi_blood)  annotation(
-    Placement(visible = true, transformation(origin = {-24, 14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Nephron.Components.PressureDVariable osmoticBlood  annotation(
+    Placement(visible = true, transformation(origin = {-18, 14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Nephron.Components.PressureD pressureD1(dP = -pi_bowm)  annotation(
     Placement(visible = true, transformation(origin = {64, 14}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure GBHP annotation(
@@ -70,12 +70,40 @@ model Glomerulus
   Nephron.Components.FlowPressureMeasure measureEff annotation(
     Placement(visible = true, transformation(origin = { -44, -50}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.IdealValve idealValve1(_Goff (displayUnit = "m3/(Pa.s)") = 1.2501e-21)  annotation(
-    Placement(visible = true, transformation(origin = {25, 22}, extent = {{-5, -4}, {5, 4}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {31, 22}, extent = {{-5, -4}, {5, 4}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Resistor renalArteryResistance(Resistance = R_ra)  annotation(
     Placement(visible = true, transformation(origin = {-44, 80}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.Resistor vasaRectaResistance(Resistance = R_vr)  annotation(
     Placement(visible = true, transformation(origin = {-44, -76}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
+  Nephron.Components.AveCOP aveCOP annotation(
+    Placement(visible = true, transformation(origin = {34, 62}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Modelica.Blocks.Math.Gain gainGFR(k = nephronPar.NNeph)  annotation(
+    Placement(visible = true, transformation(origin = {-5, 71}, extent = {{-5, -5}, {5, 5}}, rotation = 0)));
+  Modelica.Blocks.Math.Gain gainRBF(k = nephronPar.NNeph)  annotation(
+    Placement(visible = true, transformation(origin = {-7, 53}, extent = {{-5, -5}, {5, 5}}, rotation = 0)));
+  Modelica.Blocks.Math.Gain inverseCOP(k = -1)  annotation(
+    Placement(visible = true, transformation(origin = {58, 64}, extent = {{-4, -4}, {4, 4}}, rotation = 0)));
 equation
+  connect(inverseCOP.y, osmoticBlood.dP) annotation(
+    Line(points = {{62, 64}, {66, 64}, {66, 38}, {-32, 38}, {-32, 16}, {-26, 16}, {-26, 16}}, color = {0, 0, 127}));
+  connect(aveCOP.outputCOP, inverseCOP.u) annotation(
+    Line(points = {{44, 64}, {53, 64}}, color = {0, 0, 127}));
+  connect(gainRBF.y, aveCOP.inputGFR) annotation(
+    Line(points = {{-2, 54}, {14, 54}, {14, 56}, {25, 56}}, color = {0, 0, 127}));
+  connect(gainGFR.y, aveCOP.inputRBF) annotation(
+    Line(points = {{1, 71}, {24, 71}, {24, 69}}, color = {0, 0, 127}));
+  connect(measureGFR.volumeFlow, gainRBF.u) annotation(
+    Line(points = {{46, 30}, {46, 30}, {46, 36}, {-22, 36}, {-22, 54}, {-14, 54}, {-14, 54}}, color = {0, 0, 127}));
+  connect(measureAff.volumeFlow, gainGFR.u) annotation(
+    Line(points = {{-56, 52}, {-68, 52}, {-68, 71}, {-11, 71}}, color = {0, 0, 127}));
+  connect(filterResistance.q_out, idealValve1.q_in) annotation(
+    Line(points = {{18, 22}, {20, 22}, {20, 22}, {22, 22}, {22, 20}, {26, 20}, {26, 20}, {26, 20}, {26, 22}, {26, 22}}));
+  connect(idealValve1.q_out, measureGFR.q_in) annotation(
+    Line(points = {{36, 22}, {40, 22}}));
+  connect(afferentResistance.q_out, osmoticBlood.port_a) annotation(
+    Line(points = {{-44, 12}, {-44, 6}, {-25, 6}}));
+  connect(osmoticBlood.port_b, filterResistance.q_in) annotation(
+    Line(points = {{-11, 21.6}, {-2, 21.6}}));
   connect(vasaRectaResistance.q_out, bloodDrain.y) annotation(
     Line(points = {{-44, -86}, {-44, -86}, {-44, -96}, {-16, -96}, {-16, -86}, {0, -86}, {0, -86}}));
   connect(measureEff.q_out, vasaRectaResistance.q_in) annotation(
@@ -84,10 +112,6 @@ equation
     Line(points = {{-80, 90}, {-64, 90}, {-64, 98}, {-44, 98}, {-44, 90}}));
   connect(renalArteryResistance.q_out, measureAff.q_in) annotation(
     Line(points = {{-44, 70}, {-44, 70}, {-44, 62}, {-44, 62}}));
-  connect(idealValve1.q_out, measureGFR.q_in) annotation(
-    Line(points = {{30, 22}, {40, 22}}));
-  connect(filterResistance.q_out, idealValve1.q_in) annotation(
-    Line(points = {{12, 22}, {14, 22}, {14, 22}, {16, 22}, {16, 20}, {20, 20}, {20, 20}, {20, 20}, {20, 22}, {20, 22}}));
   connect(efferentResistance.q_out, measureEff.q_in) annotation(
     Line(points = {{-44, -28}, {-44, -28}, {-44, -28}, {-44, -28}, {-44, -40}, {-44, -40}, {-44, -40}, {-44, -40}}));
   connect(measureGFR.q_out, pressureD1.port_b) annotation(
@@ -98,10 +122,6 @@ equation
     Line(points = {{-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 4}, {-70, 4}, {-70, 4}, {-70, 4}, {-70, 4}, {-70, 4}, {-70, 4}}));
   connect(pressureD1.port_a, urineDrain.y) annotation(
     Line(points = {{71, 6.4}, {74, 6.4}}));
-  connect(osmoticBlood.port_b, filterResistance.q_in) annotation(
-    Line(points = {{-17, 21.6}, {-8, 21.6}}));
-  connect(afferentResistance.q_out, osmoticBlood.port_a) annotation(
-    Line(points = {{-44, 12}, {-44, 9}, {-44, 9}, {-44, 6}, {-37.5, 6}, {-37.5, 6}, {-34.25, 6}, {-34.25, 6}, {-31, 6}}));
   connect(afferentResistance.q_out, efferentResistance.q_in) annotation(
     Line(points = {{-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, 12}, {-44, -8}, {-44, -8}, {-44, -8}, {-44, -8}}));
   annotation(
