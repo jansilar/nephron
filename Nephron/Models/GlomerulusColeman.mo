@@ -9,22 +9,22 @@ model GlomerulusColeman
   parameter PLT.Pressure Clamp = 0 "Renal Artery Clamp";
   //afferent artery
   parameter PLT.HydraulicConductance AffC = AffNorm*AffMod "afferent artery conductance";
-  parameter PLT.HydraulicConductance AffNorm = 30*cond2SI "afferent normal conducatance";
+  parameter PLT.HydraulicConductance AffNorm = colemanConductances.AffNorm*cond2SI "afferent normal conducatance";
   parameter Real AffMod(min=0.1*0.5, max=1.5*1.5) = 1;
   //efferent artery
   parameter PLT.HydraulicConductance EffC = EffNorm*EffMod "efferent artery conductance";
-  parameter PLT.HydraulicConductance EffNorm = 25*cond2SI "efferent normal conducatance";
+  parameter PLT.HydraulicConductance EffNorm = colemanConductances.EffNorm*cond2SI "efferent normal conducatance";
   parameter Real EffMod(min=0.9*0.6, max=1.4*1.1) = 1;
   //venous conductance
   parameter PLT.HydraulicConductance VenC =  200*cond2SI "venous conductance";
   //venous pressure
   parameter PLT.Pressure VP = 7*tor2pasc "venous pressure";
   //filtration coefficient
-  parameter PLT.HydraulicConductance KfNorm = 16*cond2SI "normal glomerular filtration coefficient";
+  parameter PLT.HydraulicConductance KfNorm = colemanConductances.KfNorm*cond2SI "normal glomerular filtration coefficient";
   parameter Real KfMod = 1 "glomerular filtration coefficient modifier";
   parameter PLT.HydraulicConductance Kf = KfNorm*KfMod "glomerular filtration coefficient";
   //proximal tubule
-  parameter PLT.HydraulicConductance TubC =  6.25*cond2SI "venous conductance";
+  parameter PLT.HydraulicConductance TubC =  colemanConductances.TubC*cond2SI "proximal tubule conductance";
   
 
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodSource(P(displayUnit = "Pa") = RAP) annotation(
@@ -59,6 +59,8 @@ model GlomerulusColeman
     Placement(visible = true, transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure PTP annotation(
     Placement(visible = true, transformation(origin = {76, -10}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Components.ColemanConductances colemanConductances(AffNorm = 28.3, EffNorm = 23.8, KfNorm = 17.6, TubC = 6.8)  annotation(
+    Placement(visible = true, transformation(origin = {78, 88}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
   connect(PTP.q_in, GFR.q_out) annotation(
     Line(points = {{72, -16}, {62, -16}, {62, 22}}));
