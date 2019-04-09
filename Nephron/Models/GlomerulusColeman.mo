@@ -8,13 +8,13 @@ model GlomerulusColeman
   parameter PLT.Pressure RAP = AP - Clamp "renal artery pressure";
   parameter PLT.Pressure Clamp = 0 "Renal Artery Clamp";
   //afferent artery
-  parameter PLT.HydraulicConductance AffC = AffNorm*AffMod "afferent artery conductance";
+  parameter PLT.HydraulicConductance AffC = AffNorm/AffMod "afferent artery conductance";
   parameter PLT.HydraulicConductance AffNorm = colemanConductances.AffNorm*cond2SI "afferent normal conducatance";
-  parameter Real AffMod(min=0.1*0.5, max=1.5*1.5) = 1;
+  parameter Real AffMod(min=1/(0.1*0.5), max=1/(1.5*1.5)) = 1 "afferent relative resistance";
   //efferent artery
-  parameter PLT.HydraulicConductance EffC = EffNorm*EffMod "efferent artery conductance";
+  parameter PLT.HydraulicConductance EffC = EffNorm/EffMod "efferent artery conductance";
   parameter PLT.HydraulicConductance EffNorm = colemanConductances.EffNorm*cond2SI "efferent normal conducatance";
-  parameter Real EffMod(min=0.9*0.6, max=1.4*1.1) = 1;
+  parameter Real EffMod(min=1/(0.9*0.6), max=1/(1.4*1.1)) = 1 "efferent relative resistance";
   //venous conductance
   parameter PLT.HydraulicConductance VenC =  200*cond2SI "venous conductance";
   //venous pressure
