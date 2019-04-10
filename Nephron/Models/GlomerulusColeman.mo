@@ -7,6 +7,9 @@ model GlomerulusColeman
   parameter PLT.Pressure AP = AP_mod * 100 * tor2pasc "arterial pressure";
   parameter PLT.Pressure RAP = AP - Clamp "renal artery pressure";
   parameter PLT.Pressure Clamp = 0 "Renal Artery Clamp";
+  parameter PLT.Pressure DP = 6/7*AP "diastolic pressure";
+  parameter PLT.Pressure SP = 9/7*AP "systolic pressure";
+
   //afferent artery
   parameter PLT.HydraulicConductance AffC = AffNorm/AffMod "afferent artery conductance";
   parameter PLT.HydraulicConductance AffNorm = colemanConductances.AffNorm*cond2SI "afferent normal conducatance";
@@ -59,7 +62,7 @@ model GlomerulusColeman
     Placement(visible = true, transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure PTP annotation(
     Placement(visible = true, transformation(origin = {76, -10}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Components.ColemanConductances colemanConductances(AffNorm = 28.3, EffNorm = 23.8, KfNorm = 17.6, TubC = 6.8)  annotation(
+  Components.ColemanConductances colemanConductances(AffNorm = 28.285, EffNorm = 23.787, KfNorm = 17.6, TubC = 6.8)  annotation(
     Placement(visible = true, transformation(origin = {78, 88}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
   connect(PTP.q_in, GFR.q_out) annotation(
