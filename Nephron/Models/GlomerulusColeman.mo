@@ -62,7 +62,7 @@ model GlomerulusColeman
     Placement(visible = true, transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure PTP annotation(
     Placement(visible = true, transformation(origin = {76, -10}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Components.ColemanConductances colemanConductances(AffNorm = 28.285, EffNorm = 23.787, KfNorm = 17.6, TubC = 6.8)  annotation(
+  Components.ColemanConductancesUpdated colemanConductances annotation(
     Placement(visible = true, transformation(origin = {78, 88}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
   connect(PTP.q_in, GFR.q_out) annotation(
