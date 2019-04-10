@@ -607,7 +607,7 @@
       }
     },
     "app": {
-      "selected": "IX7wmStoQaCbDsem_-16ug"
+      "selected": "c5zFy6ALQ5aM0kdloHLU1A"
     }
   },
   "config": {
@@ -4609,6 +4609,1428 @@
           "function": null
         },
         "id": "Qh_lVpsPRuS3Tz7jsWbaBg"
+      },
+      "QiiB6RO4TXi6bBUV5nexVQ": {
+        "mode": "controlled",
+        "name": "Sipka2_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "QiiB6RO4TXi6bBUV5nexVQ"
+      },
+      "H4cqEQSJSt6h-etbKjscsQ": {
+        "mode": "controlled",
+        "name": "Sipka3_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "H4cqEQSJSt6h-etbKjscsQ"
+      },
+      "RcmoYjpNQfuFr-egtWPonA": {
+        "mode": "controlled",
+        "name": "Sipka4_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "RcmoYjpNQfuFr-egtWPonA"
+      },
+      "NXukGQDYSr62zkgXVaahiw": {
+        "mode": "controlled",
+        "name": "Sipka5_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "NXukGQDYSr62zkgXVaahiw"
+      },
+      "DKAzaTkwSDucXFzBn0EV2w": {
+        "mode": "controlled",
+        "name": "Sipka6_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "DKAzaTkwSDucXFzBn0EV2w"
+      },
+      "Or_pCzGkS4iRGq7d9DIapQ": {
+        "mode": "controlled",
+        "name": "Sipka7_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "Or_pCzGkS4iRGq7d9DIapQ"
+      },
+      "RlPHVnJFSzSfbK1-EkhRtg": {
+        "mode": "controlled",
+        "name": "Sipka8_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "RlPHVnJFSzSfbK1-EkhRtg"
+      },
+      "X2xA5Z8SRmOmH25NGi95Ag": {
+        "mode": "controlled",
+        "name": "Sipka9_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "X2xA5Z8SRmOmH25NGi95Ag"
+      },
+      "XyBgY95xQf2Wh6uDrp2Uzg": {
+        "mode": "controlled",
+        "name": "Sipka10_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "XyBgY95xQf2Wh6uDrp2Uzg"
+      },
+      "PuZkmhVUQtKA5gi72ckVWg": {
+        "mode": "controlled",
+        "name": "Sipka11_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "PuZkmhVUQtKA5gi72ckVWg"
+      },
+      "H1rKxFjbRyekQvakYFzOGA": {
+        "mode": "controlled",
+        "name": "Sipka12_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "H1rKxFjbRyekQvakYFzOGA"
+      },
+      "aWzOdedRRlGgkQHMbuDtig": {
+        "mode": "controlled",
+        "name": "Sipka18_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "aWzOdedRRlGgkQHMbuDtig"
+      },
+      "cXjmsPOeTGOc5qKGIkkwmg": {
+        "mode": "controlled",
+        "name": "Sipka13_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "cXjmsPOeTGOc5qKGIkkwmg"
+      },
+      "aQ1s16zOQ7--WGVDpNNgbQ": {
+        "mode": "controlled",
+        "name": "Sipka18_anim_1",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "aQ1s16zOQ7--WGVDpNNgbQ"
+      },
+      "Xhxba0AIQOeRZJ0dQGQVYQ": {
+        "mode": "controlled",
+        "name": "Sipka15_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "Xhxba0AIQOeRZJ0dQGQVYQ"
+      },
+      "c5zFy6ALQ5aM0kdloHLU1A": {
+        "mode": "controlled",
+        "name": "Sipka17_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "c5zFy6ALQ5aM0kdloHLU1A"
+      },
+      "YUsnm9jVQkSYEy0Jch1VdA": {
+        "mode": "controlled",
+        "name": "Sipka16_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "YUsnm9jVQkSYEy0Jch1VdA"
+      },
+      "R4qr0tr_T72u-CBgqnBFgQ": {
+        "mode": "controlled",
+        "name": "Sipka14_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00000741666666",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "R4qr0tr_T72u-CBgqnBFgQ"
       }
     },
     "toggles": {},
