@@ -607,7 +607,7 @@
       }
     },
     "app": {
-      "selected": "c5zFy6ALQ5aM0kdloHLU1A"
+      "selected": "R52Wz4U4Ss6K7apXFUlVOw"
     }
   },
   "config": {
@@ -3748,10 +3748,10 @@
         "value": {
           "value": 0,
           "complex": true,
-          "provider": null,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
           "array": false,
           "indexes": null,
-          "function": null,
+          "function": "value => value * 60000000;",
           "typeof": "number"
         },
         "trigger": {
@@ -3775,7 +3775,7 @@
         },
         "max": {
           "typeof": "number",
-          "value": "216",
+          "value": "440",
           "complex": false,
           "provider": null,
           "array": false,
@@ -3825,7 +3825,7 @@
         "name": "Vymezeni2Merak3_anim",
         "parent": "PM_SI9sSTN6is46INI1Btw",
         "value": {
-          "value": "",
+          "value": "125",
           "complex": false,
           "provider": null,
           "array": false,
@@ -3854,7 +3854,7 @@
         },
         "max": {
           "typeof": "number",
-          "value": "2",
+          "value": "440",
           "complex": false,
           "provider": null,
           "array": false,
@@ -6031,6 +6031,638 @@
           "function": null
         },
         "id": "R4qr0tr_T72u-CBgqnBFgQ"
+      },
+      "HgO2eop6TFmc4jv6HaI_MQ": {
+        "mode": "controlled",
+        "name": "Merak1_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"efferentArtery.q_in.q\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": "value => value * 60000000;",
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "3000",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "HgO2eop6TFmc4jv6HaI_MQ"
+      },
+      "TXpnJcqIT1e_ljBKJZV_PA": {
+        "mode": "controlled",
+        "name": "Merak2_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"RBF.volumeFlow\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": "value => value * 60000000;",
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "3000",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "TXpnJcqIT1e_ljBKJZV_PA"
+      },
+      "KZVo1dXpQ1eZeBSadgAj8w": {
+        "mode": "controlled",
+        "name": "Vymezeni2Merak2_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": "1200",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "3000",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "KZVo1dXpQ1eZeBSadgAj8w"
+      },
+      "DJY-cBkvTmK6A7BzKicHCA": {
+        "mode": "controlled",
+        "name": "Vymezeni1Merak2_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": "1200",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "3000",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "DJY-cBkvTmK6A7BzKicHCA"
+      },
+      "PTHioddISqu3LaCxNQRIUQ": {
+        "mode": "controlled",
+        "name": "Vymezeni1Merak3_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": "125",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "440",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "PTHioddISqu3LaCxNQRIUQ"
+      },
+      "GQ_UzxfUQVCS5hfqEmacCQ": {
+        "mode": "continuous",
+        "name": "Vrtulka_left_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"efferentArtery.q_in.q\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00005",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": "10",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "GQ_UzxfUQVCS5hfqEmacCQ"
+      },
+      "GlOqinYpRH6I6nrDMQ60YA": {
+        "mode": "continuous",
+        "name": "Vrtulka_top_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"RBF.volumeFlow\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00005",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": "10",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "GlOqinYpRH6I6nrDMQ60YA"
+      },
+      "R52Wz4U4Ss6K7apXFUlVOw": {
+        "mode": "continuous",
+        "name": "Vrtulka_right_anim",
+        "parent": "PM_SI9sSTN6is46INI1Btw",
+        "value": {
+          "value": 0,
+          "complex": true,
+          "provider": "{\"type\":\"MV\",\"id\":\"GFR.volumeFlowRate\",\"parent\":\"HnDoCxCFRhW3bs6nnom_ww\"}",
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "number"
+        },
+        "trigger": {
+          "value": true,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null,
+          "typeof": "boolean"
+        },
+        "triggerFinish": true,
+        "min": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "max": {
+          "typeof": "number",
+          "value": "0.00005",
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "reversed": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "overflow": {
+          "typeof": "boolean",
+          "value": false,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "minspeed": {
+          "typeof": "number",
+          "value": 0,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "maxspeed": {
+          "typeof": "number",
+          "value": 10,
+          "complex": false,
+          "provider": null,
+          "array": false,
+          "indexes": null,
+          "function": null
+        },
+        "id": "R52Wz4U4Ss6K7apXFUlVOw"
       }
     },
     "toggles": {},
