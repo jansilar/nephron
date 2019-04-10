@@ -619,7 +619,7 @@
       }
     },
     "app": {
-      "selected": "B4M4Psu5RoSlm6OkzyRGkw"
+      "selected": "PNpFyi_sQk2bwKLOZhAlIw"
     }
   },
   "config": {
@@ -8432,7 +8432,7 @@
           "autorange": false,
           "rangemode": "normal",
           "range": [
-            0,
+            0.5,
             5
           ],
           "fixedrange": false,
