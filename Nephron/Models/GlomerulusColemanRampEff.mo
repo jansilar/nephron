@@ -40,7 +40,7 @@ model GlomerulusColemanRampEff
   Physiolibrary.Hydraulic.Components.IdealValve idealValve1(_Goff(displayUnit = "m3/(Pa.s)") = 1.2501e-21) annotation(
     Placement(visible = true, transformation(origin = {31, 22}, extent = {{-5, -4}, {5, 4}}, rotation = 0)));
   Nephron.Components.AveCOP aveCOP annotation(
-    Placement(visible = true, transformation(origin = {34, 62}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+    Placement(visible = true, transformation(origin = {24, 64}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Math.Gain inverseCOP(k = -1) annotation(
     Placement(visible = true, transformation(origin = {58, 64}, extent = {{-4, -4}, {4, 4}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Conductor afferentArtery(Conductance = AffC) annotation(
@@ -63,6 +63,12 @@ model GlomerulusColemanRampEff
   Components.ColemanConductancesUpdated colemanConductances annotation(
     Placement(visible = true, transformation(origin = {78, 88}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
+  connect(aveCOP.outputCOP, inverseCOP.u) annotation(
+    Line(points = {{34, 65}, {48.5, 65}, {48.5, 64}, {53, 64}}, color = {0, 0, 127}));
+  connect(RBF.volumeFlow, aveCOP.inputRBF) annotation(
+    Line(points = {{-32, 52}, {0, 52}, {0, 71}, {14, 71}}, color = {0, 0, 127}));
+  connect(GFR.volumeFlow, aveCOP.inputGFR) annotation(
+    Line(points = {{52, 34}, {52, 46}, {12, 46}, {12, 58}, {15, 58}}, color = {0, 0, 127}));
   efferentArtery.cond = EffC;
   connect(PTP.q_in, GFR.q_out) annotation(
     Line(points = {{72, -16}, {62, -16}, {62, 22}}));
@@ -80,12 +86,8 @@ equation
     Line(points = {{-42, -70}, {-42, -70}, {-42, -86}, {0, -86}, {0, -86}}));
   connect(efferentArtery.q_out, vena.q_in) annotation(
     Line(points = {{-44, -26}, {-42, -26}, {-42, -50}, {-42, -50}}));
-  connect(GFR.volumeFlow, aveCOP.inputGFR) annotation(
-    Line(points = {{52, 34}, {52, 34}, {52, 46}, {12, 46}, {12, 56}, {24, 56}, {24, 56}}, color = {0, 0, 127}));
   connect(idealValve1.q_out, GFR.q_in) annotation(
     Line(points = {{36, 22}, {42, 22}, {42, 22}, {42, 22}}));
-  connect(RBF.volumeFlow, aveCOP.inputRBF) annotation(
-    Line(points = {{-32, 52}, {0, 52}, {0, 70}, {24, 70}, {24, 70}}, color = {0, 0, 127}));
   connect(GP.q_in, efferentArtery.q_in) annotation(
     Line(points = {{-70, 4}, {-44, 4}, {-44, -6}, {-44, -6}}));
   connect(RBF.q_out, efferentArtery.q_in) annotation(
@@ -96,8 +98,6 @@ equation
     Line(points = {{-80, 90}, {-70, 90}, {-70, 106}, {-44, 106}, {-44, 90}}));
   connect(inverseCOP.y, osmoticBlood.dP) annotation(
     Line(points = {{62, 64}, {66, 64}, {66, 40}, {-32, 40}, {-32, 16}, {-26, 16}}, color = {0, 0, 127}));
-  connect(aveCOP.outputCOP, inverseCOP.u) annotation(
-    Line(points = {{44, 64}, {53, 64}}, color = {0, 0, 127}));
   annotation(
     uses(Physiolibrary(version = "2.3.2-beta")));
 end GlomerulusColemanRampEff;
