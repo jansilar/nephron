@@ -10,8 +10,8 @@ model AveCOP "calculates avarage coloid osmotic pressure in glomerulus"
   Real GFR = inputGFR*1000*60;
   Real RBF = inputRBF*1000*60;
   Real aveCOP = (ACOP + ECOP)/2.0;
-  Real ACOP = (A*APr + B*APr^2) "Afferent coloid osmotic pressure";
-  Real ECOP = (A*EPr + B*EPr^2) "Efferent coloid osmotic pressure";
+  Real ACOP(start = 28) = (A*APr + B*APr^2) "Afferent coloid osmotic pressure";
+  Real ECOP(start = 36) = (A*EPr + B*EPr^2) "Efferent coloid osmotic pressure";
   parameter Real A = 320 "mmHg/(G/mL) Landis - Pappernheimer linear Coefficient";
   parameter Real B = 1160 "mmHg/(G/mL)^2 Landis - Pappernheimer quadratic Coefficient";
   parameter Real APr = 0.07 "G/mL afferent protein concentration";
@@ -22,6 +22,6 @@ model AveCOP "calculates avarage coloid osmotic pressure in glomerulus"
   Modelica.Blocks.Interfaces.RealOutput outputACOP = ACOP*tor2pasc annotation(
     Placement(visible = true, transformation(origin = {98, 80}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {98, 80}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Interfaces.RealOutput outputECOP = ECOP*tor2pasc annotation(
-    Placement(visible = true, transformation(origin = {98, -80}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {98, -80}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Placement(visible = true, transformation(origin = {98, -80}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {98, -80}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   annotation(
     Icon(graphics = {Rectangle(origin = {3, 2}, lineColor = {252, 233, 79}, fillColor = {252, 233, 79}, fillPattern = FillPattern.Solid, extent = {{-89, 88}, {89, -88}}), Text(origin = {0, 1}, extent = {{-92, 79}, {92, -79}}, textString = "COP")}));end AveCOP;

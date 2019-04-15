@@ -35,7 +35,7 @@ model GlomerulusColeman
     Placement(visible = true, transformation(origin = {10, -86}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = 18 * tor2pasc) annotation(
     Placement(visible = true, transformation(origin = {108, 22}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Nephron.Components.PressureDVariable osmoticBlood annotation(
+  Nephron.Components.PressureDVariable osmoticBlood(port_a.pressure(start=7676)) annotation(
     Placement(visible = true, transformation(origin = {-18, 14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure GP annotation(
     Placement(visible = true, transformation(origin = {-74, 10}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
@@ -47,16 +47,16 @@ model GlomerulusColeman
     Placement(visible = true, transformation(origin = {58, 64}, extent = {{-4, -4}, {4, 4}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Conductor afferentArtery(Conductance = AffC)  annotation(
     Placement(visible = true, transformation(origin = {-44, 74}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-  Physiolibrary.Hydraulic.Sensors.FlowMeasure RBF annotation(
+  Physiolibrary.Hydraulic.Sensors.FlowMeasure RBF(volumeFlowRate(start=2.0e-5),volumeFlow(start=2.0e-5)) annotation(
     Placement(visible = true, transformation(origin = {-44, 44}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-  Physiolibrary.Hydraulic.Components.Conductor efferentArtery(Conductance = EffC, dp(start = 6650))  annotation(
+  Physiolibrary.Hydraulic.Components.Conductor efferentArtery(Conductance = EffC, dp(start = 6650), q_out.pressure(start=1650))  annotation(
     Placement(visible = true, transformation(origin = {-44, -16}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Sensors.FlowMeasure GFR annotation(
     Placement(visible = true, transformation(origin = {52, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Components.Conductor vena(Conductance = VenC)  annotation(
     Placement(visible = true, transformation(origin = {-42, -60}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
-  Physiolibrary.Hydraulic.Components.Conductor glomMembrane(Conductance = Kf)  annotation(
-    Placement(visible = true, transformation(origin = {8, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  Physiolibrary.Hydraulic.Components.Conductor glomMembrane(Conductance = Kf, volumeFlowRate(start = 2.08e-6))  annotation(
+    Placement(visible = true, transformation(origin = {8, 24}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure PTP annotation(
     Placement(visible = true, transformation(origin = {76, -10}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Components.ColemanConductancesUpdated colemanConductances annotation(
@@ -70,6 +70,10 @@ model GlomerulusColeman
   Modelica.Blocks.Math.Add pEffEffective(k1 = -1, k2 = 1)  annotation(
     Placement(visible = true, transformation(origin = {22, -16}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
+  connect(osmoticBlood.port_b, glomMembrane.q_in) annotation(
+    Line(points = {{-10, 22}, {-6, 22}, {-6, 24}, {-2, 24}}));
+  connect(glomMembrane.q_out, idealValve1.q_in) annotation(
+    Line(points = {{18, 24}, {22, 24}, {22, 22}, {26, 22}}));
   connect(GFR.q_out, urineDrain.y) annotation(
     Line(points = {{62, 22}, {98, 22}, {98, 22}, {98, 22}}));
   connect(pressureEff.pressure, pEffEffective.u2) annotation(
@@ -96,10 +100,6 @@ equation
     Line(points = {{-44, 34}, {-44, 6}, {-24, 6}}));
   connect(PTP.q_in, GFR.q_out) annotation(
     Line(points = {{72, -16}, {62, -16}, {62, 22}}));
-  connect(glomMembrane.q_out, idealValve1.q_in) annotation(
-    Line(points = {{18, 22}, {26, 22}, {26, 22}, {26, 22}}));
-  connect(osmoticBlood.port_b, glomMembrane.q_in) annotation(
-    Line(points = {{-10, 22}, {-2, 22}, {-2, 22}, {-2, 22}}));
   connect(vena.q_out, bloodDrain.y) annotation(
     Line(points = {{-42, -70}, {-42, -70}, {-42, -86}, {0, -86}, {0, -86}}));
   connect(efferentArtery.q_out, vena.q_in) annotation(
