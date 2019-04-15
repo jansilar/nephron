@@ -31,7 +31,7 @@ model GlomerulusColemanRampEff
     Placement(visible = true, transformation(origin = {-90, 90}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sources.UnlimitedVolume bloodDrain(P(displayUnit = "Pa") = VP) annotation(
     Placement(visible = true, transformation(origin = {10, -86}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = 0) annotation(
+  Physiolibrary.Hydraulic.Sources.UnlimitedVolume urineDrain(P(displayUnit = "Pa") = 18 * tor2pasc) annotation(
     Placement(visible = true, transformation(origin = {108, 22}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Nephron.Components.PressureDVariable osmoticBlood annotation(
     Placement(visible = true, transformation(origin = {-18, 14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
@@ -56,13 +56,13 @@ model GlomerulusColemanRampEff
     Placement(visible = true, transformation(origin = {-42, -60}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
   Physiolibrary.Hydraulic.Components.Conductor glomMembrane(Conductance = Kf) annotation(
     Placement(visible = true, transformation(origin = {8, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Physiolibrary.Hydraulic.Components.Conductor proximalTubule(Conductance = TubC) annotation(
-    Placement(visible = true, transformation(origin = {78, 22}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Physiolibrary.Hydraulic.Sensors.PressureMeasure PTP annotation(
     Placement(visible = true, transformation(origin = {76, -10}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Components.ColemanConductancesUpdated colemanConductances annotation(
     Placement(visible = true, transformation(origin = {78, 88}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
+  connect(GFR.q_out, urineDrain.y) annotation(
+    Line(points = {{62, 22}, {98, 22}, {98, 22}, {98, 22}}));
   connect(aveCOP.outputCOP, inverseCOP.u) annotation(
     Line(points = {{34, 65}, {48.5, 65}, {48.5, 64}, {53, 64}}, color = {0, 0, 127}));
   connect(RBF.volumeFlow, aveCOP.inputRBF) annotation(
@@ -72,10 +72,6 @@ equation
   efferentArtery.cond = EffC;
   connect(PTP.q_in, GFR.q_out) annotation(
     Line(points = {{72, -16}, {62, -16}, {62, 22}}));
-  connect(proximalTubule.q_out, urineDrain.y) annotation(
-    Line(points = {{88, 22}, {98, 22}}));
-  connect(GFR.q_out, proximalTubule.q_in) annotation(
-    Line(points = {{62, 22}, {68, 22}, {68, 22}, {68, 22}}));
   connect(RBF.q_out, osmoticBlood.port_a) annotation(
     Line(points = {{-44, 42}, {-44, 42}, {-44, 6}, {-24, 6}, {-24, 6}}));
   connect(glomMembrane.q_out, idealValve1.q_in) annotation(
