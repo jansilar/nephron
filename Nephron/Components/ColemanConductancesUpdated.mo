@@ -9,7 +9,7 @@ extends Modelica.Icons.Record;
   parameter Real EffNorm = 23.787 "efferent normal conducatance";
   //venous conductance
   parameter Real VenC =  200 "venous conductance";
-  parameter Real KfNorm = 17.6 "normal glomerular filtration coefficient";
+  parameter Real KfNorm = 16.7 "normal glomerular filtration coefficient";
   //proximal tubule
   parameter Real TubC =  6.8 "Proximal Tubule conductance";
 
